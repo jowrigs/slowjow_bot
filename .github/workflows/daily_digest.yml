@@ -23,7 +23,7 @@ jobs:
 
       - name: Send digest
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.8703856265:AAHFmPIIIF5KU4_R9WSMxmW_niYt9byaIcA }}
+          TELEGRAM_CHAT_ID: ${{ secrets.8386973993 }}
           TIMEZONE: Asia/Manila
         run: python bot.py
