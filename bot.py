@@ -41,13 +41,26 @@ FEEDS = [
     {"name": "r/AIInFinance",    "icon": "📱", "url": "https://www.reddit.com/r/AIInFinance/top/.rss?t=day"},
 ]
 
-# Keywords that qualify an article as AI-related
+# Keywords for crypto that USES AI (not general AI or general crypto news)
 AI_KEYWORDS = [
-    "artificial intelligence", " ai ", "machine learning", "deep learning",
-    "large language model", "llm", "chatgpt", "gpt", "neural network",
-    "generative ai", "ai agent", "ai token", "ai coin", "ai crypto",
-    "predictive model", "algorithmic trading", "sentiment analysis",
-    "ai-powered", "openai", "anthropic", "deepmind", "nvidia",
+    # AI-native crypto projects
+    "fetch.ai", "bittensor", "ocean protocol", "singularitynet", "render network",
+    "numerai", "cortex", "matrix ai", "deepbrain chain", "alethea",
+    "agix", "fet token", "rndr", "tao token", "near ai",
+
+    # AI applied to crypto/blockchain
+    "ai-powered defi", "ai trading bot", "ai smart contract", "ai crypto",
+    "ai blockchain", "ai token", "ai coin", "ai protocol", "ai agent crypto",
+    "ai in defi", "ai in web3", "ai web3", "ai nft", "ai dao",
+    "machine learning crypto", "ml trading", "algorithmic crypto",
+    "predictive crypto", "ai wallet", "ai exchange",
+
+    # AI crypto market activity
+    "ai crypto fund", "ai crypto investment", "ai crypto startup",
+    "ai crypto launch", "ai crypto raise", "ai crypto token launch",
+    "crypto ai model", "on-chain ai", "decentralized ai",
+    "ai layer", "ai network crypto", "neural network crypto",
+    "llm blockchain", "gpt crypto", "ai miner", "ai mining",
 ]
 
 def is_ai_related(title: str, summary: str) -> bool:
@@ -101,8 +114,8 @@ def build_message(articles: list[dict]) -> str:
 
     if not articles:
         return (
-            f"🤖📰 <b>AI × Crypto Daily — {today}</b>\n\n"
-            "No AI-related crypto articles found today. Check back tomorrow!"
+            f"🤖🪙 <b>Crypto × AI Daily — {today}</b>\n\n"
+            "No updates on cryptocurrency using AI found today. Check back tomorrow!"
         )
 
     # Group by icon type for a structured digest
@@ -110,7 +123,8 @@ def build_message(articles: list[dict]) -> str:
     videos  = [a for a in articles if a["icon"] == "🎥"]
     reddit  = [a for a in articles if a["icon"] == "📱"]
 
-    lines = [f"🤖 <b>AI × Crypto Daily — {today}</b>\n"]
+    lines = [f"🤖🪙 <b>Crypto × AI Daily — {today}</b>"]
+    lines.append("<i>Cryptocurrencies & platforms powered by AI</i>\n")
 
     if news:
         lines.append("📰 <b>NEWS</b>")
