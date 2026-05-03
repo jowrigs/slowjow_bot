@@ -1,4 +1,5 @@
 import os
+import json
 import logging
 import feedparser
 import urllib.request
@@ -15,34 +16,40 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-# ── Config (set via environment variables / GitHub Secrets) ──────────────────
+# ── Config ────────────────────────────────────────────────────────────────────
 BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 CHAT_ID   = os.environ["TELEGRAM_CHAT_ID"]
 TIMEZONE  = os.getenv("TIMEZONE", "Asia/Manila")
 
 MAX_ARTICLES = 12
 
+# ── AI Crypto Tokens to track (CoinGecko IDs) ────────────────────────────────
+TOKENS = [
+    {"symbol": "FET",  "name": "Fetch.ai",       "id": "fetch-ai"},
+    {"symbol": "RNDR", "name": "Render",          "id": "render-token"},
+    {"symbol": "TAO",  "name": "Bittensor",       "id": "bittensor"},
+    {"symbol": "AGIX", "name": "SingularityNET",  "id": "singularitynet"},
+    {"symbol": "OCEAN","name": "Ocean Protocol",  "id": "ocean-protocol"},
+    {"symbol": "NMR",  "name": "Numerai",         "id": "numeraire"},
+]
+
 # ── RSS Feed Sources ──────────────────────────────────────────────────────────
 FEEDS = [
-    # Crypto News
     {"name": "CoinDesk",         "icon": "📰", "url": "https://www.coindesk.com/arc/outboundfeeds/rss/"},
     {"name": "Decrypt",          "icon": "📰", "url": "https://decrypt.co/feed"},
     {"name": "Cointelegraph",    "icon": "📰", "url": "https://cointelegraph.com/rss"},
     {"name": "The Block",        "icon": "📰", "url": "https://www.theblock.co/rss.xml"},
     {"name": "BeInCrypto",       "icon": "📰", "url": "https://beincrypto.com/feed/"},
-    # YouTube Channels
     {"name": "Coin Bureau",      "icon": "🎥", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCqK_GSMbpiV8spgD3ZGloSw"},
     {"name": "DataDash",         "icon": "🎥", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCatR7nWbYrkVXdxXb4cGXw"},
     {"name": "Andrei Jikh",      "icon": "🎥", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCF9IOB2TExg3QIBupFtBDxg"},
     {"name": "Two Minute Papers","icon": "🎥", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg"},
-    # Reddit
     {"name": "r/CryptoCurrency", "icon": "📱", "url": "https://www.reddit.com/r/CryptoCurrency/top/.rss?t=day"},
     {"name": "r/artificial",     "icon": "📱", "url": "https://www.reddit.com/r/artificial/top/.rss?t=day"},
     {"name": "r/singularity",    "icon": "📱", "url": "https://www.reddit.com/r/singularity/top/.rss?t=day"},
     {"name": "r/AIInFinance",    "icon": "📱", "url": "https://www.reddit.com/r/AIInFinance/top/.rss?t=day"},
 ]
 
-# Keywords for crypto that USES AI
 AI_KEYWORDS = [
     "fetch.ai", "bittensor", "ocean protocol", "singularitynet", "render network",
     "numerai", "cortex", "matrix ai", "deepbrain chain", "alethea",
@@ -59,12 +66,63 @@ AI_KEYWORDS = [
     "llm blockchain", "gpt crypto", "ai miner", "ai mining",
 ]
 
+# ── Price Ticker ──────────────────────────────────────────────────────────────
+def fetch_prices() -> list[dict]:
+    """Fetch live prices from CoinGecko free API (no key required)."""
+    ids = ",".join(t["id"] for t in TOKENS)
+    url = (
+        f"https://api.coingecko.com/api/v3/simple/price"
+        f"?ids={ids}&vs_currencies=usd&include_24hr_change=true"
+    )
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "AICryptoBot/1.0"})
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = json.loads(resp.read())
+        results = []
+        for token in TOKENS:
+            info = data.get(token["id"], {})
+            price  = info.get("usd")
+            change = info.get("usd_24h_change")
+            if price is not None:
+                results.append({
+                    "symbol": token["symbol"],
+                    "price":  price,
+                    "change": change,
+                })
+        return results
+    except Exception as e:
+        log.warning(f"Failed to fetch prices: {e}")
+        return []
+
+def format_ticker(prices: list[dict]) -> str:
+    """Format price data into a compact ticker string."""
+    if not prices:
+        return ""
+    lines = ["💹 <b>AI TOKEN PRICES</b>"]
+    for p in prices:
+        change = p["change"]
+        if change is not None:
+            arrow = "🟢" if change >= 0 else "🔴"
+            change_str = f"{'+' if change >= 0 else ''}{change:.2f}%"
+        else:
+            arrow = "⚪"
+            change_str = "N/A"
+
+        price = p["price"]
+        if price >= 1:
+            price_str = f"${price:,.2f}"
+        else:
+            price_str = f"${price:.4f}"
+
+        lines.append(f"{arrow} <b>{p['symbol']}</b>  {price_str}  <i>{change_str}</i>")
+    return "\n".join(lines)
+
+# ── Article Fetching ──────────────────────────────────────────────────────────
 def is_ai_related(title: str, summary: str) -> bool:
     text = (title + " " + summary).lower()
     return any(kw in text for kw in AI_KEYWORDS)
 
 def extract_thumbnail(entry: dict) -> str | None:
-    """Try to extract a thumbnail URL from an RSS entry."""
     thumbnails = entry.get("media_thumbnail", [])
     if thumbnails:
         return thumbnails[0].get("url")
@@ -77,7 +135,6 @@ def extract_thumbnail(entry: dict) -> str | None:
     return None
 
 def fetch_feed(feed_meta: dict) -> list:
-    """Fetch a single RSS feed, handling Reddit's user-agent requirement."""
     url = feed_meta["url"]
     if "reddit.com" in url:
         req = urllib.request.Request(url, headers={"User-Agent": "AICryptoBot/1.0"})
@@ -86,7 +143,6 @@ def fetch_feed(feed_meta: dict) -> list:
     return feedparser.parse(url).entries
 
 def fetch_articles() -> list[dict]:
-    """Fetch and filter crypto-using-AI articles from all RSS feeds."""
     articles = []
     for feed_meta in FEEDS:
         try:
@@ -115,44 +171,48 @@ def fetch_articles() -> list[dict]:
 
     return unique[:MAX_ARTICLES]
 
-def build_message(articles: list[dict]) -> str:
-    """Format articles into a Telegram-friendly HTML digest."""
+# ── Message Builder ───────────────────────────────────────────────────────────
+def build_message(articles: list[dict], prices: list[dict]) -> str:
     today = datetime.now(pytz.timezone(TIMEZONE)).strftime("%B %d, %Y")
-
-    if not articles:
-        return (
-            f"🤖🪙 <b>Crypto × AI Daily — {today}</b>\n\n"
-            "No updates on cryptocurrency using AI found today. Check back tomorrow!"
-        )
-
-    news   = [a for a in articles if a["icon"] == "📰"]
-    videos = [a for a in articles if a["icon"] == "🎥"]
-    reddit = [a for a in articles if a["icon"] == "📱"]
 
     lines = [f"🤖🪙 <b>Crypto × AI Daily — {today}</b>"]
     lines.append("<i>Cryptocurrencies & platforms powered by AI</i>\n")
 
-    if news:
-        lines.append("📰 <b>NEWS</b>")
-        for a in news:
-            lines.append(f"• <a href='{a['link']}'>{a['title']}</a> — <i>{a['source']}</i>")
+    # Price ticker at the top
+    ticker = format_ticker(prices)
+    if ticker:
+        lines.append(ticker)
+        lines.append("")
 
-    if videos:
-        lines.append("\n🎥 <b>YOUTUBE</b>")
-        for a in videos:
-            lines.append(f"• <a href='{a['link']}'>{a['title']}</a> — <i>{a['source']}</i>")
+    lines.append("─────────────────────")
 
-    if reddit:
-        lines.append("\n📱 <b>REDDIT</b>")
-        for a in reddit:
-            lines.append(f"• <a href='{a['link']}'>{a['title']}</a> — <i>{a['source']}</i>")
+    if not articles:
+        lines.append("\nNo updates on cryptocurrency using AI found today. Check back tomorrow!")
+    else:
+        news   = [a for a in articles if a["icon"] == "📰"]
+        videos = [a for a in articles if a["icon"] == "🎥"]
+        reddit = [a for a in articles if a["icon"] == "📱"]
+
+        if news:
+            lines.append("\n📰 <b>NEWS</b>")
+            for a in news:
+                lines.append(f"• <a href='{a['link']}'>{a['title']}</a> — <i>{a['source']}</i>")
+
+        if videos:
+            lines.append("\n🎥 <b>YOUTUBE</b>")
+            for a in videos:
+                lines.append(f"• <a href='{a['link']}'>{a['title']}</a> — <i>{a['source']}</i>")
+
+        if reddit:
+            lines.append("\n📱 <b>REDDIT</b>")
+            for a in reddit:
+                lines.append(f"• <a href='{a['link']}'>{a['title']}</a> — <i>{a['source']}</i>")
 
     lines.append("\n─────────────────────")
     lines.append("📡 Powered by your AI Crypto Bot")
     return "\n".join(lines)
 
 def pick_cover_thumbnail(articles: list[dict]) -> str | None:
-    """Return the best cover thumbnail — prefer YouTube, then any other source."""
     for a in articles:
         if a["icon"] == "🎥" and a.get("thumbnail"):
             return a["thumbnail"]
@@ -161,16 +221,17 @@ def pick_cover_thumbnail(articles: list[dict]) -> str | None:
             return a["thumbnail"]
     return None
 
+# ── Send ──────────────────────────────────────────────────────────────────────
 async def send_digest():
-    """Fetch articles and send the digest to Telegram."""
-    log.info("Fetching Crypto x AI articles...")
-    articles  = fetch_articles()
-    log.info(f"Found {len(articles)} matching articles.")
-    message   = build_message(articles)
+    log.info("Fetching prices and articles...")
+    prices, articles = fetch_prices(), fetch_articles()
+    log.info(f"Prices: {len(prices)} tokens | Articles: {len(articles)}")
+
+    message   = build_message(articles, prices)
     thumbnail = pick_cover_thumbnail(articles)
     bot       = Bot(token=BOT_TOKEN)
 
-    if thumbnail and articles:
+    if thumbnail:
         try:
             await bot.send_photo(
                 chat_id=CHAT_ID,
@@ -178,19 +239,18 @@ async def send_digest():
                 caption=message,
                 parse_mode=ParseMode.HTML,
             )
-            log.info("Digest with cover image sent successfully ✅")
+            log.info("Digest with cover image sent ✅")
             return
         except Exception as e:
             log.warning(f"Photo send failed, falling back to text: {e}")
 
-    # Fallback: text-only
     await bot.send_message(
         chat_id=CHAT_ID,
         text=message,
         parse_mode=ParseMode.HTML,
         disable_web_page_preview=True,
     )
-    log.info("Digest (text only) sent successfully ✅")
+    log.info("Digest (text only) sent ✅")
 
 # ── Entry point ───────────────────────────────────────────────────────────────
 if __name__ == "__main__":
