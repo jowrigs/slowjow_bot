@@ -1,6 +1,7 @@
 import os
 import logging
 import feedparser
+import urllib.request
 from datetime import datetime
 from telegram import Bot
 from telegram.constants import ParseMode
@@ -15,11 +16,11 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 # ── Config (set via environment variables / GitHub Secrets) ──────────────────
-BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]   # from BotFather
-CHAT_ID   = os.environ["TELEGRAM_CHAT_ID"]     # your chat / channel ID
+BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
+CHAT_ID   = os.environ["TELEGRAM_CHAT_ID"]
 TIMEZONE  = os.getenv("TIMEZONE", "Asia/Manila")
 
-MAX_ARTICLES = 12  # max stories per digest
+MAX_ARTICLES = 12
 
 # ── RSS Feed Sources ──────────────────────────────────────────────────────────
 FEEDS = [
@@ -41,21 +42,16 @@ FEEDS = [
     {"name": "r/AIInFinance",    "icon": "📱", "url": "https://www.reddit.com/r/AIInFinance/top/.rss?t=day"},
 ]
 
-# Keywords for crypto that USES AI (not general AI or general crypto news)
+# Keywords for crypto that USES AI
 AI_KEYWORDS = [
-    # AI-native crypto projects
     "fetch.ai", "bittensor", "ocean protocol", "singularitynet", "render network",
     "numerai", "cortex", "matrix ai", "deepbrain chain", "alethea",
     "agix", "fet token", "rndr", "tao token", "near ai",
-
-    # AI applied to crypto/blockchain
     "ai-powered defi", "ai trading bot", "ai smart contract", "ai crypto",
     "ai blockchain", "ai token", "ai coin", "ai protocol", "ai agent crypto",
     "ai in defi", "ai in web3", "ai web3", "ai nft", "ai dao",
     "machine learning crypto", "ml trading", "algorithmic crypto",
     "predictive crypto", "ai wallet", "ai exchange",
-
-    # AI crypto market activity
     "ai crypto fund", "ai crypto investment", "ai crypto startup",
     "ai crypto launch", "ai crypto raise", "ai crypto token launch",
     "crypto ai model", "on-chain ai", "decentralized ai",
@@ -67,19 +63,30 @@ def is_ai_related(title: str, summary: str) -> bool:
     text = (title + " " + summary).lower()
     return any(kw in text for kw in AI_KEYWORDS)
 
+def extract_thumbnail(entry: dict) -> str | None:
+    """Try to extract a thumbnail URL from an RSS entry."""
+    thumbnails = entry.get("media_thumbnail", [])
+    if thumbnails:
+        return thumbnails[0].get("url")
+    for mc in entry.get("media_content", []):
+        if "image" in mc.get("type", "") and mc.get("url"):
+            return mc["url"]
+    for enc in entry.get("enclosures", []):
+        if "image" in enc.get("type", "") and enc.get("href"):
+            return enc["href"]
+    return None
+
 def fetch_feed(feed_meta: dict) -> list:
     """Fetch a single RSS feed, handling Reddit's user-agent requirement."""
     url = feed_meta["url"]
     if "reddit.com" in url:
-        import urllib.request
         req = urllib.request.Request(url, headers={"User-Agent": "AICryptoBot/1.0"})
         with urllib.request.urlopen(req, timeout=10) as resp:
-            import feedparser
             return feedparser.parse(resp.read()).entries
     return feedparser.parse(url).entries
 
 def fetch_articles() -> list[dict]:
-    """Fetch and filter AI-related crypto articles from all RSS feeds."""
+    """Fetch and filter crypto-using-AI articles from all RSS feeds."""
     articles = []
     for feed_meta in FEEDS:
         try:
@@ -90,15 +97,15 @@ def fetch_articles() -> list[dict]:
                 link    = entry.get("link", "")
                 if is_ai_related(title, summary):
                     articles.append({
-                        "source":  feed_meta["name"],
-                        "icon":    feed_meta["icon"],
-                        "title":   title.strip(),
-                        "link":    link.strip(),
+                        "source":    feed_meta["name"],
+                        "icon":      feed_meta["icon"],
+                        "title":     title.strip(),
+                        "link":      link.strip(),
+                        "thumbnail": extract_thumbnail(entry),
                     })
         except Exception as e:
             log.warning(f"Failed to fetch {feed_meta['name']}: {e}")
 
-    # Deduplicate by link
     seen = set()
     unique = []
     for a in articles:
@@ -118,10 +125,9 @@ def build_message(articles: list[dict]) -> str:
             "No updates on cryptocurrency using AI found today. Check back tomorrow!"
         )
 
-    # Group by icon type for a structured digest
-    news    = [a for a in articles if a["icon"] == "📰"]
-    videos  = [a for a in articles if a["icon"] == "🎥"]
-    reddit  = [a for a in articles if a["icon"] == "📱"]
+    news   = [a for a in articles if a["icon"] == "📰"]
+    videos = [a for a in articles if a["icon"] == "🎥"]
+    reddit = [a for a in articles if a["icon"] == "📱"]
 
     lines = [f"🤖🪙 <b>Crypto × AI Daily — {today}</b>"]
     lines.append("<i>Cryptocurrencies & platforms powered by AI</i>\n")
@@ -145,23 +151,48 @@ def build_message(articles: list[dict]) -> str:
     lines.append("📡 Powered by your AI Crypto Bot")
     return "\n".join(lines)
 
+def pick_cover_thumbnail(articles: list[dict]) -> str | None:
+    """Return the best cover thumbnail — prefer YouTube, then any other source."""
+    for a in articles:
+        if a["icon"] == "🎥" and a.get("thumbnail"):
+            return a["thumbnail"]
+    for a in articles:
+        if a.get("thumbnail"):
+            return a["thumbnail"]
+    return None
+
 async def send_digest():
     """Fetch articles and send the digest to Telegram."""
-    log.info("Fetching AI × Crypto articles...")
-    articles = fetch_articles()
+    log.info("Fetching Crypto x AI articles...")
+    articles  = fetch_articles()
     log.info(f"Found {len(articles)} matching articles.")
-    message  = build_message(articles)
+    message   = build_message(articles)
+    thumbnail = pick_cover_thumbnail(articles)
+    bot       = Bot(token=BOT_TOKEN)
 
-    bot = Bot(token=BOT_TOKEN)
+    if thumbnail and articles:
+        try:
+            await bot.send_photo(
+                chat_id=CHAT_ID,
+                photo=thumbnail,
+                caption=message,
+                parse_mode=ParseMode.HTML,
+            )
+            log.info("Digest with cover image sent successfully ✅")
+            return
+        except Exception as e:
+            log.warning(f"Photo send failed, falling back to text: {e}")
+
+    # Fallback: text-only
     await bot.send_message(
         chat_id=CHAT_ID,
         text=message,
         parse_mode=ParseMode.HTML,
         disable_web_page_preview=True,
     )
-    log.info("Digest sent successfully ✅")
+    log.info("Digest (text only) sent successfully ✅")
 
-# ── Entry point (GitHub Actions runs this once and exits) ─────────────────────
+# ── Entry point ───────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     log.info("Starting one-shot digest run...")
     asyncio.run(send_digest())
