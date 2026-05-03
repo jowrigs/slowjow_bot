@@ -19,15 +19,26 @@ BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]   # from BotFather
 CHAT_ID   = os.environ["TELEGRAM_CHAT_ID"]     # your chat / channel ID
 TIMEZONE  = os.getenv("TIMEZONE", "Asia/Manila")
 
-MAX_ARTICLES = 8   # max stories per digest
+MAX_ARTICLES = 12  # max stories per digest
 
 # ── RSS Feed Sources ──────────────────────────────────────────────────────────
 FEEDS = [
-    {"name": "CoinDesk",       "url": "https://www.coindesk.com/arc/outboundfeeds/rss/"},
-    {"name": "Decrypt",        "url": "https://decrypt.co/feed"},
-    {"name": "Cointelegraph",  "url": "https://cointelegraph.com/rss"},
-    {"name": "The Block",      "url": "https://www.theblock.co/rss.xml"},
-    {"name": "BeInCrypto",     "url": "https://beincrypto.com/feed/"},
+    # Crypto News
+    {"name": "CoinDesk",         "icon": "📰", "url": "https://www.coindesk.com/arc/outboundfeeds/rss/"},
+    {"name": "Decrypt",          "icon": "📰", "url": "https://decrypt.co/feed"},
+    {"name": "Cointelegraph",    "icon": "📰", "url": "https://cointelegraph.com/rss"},
+    {"name": "The Block",        "icon": "📰", "url": "https://www.theblock.co/rss.xml"},
+    {"name": "BeInCrypto",       "icon": "📰", "url": "https://beincrypto.com/feed/"},
+    # YouTube Channels
+    {"name": "Coin Bureau",      "icon": "🎥", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCqK_GSMbpiV8spgD3ZGloSw"},
+    {"name": "DataDash",         "icon": "🎥", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCatR7nWbYrkVXdxXb4cGXw"},
+    {"name": "Andrei Jikh",      "icon": "🎥", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCF9IOB2TExg3QIBupFtBDxg"},
+    {"name": "Two Minute Papers","icon": "🎥", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg"},
+    # Reddit
+    {"name": "r/CryptoCurrency", "icon": "📱", "url": "https://www.reddit.com/r/CryptoCurrency/top/.rss?t=day"},
+    {"name": "r/artificial",     "icon": "📱", "url": "https://www.reddit.com/r/artificial/top/.rss?t=day"},
+    {"name": "r/singularity",    "icon": "📱", "url": "https://www.reddit.com/r/singularity/top/.rss?t=day"},
+    {"name": "r/AIInFinance",    "icon": "📱", "url": "https://www.reddit.com/r/AIInFinance/top/.rss?t=day"},
 ]
 
 # Keywords that qualify an article as AI-related
@@ -43,22 +54,33 @@ def is_ai_related(title: str, summary: str) -> bool:
     text = (title + " " + summary).lower()
     return any(kw in text for kw in AI_KEYWORDS)
 
+def fetch_feed(feed_meta: dict) -> list:
+    """Fetch a single RSS feed, handling Reddit's user-agent requirement."""
+    url = feed_meta["url"]
+    if "reddit.com" in url:
+        import urllib.request
+        req = urllib.request.Request(url, headers={"User-Agent": "AICryptoBot/1.0"})
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            import feedparser
+            return feedparser.parse(resp.read()).entries
+    return feedparser.parse(url).entries
+
 def fetch_articles() -> list[dict]:
     """Fetch and filter AI-related crypto articles from all RSS feeds."""
     articles = []
     for feed_meta in FEEDS:
         try:
-            feed = feedparser.parse(feed_meta["url"])
-            for entry in feed.entries[:20]:  # check top 20 per source
+            entries = fetch_feed(feed_meta)
+            for entry in entries[:20]:
                 title   = entry.get("title", "")
                 summary = entry.get("summary", "")
                 link    = entry.get("link", "")
                 if is_ai_related(title, summary):
                     articles.append({
                         "source":  feed_meta["name"],
+                        "icon":    feed_meta["icon"],
                         "title":   title.strip(),
                         "link":    link.strip(),
-                        "summary": summary[:200].strip() if summary else "",
                     })
         except Exception as e:
             log.warning(f"Failed to fetch {feed_meta['name']}: {e}")
@@ -83,12 +105,28 @@ def build_message(articles: list[dict]) -> str:
             "No AI-related crypto articles found today. Check back tomorrow!"
         )
 
-    lines = [f"🤖📰 <b>AI × Crypto Daily — {today}</b>\n"]
-    for i, a in enumerate(articles, 1):
-        lines.append(
-            f"{i}. <b><a href='{a['link']}'>{a['title']}</a></b>\n"
-            f"   🔹 <i>{a['source']}</i>"
-        )
+    # Group by icon type for a structured digest
+    news    = [a for a in articles if a["icon"] == "📰"]
+    videos  = [a for a in articles if a["icon"] == "🎥"]
+    reddit  = [a for a in articles if a["icon"] == "📱"]
+
+    lines = [f"🤖 <b>AI × Crypto Daily — {today}</b>\n"]
+
+    if news:
+        lines.append("📰 <b>NEWS</b>")
+        for a in news:
+            lines.append(f"• <a href='{a['link']}'>{a['title']}</a> — <i>{a['source']}</i>")
+
+    if videos:
+        lines.append("\n🎥 <b>YOUTUBE</b>")
+        for a in videos:
+            lines.append(f"• <a href='{a['link']}'>{a['title']}</a> — <i>{a['source']}</i>")
+
+    if reddit:
+        lines.append("\n📱 <b>REDDIT</b>")
+        for a in reddit:
+            lines.append(f"• <a href='{a['link']}'>{a['title']}</a> — <i>{a['source']}</i>")
+
     lines.append("\n─────────────────────")
     lines.append("📡 Powered by your AI Crypto Bot")
     return "\n".join(lines)
