@@ -1,9 +1,7 @@
 import os
 import logging
 import feedparser
-import requests
 from datetime import datetime
-from apscheduler.schedulers.background import BackgroundScheduler
 from telegram import Bot
 from telegram.constants import ParseMode
 import asyncio
@@ -16,11 +14,10 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-# ── Config (set via environment variables) ───────────────────────────────────
-BOT_TOKEN   = os.environ["TELEGRAM_BOT_TOKEN"]   # from BotFather
-CHAT_ID     = os.environ["TELEGRAM_CHAT_ID"]     # your chat / channel ID
-SEND_HOUR   = int(os.getenv("SEND_HOUR", "9"))   # 24-hr UTC hour (default 9 AM)
-TIMEZONE    = os.getenv("TIMEZONE", "UTC")
+# ── Config (set via environment variables / GitHub Secrets) ──────────────────
+BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]   # from BotFather
+CHAT_ID   = os.environ["TELEGRAM_CHAT_ID"]     # your chat / channel ID
+TIMEZONE  = os.getenv("TIMEZONE", "Asia/Manila")
 
 MAX_ARTICLES = 8   # max stories per digest
 
@@ -112,35 +109,7 @@ async def send_digest():
     )
     log.info("Digest sent successfully ✅")
 
-def run_digest():
-    """Sync wrapper for the async send_digest (called by APScheduler)."""
-    asyncio.run(send_digest())
-
-# ── Scheduler ─────────────────────────────────────────────────────────────────
-def main():
-    log.info(f"Bot starting — digest scheduled daily at {SEND_HOUR:02d}:00 {TIMEZONE}")
-
-    scheduler = BackgroundScheduler(timezone=TIMEZONE)
-    scheduler.add_job(
-        run_digest,
-        trigger="cron",
-        hour=SEND_HOUR,
-        minute=0,
-        id="daily_digest",
-    )
-    scheduler.start()
-
-    # Send an immediate digest on startup so you can verify it works
-    log.info("Sending startup digest...")
-    run_digest()
-
-    # Keep the process alive
-    try:
-        while True:
-            import time; time.sleep(60)
-    except (KeyboardInterrupt, SystemExit):
-        scheduler.shutdown()
-        log.info("Bot stopped.")
-
+# ── Entry point (GitHub Actions runs this once and exits) ─────────────────────
 if __name__ == "__main__":
-    main()
+    log.info("Starting one-shot digest run...")
+    asyncio.run(send_digest())
