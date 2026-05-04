@@ -21,17 +21,8 @@ BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 CHAT_ID   = os.environ["TELEGRAM_CHAT_ID"]
 TIMEZONE  = os.getenv("TIMEZONE", "Asia/Manila")
 
-MAX_ARTICLES = 12
-
-# ── AI Crypto Tokens to track (CoinGecko IDs) ────────────────────────────────
-TOKENS = [
-    {"symbol": "FET",  "name": "Fetch.ai",       "id": "fetch-ai"},
-    {"symbol": "RNDR", "name": "Render",          "id": "render-token"},
-    {"symbol": "TAO",  "name": "Bittensor",       "id": "bittensor"},
-    {"symbol": "AGIX", "name": "SingularityNET",  "id": "singularitynet"},
-    {"symbol": "OCEAN","name": "Ocean Protocol",  "id": "ocean-protocol"},
-    {"symbol": "NMR",  "name": "Numerai",         "id": "numeraire"},
-]
+MAX_ARTICLES   = 12
+MARKET_SCAN    = 250   # scan top 250 coins by market cap for gainers/losers
 
 # ── RSS Feed Sources ──────────────────────────────────────────────────────────
 FEEDS = [
@@ -66,55 +57,69 @@ AI_KEYWORDS = [
     "llm blockchain", "gpt crypto", "ai miner", "ai mining",
 ]
 
-# ── Price Ticker ──────────────────────────────────────────────────────────────
-def fetch_prices() -> list[dict]:
-    """Fetch live prices from CoinGecko free API (no key required)."""
-    ids = ",".join(t["id"] for t in TOKENS)
+# ── Gainers & Losers ──────────────────────────────────────────────────────────
+def fetch_gainers_losers() -> tuple[list[dict], list[dict]]:
+    """Fetch top 5 gainers and top 5 losers from the top 250 coins by market cap."""
     url = (
-        f"https://api.coingecko.com/api/v3/simple/price"
-        f"?ids={ids}&vs_currencies=usd&include_24hr_change=true"
+        "https://api.coingecko.com/api/v3/coins/markets"
+        "?vs_currency=usd"
+        f"&order=market_cap_desc"
+        f"&per_page={MARKET_SCAN}"
+        "&page=1"
+        "&price_change_percentage=24h"
     )
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "AICryptoBot/1.0"})
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            data = json.loads(resp.read())
-        results = []
-        for token in TOKENS:
-            info = data.get(token["id"], {})
-            price  = info.get("usd")
-            change = info.get("usd_24h_change")
-            if price is not None:
-                results.append({
-                    "symbol": token["symbol"],
-                    "price":  price,
-                    "change": change,
-                })
-        return results
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            coins = json.loads(resp.read())
+
+        # Filter out coins with no change data
+        coins = [
+            c for c in coins
+            if c.get("price_change_percentage_24h") is not None
+        ]
+
+        # Sort by 24h change
+        sorted_coins = sorted(
+            coins,
+            key=lambda c: c["price_change_percentage_24h"],
+            reverse=True
+        )
+
+        def fmt(c: dict) -> dict:
+            price = c["current_price"]
+            return {
+                "symbol": c["symbol"].upper(),
+                "name":   c["name"],
+                "price":  f"${price:,.2f}" if price >= 1 else f"${price:.4f}",
+                "change": c["price_change_percentage_24h"],
+            }
+
+        gainers = [fmt(c) for c in sorted_coins[:5]]
+        losers  = [fmt(c) for c in sorted_coins[-5:][::-1]]  # worst 5, worst first
+        return gainers, losers
+
     except Exception as e:
-        log.warning(f"Failed to fetch prices: {e}")
-        return []
+        log.warning(f"Failed to fetch gainers/losers: {e}")
+        return [], []
 
-def format_ticker(prices: list[dict]) -> str:
-    """Format price data into a compact ticker string."""
-    if not prices:
+def format_market_ticker(gainers: list[dict], losers: list[dict]) -> str:
+    """Format gainers and losers into a compact Telegram-ready block."""
+    if not gainers and not losers:
         return ""
-    lines = ["💹 <b>AI TOKEN PRICES</b>"]
-    for p in prices:
-        change = p["change"]
-        if change is not None:
-            arrow = "🟢" if change >= 0 else "🔴"
-            change_str = f"{'+' if change >= 0 else ''}{change:.2f}%"
-        else:
-            arrow = "⚪"
-            change_str = "N/A"
 
-        price = p["price"]
-        if price >= 1:
-            price_str = f"${price:,.2f}"
-        else:
-            price_str = f"${price:.4f}"
+    lines = ["📊 <b>MARKET MOVERS (24H)</b>"]
 
-        lines.append(f"{arrow} <b>{p['symbol']}</b>  {price_str}  <i>{change_str}</i>")
+    if gainers:
+        lines.append("🟢 <b>Top Gainers</b>")
+        for i, c in enumerate(gainers, 1):
+            lines.append(f"  {i}. <b>{c['symbol']}</b> {c['price']}  <i>+{c['change']:.2f}%</i>")
+
+    if losers:
+        lines.append("🔴 <b>Top Losers</b>")
+        for i, c in enumerate(losers, 1):
+            lines.append(f"  {i}. <b>{c['symbol']}</b> {c['price']}  <i>{c['change']:.2f}%</i>")
+
     return "\n".join(lines)
 
 # ── Article Fetching ──────────────────────────────────────────────────────────
@@ -172,19 +177,18 @@ def fetch_articles() -> list[dict]:
     return unique[:MAX_ARTICLES]
 
 # ── Message Builder ───────────────────────────────────────────────────────────
-def build_message(articles: list[dict], prices: list[dict]) -> str:
+def build_message(articles: list[dict], gainers: list[dict], losers: list[dict]) -> str:
     today = datetime.now(pytz.timezone(TIMEZONE)).strftime("%B %d, %Y")
 
     lines = [f"🤖🪙 <b>Crypto × AI Daily — {today}</b>"]
     lines.append("<i>Cryptocurrencies & platforms powered by AI</i>\n")
 
-    # Price ticker at the top
-    ticker = format_ticker(prices)
+    # Market movers ticker
+    ticker = format_market_ticker(gainers, losers)
     if ticker:
         lines.append(ticker)
-        lines.append("")
 
-    lines.append("─────────────────────")
+    lines.append("\n─────────────────────")
 
     if not articles:
         lines.append("\nNo updates on cryptocurrency using AI found today. Check back tomorrow!")
@@ -223,11 +227,12 @@ def pick_cover_thumbnail(articles: list[dict]) -> str | None:
 
 # ── Send ──────────────────────────────────────────────────────────────────────
 async def send_digest():
-    log.info("Fetching prices and articles...")
-    prices, articles = fetch_prices(), fetch_articles()
-    log.info(f"Prices: {len(prices)} tokens | Articles: {len(articles)}")
+    log.info("Fetching market movers and articles...")
+    gainers, losers = fetch_gainers_losers()
+    articles        = fetch_articles()
+    log.info(f"Gainers: {len(gainers)} | Losers: {len(losers)} | Articles: {len(articles)}")
 
-    message   = build_message(articles, prices)
+    message   = build_message(articles, gainers, losers)
     thumbnail = pick_cover_thumbnail(articles)
     bot       = Bot(token=BOT_TOKEN)
 
