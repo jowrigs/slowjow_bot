@@ -2,6 +2,7 @@ import os
 import json
 import time
 import logging
+import re
 import feedparser
 import urllib.request
 from datetime import datetime, timedelta
@@ -51,20 +52,24 @@ FEEDS = [
     {"name": "r/AIInFinance",    "icon": "📱", "url": "https://www.reddit.com/r/AIInFinance/top/.rss?t=day"},
 ]
 
-AI_KEYWORDS = [
+# Two ways an article qualifies: it names a known AI-crypto project outright,
+# or it mentions an AI term AND a crypto term together (word-boundary regex,
+# so "ai" doesn't false-match inside "claim"/"said", and "coin" doesn't
+# false-match inside "coincidence"/"coined").
+NAMED_AI_CRYPTO_PROJECTS = [
     "fetch.ai", "bittensor", "ocean protocol", "singularitynet", "render network",
-    "numerai", "cortex", "matrix ai", "deepbrain chain", "alethea",
-    "agix", "fet token", "rndr", "tao token", "near ai",
-    "ai-powered defi", "ai trading bot", "ai smart contract", "ai crypto",
-    "ai blockchain", "ai token", "ai coin", "ai protocol", "ai agent crypto",
-    "ai in defi", "ai in web3", "ai web3", "ai nft", "ai dao",
-    "machine learning crypto", "ml trading", "algorithmic crypto",
-    "predictive crypto", "ai wallet", "ai exchange",
-    "ai crypto fund", "ai crypto investment", "ai crypto startup",
-    "ai crypto launch", "ai crypto raise", "ai crypto token launch",
-    "crypto ai model", "on-chain ai", "decentralized ai",
-    "ai layer", "ai network crypto", "neural network crypto",
-    "llm blockchain", "gpt crypto", "ai miner", "ai mining",
+    "numerai", "cortex network", "deepbrain chain", "alethea ai",
+    r"\bagix\b", r"\bfet\b", r"\brndr\b", r"\btao\b", "near ai",
+]
+AI_TERMS = [
+    r"\bai\b", "artificial intelligence", "machine learning", r"\bllm\b",
+    "neural network", "generative ai", "ai agent", "ai model",
+    "deep learning", "large language model",
+]
+CRYPTO_TERMS = [
+    "crypto", "bitcoin", "ethereum", "blockchain", r"\btoken\b",
+    r"\bcoin\b", "stablecoin", "web3", "defi", r"\bnft\b", r"\bdao\b",
+    r"\bwallet\b", "exchange",
 ]
 
 # ── Retry helpers ─────────────────────────────────────────────────────────────
@@ -196,9 +201,14 @@ def format_ticker(watchlist: list[dict], gainers: list[dict], losers: list[dict]
     return "\n".join(lines)
 
 # ── Article fetching ───────────────────────────────────────────────────────────
+def _matches_any(patterns: list[str], text: str) -> bool:
+    return any(re.search(p, text) for p in patterns)
+
 def is_ai_related(title: str, summary: str) -> bool:
     text = (title + " " + summary).lower()
-    return any(kw in text for kw in AI_KEYWORDS)
+    if _matches_any(NAMED_AI_CRYPTO_PROJECTS, text):
+        return True
+    return _matches_any(AI_TERMS, text) and _matches_any(CRYPTO_TERMS, text)
 
 def is_recent(entry: dict, max_age_days: int = MAX_ARTICLE_AGE_DAYS) -> bool:
     parsed = entry.get("published_parsed")
