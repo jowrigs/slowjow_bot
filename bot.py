@@ -69,8 +69,11 @@ AI_TERMS = [
 CRYPTO_TERMS = [
     "crypto", "bitcoin", "ethereum", "blockchain", r"\btoken\b",
     r"\bcoin\b", "stablecoin", "web3", "defi", r"\bnft\b", r"\bdao\b",
-    r"\bwallet\b", "exchange",
+    r"\bwallet\b", "crypto exchange", "token exchange",
 ]
+
+WEEKLY_RECAP_TOP_N = 8
+PHOTO_CAPTION_LIMIT = 1024  # Telegram's hard limit for send_photo captions
 
 # ── Retry helpers ─────────────────────────────────────────────────────────────
 def retry_call(fn, *args, retries=3, base_delay=2, label="call", **kwargs):
@@ -121,9 +124,20 @@ def load_history() -> list[dict]:
             continue
     return pruned
 
-def save_history(pruned_history: list[dict], new_links: list[str]):
-    today  = datetime.now(pytz.UTC).date().isoformat()
-    merged = pruned_history + [{"link": link, "date": today} for link in new_links]
+def save_history(pruned_history: list[dict], new_articles: list[dict]):
+    """new_articles: the article dicts actually sent this run (link/title/source/score)."""
+    today = datetime.now(pytz.UTC).date().isoformat()
+    new_entries = [
+        {
+            "link":   a["link"],
+            "date":   today,
+            "title":  a.get("title", ""),
+            "source": a.get("source", ""),
+            "score":  a.get("score", 0),
+        }
+        for a in new_articles
+    ]
+    merged = pruned_history + new_entries
     try:
         with open(HISTORY_FILE, "w") as f:
             json.dump({"sent": merged}, f, indent=2)
@@ -210,6 +224,15 @@ def is_ai_related(title: str, summary: str) -> bool:
         return True
     return _matches_any(AI_TERMS, text) and _matches_any(CRYPTO_TERMS, text)
 
+def relevance_score(title: str, summary: str) -> int:
+    """Higher = more clearly about the crypto x AI intersection. Used to
+    order each section and to pick the weekly recap's top stories."""
+    text = (title + " " + summary).lower()
+    score = 3 if _matches_any(NAMED_AI_CRYPTO_PROJECTS, text) else 0
+    score += sum(1 for p in AI_TERMS if re.search(p, text))
+    score += sum(1 for p in CRYPTO_TERMS if re.search(p, text))
+    return score
+
 def is_recent(entry: dict, max_age_days: int = MAX_ARTICLE_AGE_DAYS) -> bool:
     parsed = entry.get("published_parsed")
     if not parsed:
@@ -262,6 +285,7 @@ def fetch_articles(already_sent: set[str]) -> list[dict]:
                     "title":     title.strip(),
                     "link":      link,
                     "thumbnail": extract_thumbnail(entry),
+                    "score":     relevance_score(title, summary),
                 })
         except Exception as e:
             log.warning(f"Failed to fetch {feed_meta['name']} after retries: {e}")
@@ -271,6 +295,7 @@ def fetch_articles(already_sent: set[str]) -> list[dict]:
         if a["link"] not in seen:
             seen.add(a["link"])
             unique.append(a)
+    unique.sort(key=lambda a: a["score"], reverse=True)
     return unique[:MAX_ARTICLES]
 
 # ── Message builder ────────────────────────────────────────────────────────────
@@ -310,6 +335,30 @@ def build_message(articles, watchlist, gainers, losers) -> str:
     lines.append("📡 Powered by your AI Crypto Bot")
     return "\n".join(lines)
 
+def build_weekly_recap(history_raw: list[dict]) -> str:
+    """Top stories from the trailing 7 days of persisted history. Empty string if none qualify."""
+    cutoff = datetime.now(pytz.UTC).date() - timedelta(days=7)
+    week_entries = []
+    for e in history_raw:
+        try:
+            if datetime.fromisoformat(e["date"]).date() >= cutoff and e.get("title"):
+                week_entries.append(e)
+        except Exception:
+            continue
+    if not week_entries:
+        return ""
+
+    week_entries.sort(key=lambda e: e.get("score", 0), reverse=True)
+    top = week_entries[:WEEKLY_RECAP_TOP_N]
+    sources = {e.get("source", "?") for e in week_entries}
+
+    lines = ["\n─────────────────────"]
+    lines.append("📅 <b>THIS WEEK</b>")
+    lines.append(f"<i>{len(week_entries)} stories across {len(sources)} sources</i>\n")
+    for e in top:
+        lines.append(f"• <a href='{e['link']}'>{e['title']}</a> — <i>{e.get('source', '')}</i>")
+    return "\n".join(lines)
+
 def pick_cover_thumbnail(articles: list[dict]) -> str | None:
     for a in articles:
         if a["icon"] == "🎥" and a.get("thumbnail"):
@@ -341,11 +390,25 @@ async def send_digest():
     articles = fetch_articles(already_sent)
     log.info(f"Watchlist: {len(watchlist)} | Gainers: {len(gainers)} | New articles: {len(articles)}")
 
-    message   = build_message(articles, watchlist, gainers, losers)
+    message = build_message(articles, watchlist, gainers, losers)
+
+    is_sunday = datetime.now(pytz.timezone(TIMEZONE)).weekday() == 6  # Monday=0 ... Sunday=6
+    if is_sunday:
+        recap = build_weekly_recap(history_raw + [
+            {"link": a["link"], "title": a["title"], "source": a["source"], "score": a["score"]}
+            for a in articles
+        ])
+        if recap:
+            message += "\n" + recap
+
     thumbnail = pick_cover_thumbnail(articles)
     bot       = Bot(token=BOT_TOKEN)
 
-    if thumbnail:
+    # Proactive routing: Telegram photo captions cap at 1024 chars (text messages at 4096).
+    # Checking first avoids a doomed API call on long digests / weekly-recap days.
+    fits_as_caption = thumbnail and len(message) <= PHOTO_CAPTION_LIMIT
+
+    if fits_as_caption:
         try:
             await retry_async_call(
                 bot.send_photo, retries=3, label="send_photo",
@@ -360,6 +423,8 @@ async def send_digest():
             )
             log.info("Digest (text fallback) sent ✅")
     else:
+        if thumbnail:
+            log.info(f"Message too long for a photo caption ({len(message)} chars) — sending as text")
         await retry_async_call(
             bot.send_message, retries=3, label="send_message",
             chat_id=CHAT_ID, text=message, parse_mode=ParseMode.HTML, disable_web_page_preview=True,
@@ -367,7 +432,7 @@ async def send_digest():
         log.info("Digest (text only) sent ✅")
 
     # Only persist dedup state after a confirmed successful send
-    save_history(history_raw, [a["link"] for a in articles])
+    save_history(history_raw, articles)
 
 async def send_failure_alert(error: Exception):
     """Best-effort notification so a broken run doesn't fail silently."""
