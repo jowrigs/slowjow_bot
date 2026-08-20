@@ -1,9 +1,10 @@
 import os
 import json
+import time
 import logging
 import feedparser
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta
 from telegram import Bot
 from telegram.constants import ParseMode
 import asyncio
@@ -18,7 +19,11 @@ BOT_TOKEN    = os.environ["TELEGRAM_BOT_TOKEN"]
 CHAT_ID      = os.environ["TELEGRAM_CHAT_ID"]
 TIMEZONE     = os.getenv("TIMEZONE", "Asia/Manila")
 MAX_ARTICLES = 12
-MARKET_SCAN  = 250  # scan top 250 coins for gainers/losers
+MARKET_SCAN  = 250   # scan top 250 coins for gainers/losers
+
+HISTORY_FILE          = "sent_history.json"
+HISTORY_RETENTION_DAYS = 14
+MAX_ARTICLE_AGE_DAYS   = 5   # ignore stale entries still lingering in a feed
 
 # ── Fixed Watchlist (always shown at top) ─────────────────────────────────────
 WATCHLIST = [
@@ -62,7 +67,66 @@ AI_KEYWORDS = [
     "llm blockchain", "gpt crypto", "ai miner", "ai mining",
 ]
 
-# ── Price Functions ───────────────────────────────────────────────────────────
+# ── Retry helpers ─────────────────────────────────────────────────────────────
+def retry_call(fn, *args, retries=3, base_delay=2, label="call", **kwargs):
+    """Run fn with linear backoff. Re-raises the last error if all attempts fail."""
+    last_exc = None
+    for attempt in range(1, retries + 1):
+        try:
+            return fn(*args, **kwargs)
+        except Exception as e:
+            last_exc = e
+            log.warning(f"[{label}] attempt {attempt}/{retries} failed: {e}")
+            if attempt < retries:
+                time.sleep(base_delay * attempt)
+    raise last_exc
+
+async def retry_async_call(fn, *args, retries=3, base_delay=2, label="call", **kwargs):
+    """Async version of retry_call."""
+    last_exc = None
+    for attempt in range(1, retries + 1):
+        try:
+            return await fn(*args, **kwargs)
+        except Exception as e:
+            last_exc = e
+            log.warning(f"[{label}] attempt {attempt}/{retries} failed: {e}")
+            if attempt < retries:
+                await asyncio.sleep(base_delay * attempt)
+    raise last_exc
+
+# ── Dedup history (committed back to the repo each run) ──────────────────────
+def load_history() -> list[dict]:
+    """Load history and prune to the retention window. Returns list of {link, date}."""
+    if not os.path.exists(HISTORY_FILE):
+        return []
+    try:
+        with open(HISTORY_FILE, "r") as f:
+            data = json.load(f)
+    except Exception as e:
+        log.warning(f"Failed to read history, starting fresh: {e}")
+        return []
+
+    cutoff = datetime.now(pytz.UTC).date() - timedelta(days=HISTORY_RETENTION_DAYS)
+    pruned = []
+    for entry in data.get("sent", []):
+        try:
+            if datetime.fromisoformat(entry["date"]).date() >= cutoff:
+                pruned.append(entry)
+        except Exception:
+            continue
+    return pruned
+
+def save_history(pruned_history: list[dict], new_links: list[str]):
+    today  = datetime.now(pytz.UTC).date().isoformat()
+    merged = pruned_history + [{"link": link, "date": today} for link in new_links]
+    try:
+        with open(HISTORY_FILE, "w") as f:
+            json.dump({"sent": merged}, f, indent=2)
+        log.info(f"History saved: {len(merged)} links retained (last {HISTORY_RETENTION_DAYS}d)")
+    except Exception as e:
+        log.warning(f"Failed to save history: {e}")
+
+# ── Price helpers ─────────────────────────────────────────────────────────────
 def p_fmt(price: float) -> str:
     return f"${price:,.2f}" if price >= 1 else f"${price:.4f}"
 
@@ -74,77 +138,50 @@ def c_fmt(change: float | None) -> tuple[str, str]:
     return arrow, f"{sign}{change:.2f}%"
 
 def fetch_watchlist() -> list[dict]:
-    """Fetch live prices for BTC, ETH, XRP, TRX, POL."""
+    """Fetch live prices for BTC, ETH, XRP, TRX, POL. Raises on failure — caller retries."""
     ids = ",".join(t["id"] for t in WATCHLIST)
-    url = (
-        f"https://api.coingecko.com/api/v3/simple/price"
-        f"?ids={ids}&vs_currencies=usd&include_24hr_change=true"
-    )
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "AICryptoBot/1.0"})
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            data = json.loads(resp.read())
-        results = []
-        for t in WATCHLIST:
-            info   = data.get(t["id"], {})
-            price  = info.get("usd")
-            change = info.get("usd_24h_change")
-            if price is not None:
-                arrow, c_str = c_fmt(change)
-                results.append({
-                    "symbol": t["symbol"],
-                    "price":  p_fmt(price),
-                    "change": c_str,
-                    "arrow":  arrow,
-                })
-        return results
-    except Exception as e:
-        log.warning(f"Failed to fetch watchlist: {e}")
-        return []
+    url = f"https://api.coingecko.com/api/v3/simple/price?ids={ids}&vs_currencies=usd&include_24hr_change=true"
+    req = urllib.request.Request(url, headers={"User-Agent": "AICryptoBot/1.0"})
+    with urllib.request.urlopen(req, timeout=10) as resp:
+        data = json.loads(resp.read())
+    results = []
+    for t in WATCHLIST:
+        info   = data.get(t["id"], {})
+        price  = info.get("usd")
+        change = info.get("usd_24h_change")
+        if price is not None:
+            arrow, c_str = c_fmt(change)
+            results.append({"symbol": t["symbol"], "price": p_fmt(price), "change": c_str, "arrow": arrow})
+    return results
 
 def fetch_gainers_losers() -> tuple[list[dict], list[dict]]:
-    """Fetch top 5 gainers and top 5 losers from the top 250 coins by market cap."""
+    """Fetch top 5 gainers/losers from the top N coins by market cap. Raises on failure."""
     url = (
         "https://api.coingecko.com/api/v3/coins/markets"
         "?vs_currency=usd&order=market_cap_desc"
         f"&per_page={MARKET_SCAN}&page=1&price_change_percentage=24h"
     )
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "AICryptoBot/1.0"})
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            coins = json.loads(resp.read())
+    req = urllib.request.Request(url, headers={"User-Agent": "AICryptoBot/1.0"})
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        coins = json.loads(resp.read())
 
-        coins = [c for c in coins if c.get("price_change_percentage_24h") is not None]
-        sorted_coins = sorted(coins, key=lambda c: c["price_change_percentage_24h"], reverse=True)
+    coins = [c for c in coins if c.get("price_change_percentage_24h") is not None]
+    sorted_coins = sorted(coins, key=lambda c: c["price_change_percentage_24h"], reverse=True)
 
-        def fmt(c: dict) -> dict:
-            arrow, c_str = c_fmt(c["price_change_percentage_24h"])
-            return {
-                "symbol": c["symbol"].upper(),
-                "price":  p_fmt(c["current_price"]),
-                "change": c_str,
-                "arrow":  arrow,
-            }
+    def fmt(c: dict) -> dict:
+        arrow, c_str = c_fmt(c["price_change_percentage_24h"])
+        return {"symbol": c["symbol"].upper(), "price": p_fmt(c["current_price"]), "change": c_str, "arrow": arrow}
 
-        gainers = [fmt(c) for c in sorted_coins[:5]]
-        losers  = [fmt(c) for c in sorted_coins[-5:][::-1]]
-        return gainers, losers
-
-    except Exception as e:
-        log.warning(f"Failed to fetch gainers/losers: {e}")
-        return [], []
+    gainers = [fmt(c) for c in sorted_coins[:5]]
+    losers  = [fmt(c) for c in sorted_coins[-5:][::-1]]
+    return gainers, losers
 
 def format_ticker(watchlist: list[dict], gainers: list[dict], losers: list[dict]) -> str:
-    """Build the full price ticker block."""
     lines = []
-
-    # Fixed watchlist always on top
     if watchlist:
         lines.append("💰 <b>PRICES</b>")
         for w in watchlist:
             lines.append(f"  {w['arrow']} <b>{w['symbol']}</b>  {w['price']}  <i>{w['change']}</i>")
-
-    # Market movers below
     if gainers or losers:
         lines.append("")
         lines.append("📊 <b>MARKET MOVERS (24H)</b>")
@@ -156,13 +193,22 @@ def format_ticker(watchlist: list[dict], gainers: list[dict], losers: list[dict]
             lines.append("🔴 <b>Top Losers</b>")
             for i, c in enumerate(losers, 1):
                 lines.append(f"  {i}. <b>{c['symbol']}</b>  {c['price']}  <i>{c['change']}</i>")
-
     return "\n".join(lines)
 
-# ── Article Fetching ──────────────────────────────────────────────────────────
+# ── Article fetching ───────────────────────────────────────────────────────────
 def is_ai_related(title: str, summary: str) -> bool:
     text = (title + " " + summary).lower()
     return any(kw in text for kw in AI_KEYWORDS)
+
+def is_recent(entry: dict, max_age_days: int = MAX_ARTICLE_AGE_DAYS) -> bool:
+    parsed = entry.get("published_parsed")
+    if not parsed:
+        return True  # can't verify age — don't drop on a guess
+    try:
+        published = datetime(*parsed[:6], tzinfo=pytz.UTC)
+        return (datetime.now(pytz.UTC) - published).days <= max_age_days
+    except Exception:
+        return True
 
 def extract_thumbnail(entry: dict) -> str | None:
     thumbnails = entry.get("media_thumbnail", [])
@@ -177,6 +223,7 @@ def extract_thumbnail(entry: dict) -> str | None:
     return None
 
 def fetch_feed(feed_meta: dict) -> list:
+    """Fetch one RSS feed. Raises on failure — caller retries."""
     url = feed_meta["url"]
     if "reddit.com" in url:
         req = urllib.request.Request(url, headers={"User-Agent": "AICryptoBot/1.0"})
@@ -184,35 +231,39 @@ def fetch_feed(feed_meta: dict) -> list:
             return feedparser.parse(resp.read()).entries
     return feedparser.parse(url).entries
 
-def fetch_articles() -> list[dict]:
+def fetch_articles(already_sent: set[str]) -> list[dict]:
     articles = []
     for feed_meta in FEEDS:
         try:
-            entries = fetch_feed(feed_meta)
+            entries = retry_call(fetch_feed, feed_meta, retries=2, label=feed_meta["name"])
             for entry in entries[:20]:
                 title   = entry.get("title", "")
                 summary = entry.get("summary", "")
-                link    = entry.get("link", "")
-                if is_ai_related(title, summary):
-                    articles.append({
-                        "source":    feed_meta["name"],
-                        "icon":      feed_meta["icon"],
-                        "title":     title.strip(),
-                        "link":      link.strip(),
-                        "thumbnail": extract_thumbnail(entry),
-                    })
+                link    = entry.get("link", "").strip()
+                if not link or link in already_sent:
+                    continue
+                if not is_ai_related(title, summary):
+                    continue
+                if not is_recent(entry):
+                    continue
+                articles.append({
+                    "source":    feed_meta["name"],
+                    "icon":      feed_meta["icon"],
+                    "title":     title.strip(),
+                    "link":      link,
+                    "thumbnail": extract_thumbnail(entry),
+                })
         except Exception as e:
-            log.warning(f"Failed to fetch {feed_meta['name']}: {e}")
+            log.warning(f"Failed to fetch {feed_meta['name']} after retries: {e}")
 
-    seen = set()
-    unique = []
+    seen, unique = set(), []
     for a in articles:
         if a["link"] not in seen:
             seen.add(a["link"])
             unique.append(a)
     return unique[:MAX_ARTICLES]
 
-# ── Message Builder ───────────────────────────────────────────────────────────
+# ── Message builder ────────────────────────────────────────────────────────────
 def build_message(articles, watchlist, gainers, losers) -> str:
     today = datetime.now(pytz.timezone(TIMEZONE)).strftime("%B %d, %Y")
 
@@ -226,7 +277,7 @@ def build_message(articles, watchlist, gainers, losers) -> str:
     lines.append("\n─────────────────────")
 
     if not articles:
-        lines.append("\nNo updates on cryptocurrency using AI found today. Check back tomorrow!")
+        lines.append("\nNo new cryptocurrency-using-AI updates since your last digest. Check back tomorrow!")
     else:
         news   = [a for a in articles if a["icon"] == "📰"]
         videos = [a for a in articles if a["icon"] == "🎥"]
@@ -260,11 +311,25 @@ def pick_cover_thumbnail(articles: list[dict]) -> str | None:
 
 # ── Send ──────────────────────────────────────────────────────────────────────
 async def send_digest():
+    history_raw   = load_history()
+    already_sent  = {e["link"] for e in history_raw}
+
     log.info("Fetching data...")
-    watchlist        = fetch_watchlist()
-    gainers, losers  = fetch_gainers_losers()
-    articles         = fetch_articles()
-    log.info(f"Watchlist: {len(watchlist)} | Gainers: {len(gainers)} | Losers: {len(losers)} | Articles: {len(articles)}")
+
+    try:
+        watchlist = retry_call(fetch_watchlist, retries=3, label="watchlist")
+    except Exception as e:
+        log.warning(f"Watchlist unavailable after retries, continuing without it: {e}")
+        watchlist = []
+
+    try:
+        gainers, losers = retry_call(fetch_gainers_losers, retries=3, label="gainers/losers")
+    except Exception as e:
+        log.warning(f"Gainers/losers unavailable after retries, continuing without it: {e}")
+        gainers, losers = [], []
+
+    articles = fetch_articles(already_sent)
+    log.info(f"Watchlist: {len(watchlist)} | Gainers: {len(gainers)} | New articles: {len(articles)}")
 
     message   = build_message(articles, watchlist, gainers, losers)
     thumbnail = pick_cover_thumbnail(articles)
@@ -272,26 +337,53 @@ async def send_digest():
 
     if thumbnail:
         try:
-            await bot.send_photo(
-                chat_id=CHAT_ID,
-                photo=thumbnail,
-                caption=message,
-                parse_mode=ParseMode.HTML,
+            await retry_async_call(
+                bot.send_photo, retries=3, label="send_photo",
+                chat_id=CHAT_ID, photo=thumbnail, caption=message, parse_mode=ParseMode.HTML,
             )
             log.info("Digest with cover image sent ✅")
-            return
         except Exception as e:
-            log.warning(f"Photo send failed, falling back to text: {e}")
+            log.warning(f"Photo send failed after retries, falling back to text: {e}")
+            await retry_async_call(
+                bot.send_message, retries=3, label="send_message_fallback",
+                chat_id=CHAT_ID, text=message, parse_mode=ParseMode.HTML, disable_web_page_preview=True,
+            )
+            log.info("Digest (text fallback) sent ✅")
+    else:
+        await retry_async_call(
+            bot.send_message, retries=3, label="send_message",
+            chat_id=CHAT_ID, text=message, parse_mode=ParseMode.HTML, disable_web_page_preview=True,
+        )
+        log.info("Digest (text only) sent ✅")
 
-    await bot.send_message(
-        chat_id=CHAT_ID,
-        text=message,
-        parse_mode=ParseMode.HTML,
-        disable_web_page_preview=True,
-    )
-    log.info("Digest (text only) sent ✅")
+    # Only persist dedup state after a confirmed successful send
+    save_history(history_raw, [a["link"] for a in articles])
+
+async def send_failure_alert(error: Exception):
+    """Best-effort notification so a broken run doesn't fail silently."""
+    try:
+        bot = Bot(token=BOT_TOKEN)
+        await bot.send_message(
+            chat_id=CHAT_ID,
+            text=(
+                "⚠️ <b>Crypto × AI Daily failed to send.</b>\n"
+                f"<i>{type(error).__name__}: {str(error)[:200]}</i>\n"
+                "Check the GitHub Actions log for details."
+            ),
+            parse_mode=ParseMode.HTML,
+        )
+    except Exception as alert_error:
+        log.error(f"Also failed to send failure alert: {alert_error}")
+
+async def main():
+    try:
+        await send_digest()
+    except Exception as e:
+        log.error(f"Digest run failed: {e}")
+        await send_failure_alert(e)
+        raise  # keep the Actions run marked failed for visibility
 
 # ── Entry point ───────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     log.info("Starting one-shot digest run...")
-    asyncio.run(send_digest())
+    asyncio.run(main())
