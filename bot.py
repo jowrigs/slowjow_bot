@@ -29,7 +29,7 @@ MAX_ARTICLE_AGE_DAYS   = 5   # ignore stale entries still lingering in a feed
 # Last-resort cover image when no article has an extractable thumbnail —
 # committed to this repo and served for free via raw.githubusercontent.com,
 # since the repo is public. Guarantees every digest has a header image.
-FALLBACK_COVER_IMAGE = "https://raw.githubusercontent.com/jowrigs/slowjow_bot/main/assets/cover.png"
+FALLBACK_COVER_IMAGE = "https://raw.githubusercontent.com/jowrigs/slowjow_bot/main/cover.png"
 
 # ── Fixed Watchlist (always shown at top) ─────────────────────────────────────
 WATCHLIST = [
