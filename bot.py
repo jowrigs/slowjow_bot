@@ -208,16 +208,14 @@ def format_ticker(watchlist: list[dict], gainers: list[dict], losers: list[dict]
         lines.append("<b>PRICES</b>")
         for w in watchlist:
             lines.append(f"  {w['arrow']}  <b>{w['symbol']}</b>  {w['price']}  <i>{w['change']}</i>")
-    # Market movers are kept to one compact line each (not one line per coin)
-    # deliberately — they're supplementary to the watchlist above, and the
-    # article list is the actual point of the digest, so movers shouldn't
-    # crowd articles out of the single combined message.
     if gainers:
-        movers = "  ·  ".join(f"<b>{c['symbol']}</b> {c['change']}" for c in gainers)
-        lines.append(f"🟢 <b>Gainers</b>  {movers}")
+        lines.append("🟢 <b>Gainers</b>")
+        for i, c in enumerate(gainers, 1):
+            lines.append(f"  {i}. <b>{c['symbol']}</b>  {c['price']}  <i>{c['change']}</i>")
     if losers:
-        movers = "  ·  ".join(f"<b>{c['symbol']}</b> {c['change']}" for c in losers)
-        lines.append(f"🔴 <b>Losers</b>  {movers}")
+        lines.append("🔴 <b>Losers</b>")
+        for i, c in enumerate(losers, 1):
+            lines.append(f"  {i}. <b>{c['symbol']}</b>  {c['price']}  <i>{c['change']}</i>")
     return "\n".join(lines)
 
 # ── Article fetching ───────────────────────────────────────────────────────────
