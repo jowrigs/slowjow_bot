@@ -154,9 +154,12 @@ def p_fmt(price: float) -> str:
     return f"${price:,.2f}" if price >= 1 else f"${price:.4f}"
 
 def c_fmt(change: float | None) -> tuple[str, str]:
+    # Telegram messages support no true text color at all — colored circle
+    # emoji are the only way to actually show red/green, so they stay here
+    # deliberately even though the rest of the layout is emoji-free.
     if change is None:
-        return "–", "N/A"
-    arrow = "▲" if change >= 0 else "▼"
+        return "⚪", "N/A"
+    arrow = "🟢" if change >= 0 else "🔴"
     sign  = "+" if change >= 0 else ""
     return arrow, f"{sign}{change:.2f}%"
 
@@ -205,17 +208,16 @@ def format_ticker(watchlist: list[dict], gainers: list[dict], losers: list[dict]
         lines.append("<b>PRICES</b>")
         for w in watchlist:
             lines.append(f"  {w['arrow']}  <b>{w['symbol']}</b>  {w['price']}  <i>{w['change']}</i>")
-    if gainers or losers:
-        lines.append("")
-        lines.append("<b>MARKET MOVERS · 24H</b>")
-        if gainers:
-            lines.append("<b>Gainers</b>")
-            for i, c in enumerate(gainers, 1):
-                lines.append(f"  {i}. <b>{c['symbol']}</b>  {c['price']}  <i>{c['change']}</i>")
-        if losers:
-            lines.append("<b>Losers</b>")
-            for i, c in enumerate(losers, 1):
-                lines.append(f"  {i}. <b>{c['symbol']}</b>  {c['price']}  <i>{c['change']}</i>")
+    # Market movers are kept to one compact line each (not one line per coin)
+    # deliberately — they're supplementary to the watchlist above, and the
+    # article list is the actual point of the digest, so movers shouldn't
+    # crowd articles out of the single combined message.
+    if gainers:
+        movers = "  ·  ".join(f"<b>{c['symbol']}</b> {c['change']}" for c in gainers)
+        lines.append(f"🟢 <b>Gainers</b>  {movers}")
+    if losers:
+        movers = "  ·  ".join(f"<b>{c['symbol']}</b> {c['change']}" for c in losers)
+        lines.append(f"🔴 <b>Losers</b>  {movers}")
     return "\n".join(lines)
 
 # ── Article fetching ───────────────────────────────────────────────────────────
@@ -310,6 +312,9 @@ def fetch_articles(already_sent: set[str]) -> list[dict]:
 
 # ── Message builder ────────────────────────────────────────────────────────────
 def build_message(articles, watchlist, gainers, losers) -> str:
+    """Full, uncapped digest text (no length limit). Used only as the rare
+    failure-path fallback if sending the photo+caption fails entirely — the
+    normal daily send uses build_caption() instead, see below."""
     today = datetime.now(pytz.timezone(TIMEZONE)).strftime("%B %d, %Y")
 
     lines = ["<b>CRYPTO × AI DAILY</b>"]
@@ -344,6 +349,70 @@ def build_message(articles, watchlist, gainers, losers) -> str:
     lines.append("\n─────────────────────")
     lines.append("<i>Crypto × AI Daily</i>")
     return "\n".join(lines)
+
+def build_caption(articles, watchlist, gainers, losers, weekly_recap="", limit=1024) -> str:
+    """The digest as ONE Telegram photo caption, guaranteed to fit within
+    Telegram's 1024-char cap — so the header image and the digest are never
+    sent as separate messages. Content is added in priority order (header,
+    then prices, then articles by relevance, then the weekly recap last)
+    and stops the instant the next piece would no longer fit. Whole units
+    only — never a truncated headline or a section header with nothing
+    under it."""
+    today = datetime.now(pytz.timezone(TIMEZONE)).strftime("%B %d, %Y")
+    text = "<b>CRYPTO × AI DAILY</b>\n" + f"<i>{today} · Cryptocurrencies &amp; platforms powered by AI</i>"
+
+    def try_add(addition: str) -> bool:
+        nonlocal text
+        candidate = text + addition
+        if len(candidate) <= limit:
+            text = candidate
+            return True
+        return False
+
+    ticker = format_ticker(watchlist, gainers, losers)
+    if ticker:
+        try_add("\n\n" + ticker)
+
+    divider = "\n\n─────────────────────"
+    divider_added   = try_add(divider)
+    content_added    = False
+
+    if not articles:
+        if try_add("\n\nNo new cryptocurrency-using-AI updates since your last digest. Check back tomorrow!"):
+            content_added = True
+    else:
+        news   = [a for a in articles if a["category"] == "news"]
+        videos = [a for a in articles if a["category"] == "video"]
+        reddit = [a for a in articles if a["category"] == "reddit"]
+
+        for label, group in (("NEWS", news), ("YOUTUBE", videos), ("REDDIT", reddit)):
+            if not group:
+                continue
+            before = text
+            if not try_add(f"\n\n<b>{label}</b>"):
+                continue  # out of room before this section could even start
+            added_any = False
+            for a in group:
+                line = f"\n• <a href='{a['link']}'>{a['title']}</a> — <i>{a['source']}</i>"
+                if try_add(line):
+                    added_any = True
+                else:
+                    break  # this section is full — later, lower-relevance items get dropped first
+            if added_any:
+                content_added = True
+            else:
+                text = before  # roll back a bare header with nothing under it
+
+    if weekly_recap and try_add("\n" + weekly_recap):
+        content_added = True
+
+    # If that divider ended up with nothing after it (the rare all-truncated
+    # case), drop it rather than stacking it against the footer's own divider.
+    if divider_added and not content_added:
+        text = text[: -len(divider)]
+
+    try_add("\n\n─────────────────────\n<i>Crypto × AI Daily</i>")
+    return text
 
 def build_weekly_recap(history_raw: list[dict]) -> str:
     """Top stories from the trailing 7 days of persisted history. Empty string if none qualify."""
@@ -380,13 +449,6 @@ def pick_cover_thumbnail(articles: list[dict]) -> str:
             return a["thumbnail"]
     return FALLBACK_COVER_IMAGE
 
-def build_short_caption() -> str:
-    """A fixed, deliberately short caption for the photo message — small and
-    constant by design, so it can never approach Telegram's 1024-char cap.
-    The full digest always follows as its own text message."""
-    today = datetime.now(pytz.timezone(TIMEZONE)).strftime("%B %d, %Y")
-    return f"<b>CRYPTO × AI DAILY</b>  ·  {today}"
-
 # ── Send ──────────────────────────────────────────────────────────────────────
 async def send_digest():
     history_raw   = load_history()
@@ -409,38 +471,40 @@ async def send_digest():
     articles = fetch_articles(already_sent)
     log.info(f"Watchlist: {len(watchlist)} | Gainers: {len(gainers)} | New articles: {len(articles)}")
 
-    message = build_message(articles, watchlist, gainers, losers)
-
     is_sunday = datetime.now(pytz.timezone(TIMEZONE)).weekday() == 6  # Monday=0 ... Sunday=6
+    recap = ""
     if is_sunday:
         recap = build_weekly_recap(history_raw + [
             {"link": a["link"], "title": a["title"], "source": a["source"], "score": a["score"]}
             for a in articles
         ])
-        if recap:
-            message += "\n" + recap
 
+    caption   = build_caption(articles, watchlist, gainers, losers, weekly_recap=recap)
     thumbnail = pick_cover_thumbnail(articles)  # never None — falls back to a static banner
     bot       = Bot(token=BOT_TOKEN)
 
-    # Always two messages: a photo with a short, fixed-length caption (can
-    # never exceed Telegram's 1024-char cap, so no length branching needed),
-    # then the full digest as its own text message (4096-char cap, comfortable
-    # even with the Sunday recap appended).
+    # One message, always: the header image with the digest as its caption.
+    # build_caption() guarantees this fits Telegram's 1024-char cap on its
+    # own, so there's no length branching here. If the photo send still
+    # fails for some other reason (e.g. an unreachable image URL), fall back
+    # to a plain text message with the full, uncapped digest so the content
+    # isn't lost — this is a rare failure path, not routine behavior.
     try:
         await retry_async_call(
             bot.send_photo, retries=3, label="send_photo",
-            chat_id=CHAT_ID, photo=thumbnail, caption=build_short_caption(), parse_mode=ParseMode.HTML,
+            chat_id=CHAT_ID, photo=thumbnail, caption=caption, parse_mode=ParseMode.HTML,
         )
-        log.info("Cover image sent ✅")
+        log.info("Digest with cover image sent ✅")
     except Exception as e:
-        log.warning(f"Cover image failed after retries, continuing without it: {e}")
-
-    await retry_async_call(
-        bot.send_message, retries=3, label="send_message",
-        chat_id=CHAT_ID, text=message, parse_mode=ParseMode.HTML, disable_web_page_preview=True,
-    )
-    log.info("Digest sent ✅")
+        log.warning(f"Photo send failed after retries, falling back to a text-only message: {e}")
+        fallback_text = build_message(articles, watchlist, gainers, losers)
+        if recap:
+            fallback_text += "\n" + recap
+        await retry_async_call(
+            bot.send_message, retries=3, label="send_message_fallback",
+            chat_id=CHAT_ID, text=fallback_text, parse_mode=ParseMode.HTML, disable_web_page_preview=True,
+        )
+        log.info("Digest (text fallback) sent ✅")
 
     # Only persist dedup state after a confirmed successful send
     save_history(history_raw, articles)
