@@ -97,6 +97,27 @@
       "title": "There's no way to activate the Crypto.com card.",
       "source": "r/CryptoCurrency",
       "score": 2
+    },
+    {
+      "link": "https://decrypt.co/376161/binance-ai-agents-trade-crypto",
+      "date": "2026-08-21",
+      "title": "Binance Opens the Door to AI Agents That Can Trade Crypto for You",
+      "source": "Decrypt",
+      "score": 3
+    },
+    {
+      "link": "https://www.coindesk.com/tech/2026/08/21/coldcard-ships-firmware-after-usd114-million-bitcoin-theft-says-ai-helped-catch-more-bugs",
+      "date": "2026-08-21",
+      "title": "Coldcard ships firmware after $114 million bitcoin theft; says AI helped catch more bugs",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://www.theblock.co/news/web3/2026-08-21-ai-adoption-in-crypto-crime-trm-412297",
+      "date": "2026-08-21",
+      "title": "AI adoption in crypto crime rose 40% over the past year, TRM Labs says",
+      "source": "The Block",
+      "score": 2
     }
   ]
 }
