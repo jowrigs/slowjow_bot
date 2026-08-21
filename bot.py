@@ -42,19 +42,19 @@ WATCHLIST = [
 
 # ── RSS Feed Sources ──────────────────────────────────────────────────────────
 FEEDS = [
-    {"name": "CoinDesk",         "icon": "📰", "url": "https://www.coindesk.com/arc/outboundfeeds/rss/"},
-    {"name": "Decrypt",          "icon": "📰", "url": "https://decrypt.co/feed"},
-    {"name": "Cointelegraph",    "icon": "📰", "url": "https://cointelegraph.com/rss"},
-    {"name": "The Block",        "icon": "📰", "url": "https://www.theblock.co/rss.xml"},
-    {"name": "BeInCrypto",       "icon": "📰", "url": "https://beincrypto.com/feed/"},
-    {"name": "Coin Bureau",      "icon": "🎥", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCqK_GSMbpiV8spgD3ZGloSw"},
-    {"name": "DataDash",         "icon": "🎥", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCatR7nWbYrkVXdxXb4cGXw"},
-    {"name": "Andrei Jikh",      "icon": "🎥", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCF9IOB2TExg3QIBupFtBDxg"},
-    {"name": "Two Minute Papers","icon": "🎥", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg"},
-    {"name": "r/CryptoCurrency", "icon": "📱", "url": "https://www.reddit.com/r/CryptoCurrency/top/.rss?t=day"},
-    {"name": "r/artificial",     "icon": "📱", "url": "https://www.reddit.com/r/artificial/top/.rss?t=day"},
-    {"name": "r/singularity",    "icon": "📱", "url": "https://www.reddit.com/r/singularity/top/.rss?t=day"},
-    {"name": "r/AIInFinance",    "icon": "📱", "url": "https://www.reddit.com/r/AIInFinance/top/.rss?t=day"},
+    {"name": "CoinDesk",         "category": "news",  "url": "https://www.coindesk.com/arc/outboundfeeds/rss/"},
+    {"name": "Decrypt",          "category": "news",  "url": "https://decrypt.co/feed"},
+    {"name": "Cointelegraph",    "category": "news",  "url": "https://cointelegraph.com/rss"},
+    {"name": "The Block",        "category": "news",  "url": "https://www.theblock.co/rss.xml"},
+    {"name": "BeInCrypto",       "category": "news",  "url": "https://beincrypto.com/feed/"},
+    {"name": "Coin Bureau",      "category": "video", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCqK_GSMbpiV8spgD3ZGloSw"},
+    {"name": "DataDash",         "category": "video", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCatR7nWbYrkVXdxXb4cGXw"},
+    {"name": "Andrei Jikh",      "category": "video", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCF9IOB2TExg3QIBupFtBDxg"},
+    {"name": "Two Minute Papers","category": "video", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg"},
+    {"name": "r/CryptoCurrency", "category": "reddit", "url": "https://www.reddit.com/r/CryptoCurrency/top/.rss?t=day"},
+    {"name": "r/artificial",     "category": "reddit", "url": "https://www.reddit.com/r/artificial/top/.rss?t=day"},
+    {"name": "r/singularity",    "category": "reddit", "url": "https://www.reddit.com/r/singularity/top/.rss?t=day"},
+    {"name": "r/AIInFinance",    "category": "reddit", "url": "https://www.reddit.com/r/AIInFinance/top/.rss?t=day"},
 ]
 
 # Two ways an article qualifies: it names a known AI-crypto project outright,
@@ -155,8 +155,8 @@ def p_fmt(price: float) -> str:
 
 def c_fmt(change: float | None) -> tuple[str, str]:
     if change is None:
-        return "⚪", "N/A"
-    arrow = "🟢" if change >= 0 else "🔴"
+        return "–", "N/A"
+    arrow = "▲" if change >= 0 else "▼"
     sign  = "+" if change >= 0 else ""
     return arrow, f"{sign}{change:.2f}%"
 
@@ -202,18 +202,18 @@ def fetch_gainers_losers() -> tuple[list[dict], list[dict]]:
 def format_ticker(watchlist: list[dict], gainers: list[dict], losers: list[dict]) -> str:
     lines = []
     if watchlist:
-        lines.append("💰 <b>PRICES</b>")
+        lines.append("<b>PRICES</b>")
         for w in watchlist:
-            lines.append(f"  {w['arrow']} <b>{w['symbol']}</b>  {w['price']}  <i>{w['change']}</i>")
+            lines.append(f"  {w['arrow']}  <b>{w['symbol']}</b>  {w['price']}  <i>{w['change']}</i>")
     if gainers or losers:
         lines.append("")
-        lines.append("📊 <b>MARKET MOVERS (24H)</b>")
+        lines.append("<b>MARKET MOVERS · 24H</b>")
         if gainers:
-            lines.append("🟢 <b>Top Gainers</b>")
+            lines.append("<b>Gainers</b>")
             for i, c in enumerate(gainers, 1):
                 lines.append(f"  {i}. <b>{c['symbol']}</b>  {c['price']}  <i>{c['change']}</i>")
         if losers:
-            lines.append("🔴 <b>Top Losers</b>")
+            lines.append("<b>Losers</b>")
             for i, c in enumerate(losers, 1):
                 lines.append(f"  {i}. <b>{c['symbol']}</b>  {c['price']}  <i>{c['change']}</i>")
     return "\n".join(lines)
@@ -291,7 +291,7 @@ def fetch_articles(already_sent: set[str]) -> list[dict]:
                     continue
                 articles.append({
                     "source":    feed_meta["name"],
-                    "icon":      feed_meta["icon"],
+                    "category":  feed_meta["category"],
                     "title":     title.strip(),
                     "link":      link,
                     "thumbnail": extract_thumbnail(entry),
@@ -312,8 +312,8 @@ def fetch_articles(already_sent: set[str]) -> list[dict]:
 def build_message(articles, watchlist, gainers, losers) -> str:
     today = datetime.now(pytz.timezone(TIMEZONE)).strftime("%B %d, %Y")
 
-    lines = [f"🤖🪙 <b>Crypto × AI Daily — {today}</b>"]
-    lines.append("<i>Cryptocurrencies & platforms powered by AI</i>\n")
+    lines = ["<b>CRYPTO × AI DAILY</b>"]
+    lines.append(f"<i>{today} · Cryptocurrencies &amp; platforms powered by AI</i>\n")
 
     ticker = format_ticker(watchlist, gainers, losers)
     if ticker:
@@ -324,25 +324,25 @@ def build_message(articles, watchlist, gainers, losers) -> str:
     if not articles:
         lines.append("\nNo new cryptocurrency-using-AI updates since your last digest. Check back tomorrow!")
     else:
-        news   = [a for a in articles if a["icon"] == "📰"]
-        videos = [a for a in articles if a["icon"] == "🎥"]
-        reddit = [a for a in articles if a["icon"] == "📱"]
+        news   = [a for a in articles if a["category"] == "news"]
+        videos = [a for a in articles if a["category"] == "video"]
+        reddit = [a for a in articles if a["category"] == "reddit"]
 
         if news:
-            lines.append("\n📰 <b>NEWS</b>")
+            lines.append("\n<b>NEWS</b>")
             for a in news:
                 lines.append(f"• <a href='{a['link']}'>{a['title']}</a> — <i>{a['source']}</i>")
         if videos:
-            lines.append("\n🎥 <b>YOUTUBE</b>")
+            lines.append("\n<b>YOUTUBE</b>")
             for a in videos:
                 lines.append(f"• <a href='{a['link']}'>{a['title']}</a> — <i>{a['source']}</i>")
         if reddit:
-            lines.append("\n📱 <b>REDDIT</b>")
+            lines.append("\n<b>REDDIT</b>")
             for a in reddit:
                 lines.append(f"• <a href='{a['link']}'>{a['title']}</a> — <i>{a['source']}</i>")
 
     lines.append("\n─────────────────────")
-    lines.append("📡 Powered by your AI Crypto Bot")
+    lines.append("<i>Crypto × AI Daily</i>")
     return "\n".join(lines)
 
 def build_weekly_recap(history_raw: list[dict]) -> str:
@@ -363,7 +363,7 @@ def build_weekly_recap(history_raw: list[dict]) -> str:
     sources = {e.get("source", "?") for e in week_entries}
 
     lines = ["\n─────────────────────"]
-    lines.append("📅 <b>THIS WEEK</b>")
+    lines.append("<b>THIS WEEK</b>")
     lines.append(f"<i>{len(week_entries)} stories across {len(sources)} sources</i>\n")
     for e in top:
         lines.append(f"• <a href='{e['link']}'>{e['title']}</a> — <i>{e.get('source', '')}</i>")
@@ -373,7 +373,7 @@ def pick_cover_thumbnail(articles: list[dict]) -> str:
     """Always returns a usable image URL — YouTube first, then any article
     thumbnail, then the static fallback banner as a last resort."""
     for a in articles:
-        if a["icon"] == "🎥" and a.get("thumbnail"):
+        if a["category"] == "video" and a.get("thumbnail"):
             return a["thumbnail"]
     for a in articles:
         if a.get("thumbnail"):
@@ -385,7 +385,7 @@ def build_short_caption() -> str:
     constant by design, so it can never approach Telegram's 1024-char cap.
     The full digest always follows as its own text message."""
     today = datetime.now(pytz.timezone(TIMEZONE)).strftime("%B %d, %Y")
-    return f"🤖🪙 <b>Crypto × AI Daily — {today}</b>"
+    return f"<b>CRYPTO × AI DAILY</b>  ·  {today}"
 
 # ── Send ──────────────────────────────────────────────────────────────────────
 async def send_digest():
@@ -452,7 +452,7 @@ async def send_failure_alert(error: Exception):
         await bot.send_message(
             chat_id=CHAT_ID,
             text=(
-                "⚠️ <b>Crypto × AI Daily failed to send.</b>\n"
+                "<b>Crypto × AI Daily — send failed</b>\n"
                 f"<i>{type(error).__name__}: {str(error)[:200]}</i>\n"
                 "Check the GitHub Actions log for details."
             ),

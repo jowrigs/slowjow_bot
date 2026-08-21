@@ -18,7 +18,7 @@ OFFSET_FILE = "telegram_offset.json"
 MAX_LATEST  = 12
 
 HELP_TEXT = (
-    "🤖 <b>Crypto × AI Bot — Commands</b>\n\n"
+    "<b>CRYPTO × AI BOT</b>\n\n"
     "/latest — today's digest so far\n"
     "/prices — live BTC, ETH, XRP, TRX, POL + top movers\n"
     "/help — show this message"
@@ -56,7 +56,7 @@ def build_latest_reply() -> str:
         label, entries = f"Most recent digest ({latest_date})", [e for e in titled if e["date"] == latest_date]
 
     entries = sorted(entries, key=lambda e: e.get("score", 0), reverse=True)[:MAX_LATEST]
-    lines = [f"🤖🪙 <b>{label}</b>\n"]
+    lines = [f"<b>{label}</b>\n"]
     for e in entries:
         lines.append(f"• <a href='{e['link']}'>{e['title']}</a> — <i>{e.get('source', '')}</i>")
     return "\n".join(lines)
@@ -76,7 +76,7 @@ async def build_prices_reply() -> str:
     ticker = core.format_ticker(watchlist, gainers, losers)
     if not ticker:
         return "Prices are temporarily unavailable — try again in a bit."
-    return "💹 <b>Live Prices</b>\n\n" + ticker
+    return "<b>LIVE PRICES</b>\n\n" + ticker
 
 async def handle_message(bot: Bot, message):
     """message is a telegram.Message object. We only ever reply in the same
