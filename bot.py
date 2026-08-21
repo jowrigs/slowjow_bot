@@ -26,6 +26,11 @@ HISTORY_FILE          = "sent_history.json"
 HISTORY_RETENTION_DAYS = 14
 MAX_ARTICLE_AGE_DAYS   = 5   # ignore stale entries still lingering in a feed
 
+# Last-resort cover image when no article has an extractable thumbnail —
+# committed to this repo and served for free via raw.githubusercontent.com,
+# since the repo is public. Guarantees every digest has a header image.
+FALLBACK_COVER_IMAGE = "https://raw.githubusercontent.com/jowrigs/slowjow_bot/main/assets/cover.png"
+
 # ── Fixed Watchlist (always shown at top) ─────────────────────────────────────
 WATCHLIST = [
     {"symbol": "BTC", "id": "bitcoin"},
@@ -73,7 +78,6 @@ CRYPTO_TERMS = [
 ]
 
 WEEKLY_RECAP_TOP_N = 8
-PHOTO_CAPTION_LIMIT = 1024  # Telegram's hard limit for send_photo captions
 
 # ── Retry helpers ─────────────────────────────────────────────────────────────
 def retry_call(fn, *args, retries=3, base_delay=2, label="call", **kwargs):
@@ -253,6 +257,12 @@ def extract_thumbnail(entry: dict) -> str | None:
     for enc in entry.get("enclosures", []):
         if "image" in enc.get("type", "") and enc.get("href"):
             return enc["href"]
+    # Fallback: some feeds only embed an <img> inside the HTML summary/content,
+    # with no structured media tag at all — pull the first one out directly.
+    html = entry.get("summary", "") or ""
+    match = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', html)
+    if match:
+        return match.group(1)
     return None
 
 def fetch_feed(feed_meta: dict) -> list:
@@ -359,14 +369,23 @@ def build_weekly_recap(history_raw: list[dict]) -> str:
         lines.append(f"• <a href='{e['link']}'>{e['title']}</a> — <i>{e.get('source', '')}</i>")
     return "\n".join(lines)
 
-def pick_cover_thumbnail(articles: list[dict]) -> str | None:
+def pick_cover_thumbnail(articles: list[dict]) -> str:
+    """Always returns a usable image URL — YouTube first, then any article
+    thumbnail, then the static fallback banner as a last resort."""
     for a in articles:
         if a["icon"] == "🎥" and a.get("thumbnail"):
             return a["thumbnail"]
     for a in articles:
         if a.get("thumbnail"):
             return a["thumbnail"]
-    return None
+    return FALLBACK_COVER_IMAGE
+
+def build_short_caption() -> str:
+    """A fixed, deliberately short caption for the photo message — small and
+    constant by design, so it can never approach Telegram's 1024-char cap.
+    The full digest always follows as its own text message."""
+    today = datetime.now(pytz.timezone(TIMEZONE)).strftime("%B %d, %Y")
+    return f"🤖🪙 <b>Crypto × AI Daily — {today}</b>"
 
 # ── Send ──────────────────────────────────────────────────────────────────────
 async def send_digest():
@@ -401,35 +420,27 @@ async def send_digest():
         if recap:
             message += "\n" + recap
 
-    thumbnail = pick_cover_thumbnail(articles)
+    thumbnail = pick_cover_thumbnail(articles)  # never None — falls back to a static banner
     bot       = Bot(token=BOT_TOKEN)
 
-    # Proactive routing: Telegram photo captions cap at 1024 chars (text messages at 4096).
-    # Checking first avoids a doomed API call on long digests / weekly-recap days.
-    fits_as_caption = thumbnail and len(message) <= PHOTO_CAPTION_LIMIT
-
-    if fits_as_caption:
-        try:
-            await retry_async_call(
-                bot.send_photo, retries=3, label="send_photo",
-                chat_id=CHAT_ID, photo=thumbnail, caption=message, parse_mode=ParseMode.HTML,
-            )
-            log.info("Digest with cover image sent ✅")
-        except Exception as e:
-            log.warning(f"Photo send failed after retries, falling back to text: {e}")
-            await retry_async_call(
-                bot.send_message, retries=3, label="send_message_fallback",
-                chat_id=CHAT_ID, text=message, parse_mode=ParseMode.HTML, disable_web_page_preview=True,
-            )
-            log.info("Digest (text fallback) sent ✅")
-    else:
-        if thumbnail:
-            log.info(f"Message too long for a photo caption ({len(message)} chars) — sending as text")
+    # Always two messages: a photo with a short, fixed-length caption (can
+    # never exceed Telegram's 1024-char cap, so no length branching needed),
+    # then the full digest as its own text message (4096-char cap, comfortable
+    # even with the Sunday recap appended).
+    try:
         await retry_async_call(
-            bot.send_message, retries=3, label="send_message",
-            chat_id=CHAT_ID, text=message, parse_mode=ParseMode.HTML, disable_web_page_preview=True,
+            bot.send_photo, retries=3, label="send_photo",
+            chat_id=CHAT_ID, photo=thumbnail, caption=build_short_caption(), parse_mode=ParseMode.HTML,
         )
-        log.info("Digest (text only) sent ✅")
+        log.info("Cover image sent ✅")
+    except Exception as e:
+        log.warning(f"Cover image failed after retries, continuing without it: {e}")
+
+    await retry_async_call(
+        bot.send_message, retries=3, label="send_message",
+        chat_id=CHAT_ID, text=message, parse_mode=ParseMode.HTML, disable_web_page_preview=True,
+    )
+    log.info("Digest sent ✅")
 
     # Only persist dedup state after a confirmed successful send
     save_history(history_raw, articles)
