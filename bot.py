@@ -269,7 +269,11 @@ def fetch_feed(feed_meta: dict) -> list:
     """Fetch one RSS feed. Raises on failure — caller retries."""
     url = feed_meta["url"]
     if "reddit.com" in url:
-        req = urllib.request.Request(url, headers={"User-Agent": "AICryptoBot/1.0"})
+        # A specific, identifiable User-Agent (per Reddit's own API etiquette
+        # guidance) gets treated more leniently than a generic/anonymous one.
+        req = urllib.request.Request(
+            url, headers={"User-Agent": "slowjow-crypto-ai-bot/1.0 (+https://github.com/jowrigs/slowjow_bot)"}
+        )
         with urllib.request.urlopen(req, timeout=10) as resp:
             return feedparser.parse(resp.read()).entries
     return feedparser.parse(url).entries
@@ -278,7 +282,16 @@ def fetch_articles(already_sent: set[str]) -> list[dict]:
     articles = []
     for feed_meta in FEEDS:
         try:
-            entries = retry_call(fetch_feed, feed_meta, retries=2, label=feed_meta["name"])
+            # Reddit's rate-limit window runs tens of seconds to minutes —
+            # the default 2s backoff is too impatient to ever clear a 429,
+            # so Reddit feeds get a slower, more patient retry.
+            is_reddit = feed_meta["category"] == "reddit"
+            entries = retry_call(
+                fetch_feed, feed_meta,
+                retries=3 if is_reddit else 2,
+                base_delay=15 if is_reddit else 2,
+                label=feed_meta["name"],
+            )
             for entry in entries[:20]:
                 title   = entry.get("title", "")
                 summary = entry.get("summary", "")
