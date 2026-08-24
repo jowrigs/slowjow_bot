@@ -26,10 +26,6 @@ HISTORY_FILE          = "sent_history.json"
 HISTORY_RETENTION_DAYS = 14
 MAX_ARTICLE_AGE_DAYS   = 5   # ignore stale entries still lingering in a feed
 
-# Last-resort cover image when no article has an extractable thumbnail —
-# committed to this repo and served for free via raw.githubusercontent.com,
-# since the repo is public. Guarantees every digest has a header image.
-FALLBACK_COVER_IMAGE = "https://raw.githubusercontent.com/jowrigs/slowjow_bot/main/cover.png"
 
 # ── Fixed Watchlist (always shown at top) ─────────────────────────────────────
 WATCHLIST = [
@@ -247,24 +243,6 @@ def is_recent(entry: dict, max_age_days: int = MAX_ARTICLE_AGE_DAYS) -> bool:
     except Exception:
         return True
 
-def extract_thumbnail(entry: dict) -> str | None:
-    thumbnails = entry.get("media_thumbnail", [])
-    if thumbnails:
-        return thumbnails[0].get("url")
-    for mc in entry.get("media_content", []):
-        if "image" in mc.get("type", "") and mc.get("url"):
-            return mc["url"]
-    for enc in entry.get("enclosures", []):
-        if "image" in enc.get("type", "") and enc.get("href"):
-            return enc["href"]
-    # Fallback: some feeds only embed an <img> inside the HTML summary/content,
-    # with no structured media tag at all — pull the first one out directly.
-    html = entry.get("summary", "") or ""
-    match = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', html)
-    if match:
-        return match.group(1)
-    return None
-
 def fetch_feed(feed_meta: dict) -> list:
     """Fetch one RSS feed. Raises on failure — caller retries."""
     url = feed_meta["url"]
@@ -307,7 +285,6 @@ def fetch_articles(already_sent: set[str]) -> list[dict]:
                     "category":  feed_meta["category"],
                     "title":     title.strip(),
                     "link":      link,
-                    "thumbnail": extract_thumbnail(entry),
                     "score":     relevance_score(title, summary),
                 })
         except Exception as e:
@@ -322,53 +299,16 @@ def fetch_articles(already_sent: set[str]) -> list[dict]:
     return unique[:MAX_ARTICLES]
 
 # ── Message builder ────────────────────────────────────────────────────────────
-def build_message(articles, watchlist, gainers, losers) -> str:
-    """Full, uncapped digest text (no length limit). Used only as the rare
-    failure-path fallback if sending the photo+caption fails entirely — the
-    normal daily send uses build_caption() instead, see below."""
-    today = datetime.now(pytz.timezone(TIMEZONE)).strftime("%B %d, %Y")
-
-    lines = ["<b>CRYPTO × AI DAILY</b>"]
-    lines.append(f"<i>{today} · Cryptocurrencies &amp; platforms powered by AI</i>\n")
-
-    ticker = format_ticker(watchlist, gainers, losers)
-    if ticker:
-        lines.append(ticker)
-
-    lines.append("\n─────────────────────")
-
-    if not articles:
-        lines.append("\nNo new cryptocurrency-using-AI updates since your last digest. Check back tomorrow!")
-    else:
-        news   = [a for a in articles if a["category"] == "news"]
-        videos = [a for a in articles if a["category"] == "video"]
-        reddit = [a for a in articles if a["category"] == "reddit"]
-
-        if news:
-            lines.append("\n<b>NEWS</b>")
-            for a in news:
-                lines.append(f"• <a href='{a['link']}'>{a['title']}</a> — <i>{a['source']}</i>")
-        if videos:
-            lines.append("\n<b>YOUTUBE</b>")
-            for a in videos:
-                lines.append(f"• <a href='{a['link']}'>{a['title']}</a> — <i>{a['source']}</i>")
-        if reddit:
-            lines.append("\n<b>REDDIT</b>")
-            for a in reddit:
-                lines.append(f"• <a href='{a['link']}'>{a['title']}</a> — <i>{a['source']}</i>")
-
-    lines.append("\n─────────────────────")
-    lines.append("<i>Crypto × AI Daily</i>")
-    return "\n".join(lines)
-
-def build_caption(articles, watchlist, gainers, losers, weekly_recap="", limit=1024) -> str:
-    """The digest as ONE Telegram photo caption, guaranteed to fit within
-    Telegram's 1024-char cap — so the header image and the digest are never
-    sent as separate messages. Content is added in priority order (header,
+def build_digest_text(articles, watchlist, gainers, losers, weekly_recap="", limit=4096) -> str:
+    """The full digest as ONE plain-text message, guaranteed to fit within
+    Telegram's message length cap (4096 chars — there's no image/caption
+    involved, so this is the generous plain-message limit, not the much
+    smaller photo-caption one). Content is added in priority order (header,
     then prices, then articles by relevance, then the weekly recap last)
     and stops the instant the next piece would no longer fit. Whole units
     only — never a truncated headline or a section header with nothing
-    under it."""
+    under it. In practice a normal day's content fits comfortably; this
+    guard only ever engages on pathological cases (huge headline text)."""
     today = datetime.now(pytz.timezone(TIMEZONE)).strftime("%B %d, %Y")
     text = "<b>CRYPTO × AI DAILY</b>\n" + f"<i>{today} · Cryptocurrencies &amp; platforms powered by AI</i>"
 
@@ -449,17 +389,6 @@ def build_weekly_recap(history_raw: list[dict]) -> str:
         lines.append(f"• <a href='{e['link']}'>{e['title']}</a> — <i>{e.get('source', '')}</i>")
     return "\n".join(lines)
 
-def pick_cover_thumbnail(articles: list[dict]) -> str:
-    """Always returns a usable image URL — YouTube first, then any article
-    thumbnail, then the static fallback banner as a last resort."""
-    for a in articles:
-        if a["category"] == "video" and a.get("thumbnail"):
-            return a["thumbnail"]
-    for a in articles:
-        if a.get("thumbnail"):
-            return a["thumbnail"]
-    return FALLBACK_COVER_IMAGE
-
 # ── Send ──────────────────────────────────────────────────────────────────────
 async def send_digest():
     history_raw   = load_history()
@@ -490,32 +419,14 @@ async def send_digest():
             for a in articles
         ])
 
-    caption   = build_caption(articles, watchlist, gainers, losers, weekly_recap=recap)
-    thumbnail = pick_cover_thumbnail(articles)  # never None — falls back to a static banner
-    bot       = Bot(token=BOT_TOKEN)
+    text = build_digest_text(articles, watchlist, gainers, losers, weekly_recap=recap)
+    bot  = Bot(token=BOT_TOKEN)
 
-    # One message, always: the header image with the digest as its caption.
-    # build_caption() guarantees this fits Telegram's 1024-char cap on its
-    # own, so there's no length branching here. If the photo send still
-    # fails for some other reason (e.g. an unreachable image URL), fall back
-    # to a plain text message with the full, uncapped digest so the content
-    # isn't lost — this is a rare failure path, not routine behavior.
-    try:
-        await retry_async_call(
-            bot.send_photo, retries=3, label="send_photo",
-            chat_id=CHAT_ID, photo=thumbnail, caption=caption, parse_mode=ParseMode.HTML,
-        )
-        log.info("Digest with cover image sent ✅")
-    except Exception as e:
-        log.warning(f"Photo send failed after retries, falling back to a text-only message: {e}")
-        fallback_text = build_message(articles, watchlist, gainers, losers)
-        if recap:
-            fallback_text += "\n" + recap
-        await retry_async_call(
-            bot.send_message, retries=3, label="send_message_fallback",
-            chat_id=CHAT_ID, text=fallback_text, parse_mode=ParseMode.HTML, disable_web_page_preview=True,
-        )
-        log.info("Digest (text fallback) sent ✅")
+    await retry_async_call(
+        bot.send_message, retries=3, label="send_message",
+        chat_id=CHAT_ID, text=text, parse_mode=ParseMode.HTML, disable_web_page_preview=True,
+    )
+    log.info("Digest sent ✅")
 
     # Only persist dedup state after a confirmed successful send
     save_history(history_raw, articles)
