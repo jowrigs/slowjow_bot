@@ -258,6 +258,76 @@
       "title": "A $30 Billion AI Fund Implodes, Now the SEC Is Investigating Wall Street\u2019s Role",
       "source": "BeInCrypto",
       "score": 2
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=aMvrXhLubBU",
+      "date": "2026-08-26",
+      "title": "Why Crypto Just Exploded in Both Directions",
+      "source": "Coin Bureau",
+      "score": 6
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1vya5ko/i_benchmarked_autogen_crewai_langgraph_and/",
+      "date": "2026-08-26",
+      "title": "I benchmarked AutoGen, CrewAI, LangGraph, and MetaGPT against my own Agent OS. The \"LLM-as-a-judge\" paradigm is completely broken. Here is the local data.",
+      "source": "r/artificial",
+      "score": 5
+    },
+    {
+      "link": "https://cointelegraph.com/news/dgrid-ai-token-jumps-96-after-launch-as-decentralized-ai-network-goes-live?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-08-26",
+      "title": "DGrid AI token jumps 93% after launch as decentralized AI network goes live",
+      "source": "Cointelegraph",
+      "score": 4
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1vy43mo/i_tested_my_genos_for_llm_agents_it_fixed_prompt/",
+      "date": "2026-08-26",
+      "title": "I tested my GenOS for LLM agents. It fixed prompt bloat and replaced multi-agent swarm latency.",
+      "source": "r/artificial",
+      "score": 4
+    },
+    {
+      "link": "https://cointelegraph.com/magazine/hugging-face-hack-exposes-the-open-weight-ai-cybersecurity-paradox?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-08-26",
+      "title": "Hugging Face hack exposes the open-weight AI cybersecurity paradox",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://www.coindesk.com/policy/2026/08/25/crypto-supercomputer-ponzi-schemer-convicted-faces-up-to-280-years-in-prison",
+      "date": "2026-08-26",
+      "title": "Las Vegas businessman convicted in $24 million 'AI supercomputer' crypto Ponzi scheme",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://decrypt.co/376427/jury-convicts-las-vegas-man-of-24m-ai-crypto-mining-ponzi-scheme",
+      "date": "2026-08-26",
+      "title": "Jury Convicts Las Vegas Man of $24M AI Crypto Mining Ponzi Scheme",
+      "source": "Decrypt",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/anthropic-ipo-30-trillion-tam/",
+      "date": "2026-08-26",
+      "title": "$30 Trillion Dream: Can Anthropic Sell the Biggest IPO Ever?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1vxzavf/exclusive_un_agency_tests_alternative_to_major/",
+      "date": "2026-08-26",
+      "title": "Exclusive: UN agency tests alternative to major cloud giants",
+      "source": "r/CryptoCurrency",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1vy0933/the_un_is_testing_an_alternative_to_big_tech/",
+      "date": "2026-08-26",
+      "title": "The UN Is Testing an Alternative to Big Tech Cloud for Government AI",
+      "source": "r/CryptoCurrency",
+      "score": 2
     }
   ]
 }
