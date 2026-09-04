@@ -1,62 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.coindesk.com/tech/2026/08/19/ai-could-supercharge-crypto-but-there-s-a-catch-fidelity-digital-assets-says",
-      "date": "2026-08-20"
-    },
-    {
-      "link": "https://www.theblock.co/news/business/2026-08-20-openledger-ram-kumar-agentic-payments-crypto-ai-killer-app-412313",
-      "date": "2026-08-20"
-    },
-    {
-      "link": "https://www.theblock.co/news/ecosystems/2026-08-19-ai-agents-todays-billion-dollar-crypto-hacks-look-like-pennies-industry-leaders-412278",
-      "date": "2026-08-20"
-    },
-    {
-      "link": "https://www.theblock.co/news/ecosystems/2026-08-19-bitwise-cio-sees-potential-for-10-100x-blockchain-transaction-growth-as-ai-agents-meet-tokenized-markets-412196",
-      "date": "2026-08-20"
-    },
-    {
-      "link": "https://www.theblock.co/news/markets/2026-08-19-scaramucci-points-to-100000-bitcoin-as-magic-number-for-og-sellers-eyes-ai-blockchain-convergence-412190",
-      "date": "2026-08-20"
-    },
-    {
-      "link": "https://beincrypto.com/memecore-nasdaq-1-billion-treasury-deal/",
-      "date": "2026-08-20"
-    },
-    {
-      "link": "https://beincrypto.com/cftc-compute-derivatives-comment-request/",
-      "date": "2026-08-20"
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=5lg5_SAWheU",
-      "date": "2026-08-20"
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=GHVNkt3c224",
-      "date": "2026-08-20"
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=lalaqiCy4RE",
-      "date": "2026-08-20"
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=KJET0eprLSA",
-      "date": "2026-08-20"
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=9KAAyZ1pX64",
-      "date": "2026-08-20"
-    },
-    {
-      "link": "https://beincrypto.com/fidelity-grayscale-ai-blockchain-agent-risk/",
-      "date": "2026-08-20"
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=Yh-tTK7Rulg",
-      "date": "2026-08-20"
-    },
-    {
       "link": "https://www.reddit.com/r/CryptoCurrency/comments/1vtvhhz/12_crypto_news_recap/",
       "date": "2026-08-21",
       "title": "12 Crypto News Recap",
@@ -627,6 +571,90 @@
       "link": "https://www.reddit.com/r/artificial/comments/1w5f8xc/used_story_prisms_new_agenticpowered_building/",
       "date": "2026-09-03",
       "title": "Used Story Prism\u2019s New Agentic-Powered Building Tool to Connect 178 Sources in Minutes. Found a Disturbing Pattern in Epstein\u2019s Intellectual Network...",
+      "source": "r/artificial",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1w6ua41/what_happens_when_autonomous_agents_start_signing/",
+      "date": "2026-09-04",
+      "title": "What happens when autonomous agents start signing \"treaties\" with nation states (e.g. Iran)...",
+      "source": "r/artificial",
+      "score": 4
+    },
+    {
+      "link": "https://www.reddit.com/r/singularity/comments/1w61u8t/terence_tao_wants_some_mathematical_problems_kept/",
+      "date": "2026-09-04",
+      "title": "Terence Tao wants some mathematical problems kept off limits to AI solvers",
+      "source": "r/singularity",
+      "score": 4
+    },
+    {
+      "link": "https://cointelegraph.com/news/nvidia-buys-hugging-face-12-9-billion-ai-software?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-04",
+      "title": "Nvidia buys Hugging Face for $12.9B in push into AI software",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/ai-regulation-zuckerberg-sanders-showdown/",
+      "date": "2026-09-04",
+      "title": "AI Regulation Showdown: Zuckerberg Wants Speed, Sanders Calls for a Pause",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1w6larg/bitcoin_miner_ditches_site_for_ai_deal_that_could/",
+      "date": "2026-09-04",
+      "title": "Bitcoin Miner Ditches Site for AI Deal That Could Top $1.2 Billion",
+      "source": "r/CryptoCurrency",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1w66hbd/nvidia_buys_hugging_face_for_129b_end_of_neutral/",
+      "date": "2026-09-04",
+      "title": "Nvidia buys Hugging Face for $12.9B - End of neutral AI?",
+      "source": "r/artificial",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1w6tf06/do_we_need_to_start_treating_ai_agent_configs/",
+      "date": "2026-09-04",
+      "title": "Do we need to start treating AI agent configs like code?",
+      "source": "r/artificial",
+      "score": 3
+    },
+    {
+      "link": "https://decrypt.co/377363/bitcoin-mine-ai-deal-1-2-billion",
+      "date": "2026-09-04",
+      "title": "Bitcoin Miner Ditches Site for AI Deal That Could Top $1.2 Billion",
+      "source": "Decrypt",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/adobe-anil-chakravarthy-new-ceo/",
+      "date": "2026-09-04",
+      "title": "Adobe Names Anil Chakravarthy CEO But AI Fears Are Impacting the Stock",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/snowflake-ai-outlook-software-stocks-rally/",
+      "date": "2026-09-04",
+      "title": "Snowflake's AI-Fueled Beat Sparks Software Rally: Will Others Follow?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1w66r3r/sec_regulation_crypto_assets_proposed_rule/",
+      "date": "2026-09-04",
+      "title": "SEC Regulation Crypto Assets: Proposed Rule Explained",
+      "source": "r/CryptoCurrency",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1w6sg44/bitcoin_miner_ditches_site_for_ai_deal_that_could/",
+      "date": "2026-09-04",
+      "title": "Bitcoin Miner Ditches Site for AI Deal That Could Top $1.2 Billion",
       "source": "r/artificial",
       "score": 2
     }
