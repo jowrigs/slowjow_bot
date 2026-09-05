@@ -1,69 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1vtvhhz/12_crypto_news_recap/",
-      "date": "2026-08-21",
-      "title": "12 Crypto News Recap",
-      "source": "r/CryptoCurrency",
-      "score": 4
-    },
-    {
-      "link": "https://cointelegraph.com/news/binance-opens-crypto-trading-to-ai-agents-with-user-set-controls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-21",
-      "title": "Binance opens crypto trading to AI agents with user-set controls",
-      "source": "Cointelegraph",
-      "score": 3
-    },
-    {
-      "link": "https://www.theblock.co/news/web3/2026-08-20-star-wars-vibes-chainlink-mccormick-ai-agents-robots-blockchain-transactions-412327",
-      "date": "2026-08-21",
-      "title": "\u2018Star Wars vibes:\u2019 Chainlink\u2019s McCormick sees AI agents, robots driving blockchain transactions",
-      "source": "The Block",
-      "score": 3
-    },
-    {
-      "link": "https://cointelegraph.com/news/bitcoin-miners-ai-hpc-capex-revenue-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-21",
-      "title": "Bitcoin miners pour billions into AI as capex outpaces revenue 15-to-1",
-      "source": "Cointelegraph",
-      "score": 2
-    },
-    {
-      "link": "https://cointelegraph.com/news/bitdeer-signs-400m-ai-computing-deal-malaysia-facility?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-21",
-      "title": "Bitdeer signs $400M AI cloud computing deal for Malaysia facility",
-      "source": "Cointelegraph",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1vtq3yl/theres_no_way_to_activate_the_cryptocom_card/",
-      "date": "2026-08-21",
-      "title": "There's no way to activate the Crypto.com card.",
-      "source": "r/CryptoCurrency",
-      "score": 2
-    },
-    {
-      "link": "https://decrypt.co/376161/binance-ai-agents-trade-crypto",
-      "date": "2026-08-21",
-      "title": "Binance Opens the Door to AI Agents That Can Trade Crypto for You",
-      "source": "Decrypt",
-      "score": 3
-    },
-    {
-      "link": "https://www.coindesk.com/tech/2026/08/21/coldcard-ships-firmware-after-usd114-million-bitcoin-theft-says-ai-helped-catch-more-bugs",
-      "date": "2026-08-21",
-      "title": "Coldcard ships firmware after $114 million bitcoin theft; says AI helped catch more bugs",
-      "source": "CoinDesk",
-      "score": 2
-    },
-    {
-      "link": "https://www.theblock.co/news/web3/2026-08-21-ai-adoption-in-crypto-crime-trm-412297",
-      "date": "2026-08-21",
-      "title": "AI adoption in crypto crime rose 40% over the past year, TRM Labs says",
-      "source": "The Block",
-      "score": 2
-    },
-    {
       "link": "https://www.youtube.com/watch?v=19SoGLC69zQ",
       "date": "2026-08-23",
       "title": "Why Gold Is STILL Beating Bitcoin in 2026",
@@ -656,6 +593,27 @@
       "date": "2026-09-04",
       "title": "Bitcoin Miner Ditches Site for AI Deal That Could Top $1.2 Billion",
       "source": "r/artificial",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/news/crypto-biz-bitcoin-miners-strategy-strive-bitmine-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-05",
+      "title": "Crypto Biz: AI took a back seat when Bitcoin started climbing",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/bitcoin-miners-ai-power-war/",
+      "date": "2026-09-05",
+      "title": "Will AI Push Bitcoin Mining Out of the Market?",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/chatgpt-recommends-scam-crypto-site/",
+      "date": "2026-09-05",
+      "title": "ChatGPT Recommended a Fake Crypto Site Linked to $2.2 Million Scam",
+      "source": "BeInCrypto",
       "score": 2
     }
   ]
