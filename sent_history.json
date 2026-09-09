@@ -1,83 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.youtube.com/watch?v=LVwo-qduqcQ",
-      "date": "2026-08-24",
-      "title": "Trump Now CONTROLS The Fed",
-      "source": "Coin Bureau",
-      "score": 5
-    },
-    {
-      "link": "https://www.coindesk.com/business/2026/08/23/crypto-s-next-billion-users-might-be-ai-agents-and-they-re-paying-with-stablecoins",
-      "date": "2026-08-24",
-      "title": "Crypto\u2019s next billion users might be AI agents, and they\u2019re paying with stablecoins",
-      "source": "CoinDesk",
-      "score": 4
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1vwn96a/vlad_tenevs_coffee_hour_interview_overview/",
-      "date": "2026-08-24",
-      "title": "Vlad Tenev's Coffee Hour Interview | Overview",
-      "source": "r/CryptoCurrency",
-      "score": 4
-    },
-    {
-      "link": "https://beincrypto.com/ledger-ethereum-app-bug-disclosure-clash/",
-      "date": "2026-08-24",
-      "title": "AI Firm Exposes Ledger Bug, CTO Calls It Fear-Mongering After Quiet Fix",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1vw85a0/napsters_homepage_is_now_entirely_ai_agents_its_a/",
-      "date": "2026-08-24",
-      "title": "Napster's homepage is now entirely AI agents. It's a clean test case for how fast training data goes stale.",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/peter-thiel-13f-ai-power-bet/",
-      "date": "2026-08-24",
-      "title": "Peter Thiel\u2019s Fund Shows the Next Big AI Bet Is Power, Not Chips",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/alibaba-10-billion-share-sale-ai/",
-      "date": "2026-08-24",
-      "title": "Alibaba Launches Record $10 Billion Share Sale to Enter the AI Race",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1vwjbgz/ask_ai_a_question_is_the_wrong_workflow_for/",
-      "date": "2026-08-24",
-      "title": "\"ask AI a question\" is the wrong workflow for research",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1vwwwqf/erc8004_subgraphs_and_x402_the_infrastructure/",
-      "date": "2026-08-25",
-      "title": "ERC-8004, Subgraphs, and x402: The infrastructure stack enabling fully autonomous Web3 AI agents",
-      "source": "r/CryptoCurrency",
-      "score": 4
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1vwzto9/am_i_not_using_ai_enough/",
-      "date": "2026-08-25",
-      "title": "Am I not using AI enough?",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/sec-investigation-banks-ai-fund-collapse/",
-      "date": "2026-08-25",
-      "title": "A $30 Billion AI Fund Implodes, Now the SEC Is Investigating Wall Street\u2019s Role",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
       "link": "https://www.youtube.com/watch?v=aMvrXhLubBU",
       "date": "2026-08-26",
       "title": "Why Crypto Just Exploded in Both Directions",
@@ -649,6 +572,62 @@
       "date": "2026-09-07",
       "title": "Extracted a Reasoning System From Over 100 Books on Modern Political & Economic Theory and Used an Agent to Draft a New Constitution for 21st Century America",
       "source": "r/artificial",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1waxx8i/everyone_asking_how_to_get_rich_off_crypto_needs/",
+      "date": "2026-09-09",
+      "title": "Everyone asking how to get rich off crypto needs to read this first",
+      "source": "r/CryptoCurrency",
+      "score": 4
+    },
+    {
+      "link": "https://cointelegraph.com/news/new-york-plattsburgh-crypto-mining-ai-ban?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-09",
+      "title": "New York town weighs crypto mining and AI data center ban",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1wb00t8/aipass_update_20_v282_v283_the_checker_that/",
+      "date": "2026-09-09",
+      "title": "AIPass Update #20 - v2.8.2 + v2.8.3: the checker that manufactured tests, and the red cross that returned 0",
+      "source": "r/artificial",
+      "score": 3
+    },
+    {
+      "link": "https://www.coindesk.com/markets/2026/09/08/bitcoin-security-risks-grow-as-ai-uncovers-hidden-vulnerabilities",
+      "date": "2026-09-09",
+      "title": "Bitcoin\u2019s complexity paradox: How layer-2 scalers became AI's main target",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/news/ledger-trezor-warn-ai-bug-hunters-attention-farming?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-09",
+      "title": "Ledger CTO urges AI bug hunter responsibility, warns against \u2018attention farming\u2019",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/magnificent-seven-ai-lo-toney/",
+      "date": "2026-09-09",
+      "title": "AI Is Splitting the Magnificent Seven Into Winners and Laggards, Says Lo Toney",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/openai-navier-stokes-proof-dispute/",
+      "date": "2026-09-09",
+      "title": "OpenAI Says It Solved Math's Deepest Problem But Mathematicians Say AI Stole Their Work",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wakknh/what_are_some_best_crypto_strategies/",
+      "date": "2026-09-09",
+      "title": "What are some best crypto Strategies?",
+      "source": "r/CryptoCurrency",
       "score": 2
     }
   ]
