@@ -1,76 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.youtube.com/watch?v=aMvrXhLubBU",
-      "date": "2026-08-26",
-      "title": "Why Crypto Just Exploded in Both Directions",
-      "source": "Coin Bureau",
-      "score": 6
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1vya5ko/i_benchmarked_autogen_crewai_langgraph_and/",
-      "date": "2026-08-26",
-      "title": "I benchmarked AutoGen, CrewAI, LangGraph, and MetaGPT against my own Agent OS. The \"LLM-as-a-judge\" paradigm is completely broken. Here is the local data.",
-      "source": "r/artificial",
-      "score": 5
-    },
-    {
-      "link": "https://cointelegraph.com/news/dgrid-ai-token-jumps-96-after-launch-as-decentralized-ai-network-goes-live?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-26",
-      "title": "DGrid AI token jumps 93% after launch as decentralized AI network goes live",
-      "source": "Cointelegraph",
-      "score": 4
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1vy43mo/i_tested_my_genos_for_llm_agents_it_fixed_prompt/",
-      "date": "2026-08-26",
-      "title": "I tested my GenOS for LLM agents. It fixed prompt bloat and replaced multi-agent swarm latency.",
-      "source": "r/artificial",
-      "score": 4
-    },
-    {
-      "link": "https://cointelegraph.com/magazine/hugging-face-hack-exposes-the-open-weight-ai-cybersecurity-paradox?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-26",
-      "title": "Hugging Face hack exposes the open-weight AI cybersecurity paradox",
-      "source": "Cointelegraph",
-      "score": 3
-    },
-    {
-      "link": "https://www.coindesk.com/policy/2026/08/25/crypto-supercomputer-ponzi-schemer-convicted-faces-up-to-280-years-in-prison",
-      "date": "2026-08-26",
-      "title": "Las Vegas businessman convicted in $24 million 'AI supercomputer' crypto Ponzi scheme",
-      "source": "CoinDesk",
-      "score": 2
-    },
-    {
-      "link": "https://decrypt.co/376427/jury-convicts-las-vegas-man-of-24m-ai-crypto-mining-ponzi-scheme",
-      "date": "2026-08-26",
-      "title": "Jury Convicts Las Vegas Man of $24M AI Crypto Mining Ponzi Scheme",
-      "source": "Decrypt",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/anthropic-ipo-30-trillion-tam/",
-      "date": "2026-08-26",
-      "title": "$30 Trillion Dream: Can Anthropic Sell the Biggest IPO Ever?",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1vxzavf/exclusive_un_agency_tests_alternative_to_major/",
-      "date": "2026-08-26",
-      "title": "Exclusive: UN agency tests alternative to major cloud giants",
-      "source": "r/CryptoCurrency",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1vy0933/the_un_is_testing_an_alternative_to_big_tech/",
-      "date": "2026-08-26",
-      "title": "The UN Is Testing an Alternative to Big Tech Cloud for Government AI",
-      "source": "r/CryptoCurrency",
-      "score": 2
-    },
-    {
       "link": "https://www.youtube.com/watch?v=xe8XiN5Zt4Y",
       "date": "2026-08-27",
       "title": "What Really Caused Ethereum's EPIC Rally",
@@ -627,6 +557,90 @@
       "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wakknh/what_are_some_best_crypto_strategies/",
       "date": "2026-09-09",
       "title": "What are some best crypto Strategies?",
+      "source": "r/CryptoCurrency",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wbvtmo/looking_at_the_shady_background_of_the_vcs_behind/",
+      "date": "2026-09-10",
+      "title": "Looking at the shady background of the VCs behind Zcash (ZEC)",
+      "source": "r/CryptoCurrency",
+      "score": 5
+    },
+    {
+      "link": "https://decrypt.co/377818/ai-math-best-problems-terence-tao",
+      "date": "2026-09-10",
+      "title": "AI Is Solving Math's Best Problems Faster Than They Can Be Replaced, Terence Tao Warns",
+      "source": "Decrypt",
+      "score": 4
+    },
+    {
+      "link": "https://cointelegraph.com/news/trm-labs-doubles-valuation-to-2b-in-series-c-expansion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-10",
+      "title": "TRM Labs doubles valuation to $2B in Series C expansion",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/barclays-raises-sp-500-target-7950/",
+      "date": "2026-09-10",
+      "title": "Barclays Sees 4% Upside for the S&P 500 on Tech Earnings Strength",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wc5u29/a_word_of_caution_with_zcash/",
+      "date": "2026-09-10",
+      "title": "A word of caution with Zcash",
+      "source": "r/CryptoCurrency",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1wbiei0/i_built_this_while_looking_into_how_much_ai_could/",
+      "date": "2026-09-10",
+      "title": "I built this while looking into how much AI could affect different jobs",
+      "source": "r/artificial",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/singularity/comments/1wbma27/we_already_got_agi_a_while_ago_you_didnt_notice/",
+      "date": "2026-09-10",
+      "title": "We already got AGI a while ago, you didn't notice because goal-post shifting has been so subtle.",
+      "source": "r/singularity",
+      "score": 3
+    },
+    {
+      "link": "https://decrypt.co/377761/morning-minute-venices-vvv-token-soars-after-openai-dispute",
+      "date": "2026-09-10",
+      "title": "Morning Minute: Venice\u2019s VVV Token Soars After OpenAI Dispute",
+      "source": "Decrypt",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/cv-summit-2026-blackrock-ripple-binance-zurich/",
+      "date": "2026-09-10",
+      "title": "CV Summit 2026: Global Leaders Convene in Zurich for the Digital Assets, AI conference",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/anthropic-ai-economic-scenarios-2030/",
+      "date": "2026-09-10",
+      "title": "Anthropic Models 3 AI Futures for 2030 After Its Researcher Warns of Extinction",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/anthropic-researcher-jacob-coxon-ai-could-kill-us-all/",
+      "date": "2026-09-10",
+      "title": "Anthropic Researcher Resigned Because AI Could Kill Us All. Can It Really?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wbsy7w/i_backtested_astrology_as_a_crypto_trading/",
+      "date": "2026-09-10",
+      "title": "I backtested astrology as a crypto trading strategy. Jupiter was my portfolio manager, Mercury my risk assessor. It made +3.4% in 45 days, beating every other bot I built :| But there's a catch.",
       "source": "r/CryptoCurrency",
       "score": 2
     }
