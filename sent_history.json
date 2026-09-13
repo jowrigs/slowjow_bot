@@ -1,34 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://cointelegraph.com/news/bullish-provides-usdai-100m-stablecoin-facility-gpu-backed-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-08-29",
-      "title": "Bullish provides USD.AI $100M stablecoin facility for GPU-backed lending",
-      "source": "Cointelegraph",
-      "score": 4
-    },
-    {
-      "link": "https://decrypt.co/376816/bitcoin-miner-iren-shares-drop-ai-costs",
-      "date": "2026-08-29",
-      "title": "Bitcoin Miner IREN Shares Fall as AI Conversion Costs Mount",
-      "source": "Decrypt",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/justin-sun-jing-tian-50-million-ai-breakup/",
-      "date": "2026-08-29",
-      "title": "Justin Sun Says His Girlfriend Asked for $50 Million. AI Told Him No",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1w11vw0/could_better_humanllm_coordination_reduce_token/",
-      "date": "2026-08-29",
-      "title": "Could better human\u2013LLM coordination reduce token costs without changing the model?",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
       "link": "https://www.reddit.com/r/CryptoCurrency/comments/1w20h2i/part_3_analyzing_fairlaunch_proofofwork/",
       "date": "2026-08-30",
       "title": "Part 3: Analyzing Fair-Launch & Proof-of-Work Architecture in the Top 100",
@@ -585,6 +557,27 @@
       "link": "https://beincrypto.com/former-openai-researcher-leopold-aschenbrenner-ai-bet/",
       "date": "2026-09-12",
       "title": "Former OpenAI Researcher Bets on AI Stocks After $35 Billion Wipeout",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.coindesk.com/business/2026/09/12/ditching-bonds-for-bitcoin-how-crypto-can-tackle-the-ai-heavy-portfolio-dilemma",
+      "date": "2026-09-13",
+      "title": "Ditching bonds for bitcoin: How crypto can tackle the AI-heavy portfolio dilemma",
+      "source": "CoinDesk",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/grok-bot-livestream-72-hour-startup/",
+      "date": "2026-09-13",
+      "title": "Can AI Build a Startup in 72 Hours? Elon Musk's Team Will Livestream the Test",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/kimi-k3-moonshot-police-report-distillation/",
+      "date": "2026-09-13",
+      "title": "8 Weeks After Kimi K3 Launch, Moonshot AI is Filing Police Reports",
       "source": "BeInCrypto",
       "score": 2
     }
