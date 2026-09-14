@@ -1,48 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1w20h2i/part_3_analyzing_fairlaunch_proofofwork/",
-      "date": "2026-08-30",
-      "title": "Part 3: Analyzing Fair-Launch & Proof-of-Work Architecture in the Top 100",
-      "source": "r/CryptoCurrency",
-      "score": 8
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=UGpS2jk2EkQ",
-      "date": "2026-08-30",
-      "title": "Zcash Just Proved AI Is NO MATCH For Private Money",
-      "source": "Coin Bureau",
-      "score": 4
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1w1zpu2/part_2_what_is_cryptos_purpose_how_it_solves/",
-      "date": "2026-08-30",
-      "title": "Part 2: What is Crypto's Purpose & How It Solves Real-World Problems",
-      "source": "r/CryptoCurrency",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1w1mijt/how_to_build_agentic_graphs/",
-      "date": "2026-08-30",
-      "title": "How to Build Agentic Graphs",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/openai-musk-war-cursor-cutoff/",
-      "date": "2026-08-30",
-      "title": "Sam Altman and Musk\u2019s War Costs Cursor AI After $60B Deal",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1w22ncp/free_glm_53_flash_and_dsv4_flash_0731_for_a_month/",
-      "date": "2026-08-30",
-      "title": "Free GLM 5.3 Flash and DSV4 Flash 0731 for a month",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
       "link": "https://www.youtube.com/watch?v=VpdRL48WTrU",
       "date": "2026-08-31",
       "title": "The Financial System Is BREAKING. Bitcoin Isn\u2019t.",
@@ -579,6 +537,62 @@
       "date": "2026-09-13",
       "title": "8 Weeks After Kimi K3 Launch, Moonshot AI is Filing Police Reports",
       "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/ethereum-killer-app-wall-street-ai/",
+      "date": "2026-09-14",
+      "title": "Tom Lee Explains Ethereum's Killer Application as ETH Bucks Market Downturn",
+      "source": "BeInCrypto",
+      "score": 4
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1wfjurc/the_very_real_threat_of_a_persistent_botnet/",
+      "date": "2026-09-14",
+      "title": "The Very Real Threat of a Persistent Botnet",
+      "source": "r/artificial",
+      "score": 4
+    },
+    {
+      "link": "https://www.reddit.com/r/singularity/comments/1wfbmc9/the_current_situation_of_agi_being_achieved_and/",
+      "date": "2026-09-14",
+      "title": "The current situation of AGI being achieved and RSI is possibly real.",
+      "source": "r/singularity",
+      "score": 3
+    },
+    {
+      "link": "https://cointelegraph.com/magazine/cryptos-biggest-week-ever-swarm-fears-prompt-ai-slowdown-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-14",
+      "title": "Crypto\u2019s biggest week ever? Swarm fears prompt AI slowdown: Hodler\u2019s Digest",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/ai-slowdown-stock-futures-monday/",
+      "date": "2026-09-14",
+      "title": "Amodei's AI Slowdown Warning Rattles Futures: Will Stocks Open Lower?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/hoskinson-ai-crypto-developer-count-metric/",
+      "date": "2026-09-14",
+      "title": "Charles Hoskinson Says AI Has Destroyed The Old Crypto Growth Metric",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/michael-dell-net-worth-passes-bezos/",
+      "date": "2026-09-14",
+      "title": "Nvidia Gets the AI Hype. Dell Gets the Billionaire Fortune",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wfh9ex/any_real_catalyst/",
+      "date": "2026-09-14",
+      "title": "Any Real Catalyst?",
+      "source": "r/CryptoCurrency",
       "score": 2
     }
   ]
