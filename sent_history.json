@@ -1,20 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://beincrypto.com/apple-ceo-ternus-aapl-stock-slips/",
-      "date": "2026-09-01",
-      "title": "New Apple CEO John Ternus Inherits AI Test as AAPL Stock Slips",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/dell-earnings-options-imply-11-swing/",
-      "date": "2026-09-01",
-      "title": "Dell Earnings Could Swing the Stock 11% This Week, a $52 Straddle Shows",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
       "link": "https://beincrypto.com/grok-4-7-release-spacex-data/",
       "date": "2026-09-02",
       "title": "Elon Musk Says Grok 4.7 Lands in 10 Days and Will Beat Every Model",
@@ -614,6 +600,48 @@
       "date": "2026-09-15",
       "title": "Trump Phones Jensen Huang Live Against AI Slowdown Fears. NVIDIA Stock Reacts",
       "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wha8lq/boto_token_day_7/",
+      "date": "2026-09-16",
+      "title": "boto token day 7",
+      "source": "r/CryptoCurrency",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1whhygo/am_i_the_only_one_who_thinks_recent_ai_doomsday/",
+      "date": "2026-09-16",
+      "title": "Am I the only one who thinks recent AI \"doomsday\" news is just a disguised pitch for more funding?",
+      "source": "r/artificial",
+      "score": 3
+    },
+    {
+      "link": "https://www.theblock.co/news/markets/2026-09-15-bitcoin-price-recovery-unlikely-lure-ai-focused-miners-back-coinshares-says-414844",
+      "date": "2026-09-16",
+      "title": "Bitcoin price recovery unlikely to lure AI-focused miners back, CoinShares says",
+      "source": "The Block",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/zuckerberg-ai-doomsday-talk-response/",
+      "date": "2026-09-16",
+      "title": "Mark Zuckerberg Joins the AI Doomsday Talk. What is He Saying?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/copper-price-drop-ai-demand-supply/",
+      "date": "2026-09-16",
+      "title": "Leading Economist is Bullish on Copper. So Why is the Price Falling?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1wgy635/speed_is_the_wrong_question_safety_is_one_of_the/",
+      "date": "2026-09-16",
+      "title": "Speed is the wrong question, safety is one of the components of performance",
+      "source": "r/artificial",
       "score": 2
     }
   ]
