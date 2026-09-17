@@ -1,41 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://beincrypto.com/grok-4-7-release-spacex-data/",
-      "date": "2026-09-02",
-      "title": "Elon Musk Says Grok 4.7 Lands in 10 Days and Will Beat Every Model",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/stablecoins-cross-border-payments-instant-settlement/",
-      "date": "2026-09-02",
-      "title": "This Stablecoin Shift is Reshaping Global Cross-Border Payments",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://decrypt.co/377032/gal-gadot-defends-ai-use-in-bitcoin-film-work-with-it-or-be-out-of-the-game",
-      "date": "2026-09-02",
-      "title": "Gal Gadot Defends AI Use in Bitcoin Film: 'Work With It or Be Out of the Game'",
-      "source": "Decrypt",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/palo-alto-ceo-ai-security-stack/",
-      "date": "2026-09-02",
-      "title": "Palo Alto CEO Says $5 Trillion AI Buildout Needs New Security Stack",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1w4ckla/creao_ai_actually_saved_my_youtube_workflow/",
-      "date": "2026-09-02",
-      "title": "Creao AI actually saved my YouTube workflow",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
       "link": "https://beincrypto.com/cz-ai-money-rotating-back-crypto/",
       "date": "2026-09-03",
       "title": "CZ Says AI Money Is Rotating Back to Crypto as $840,000 Case Builds for Bitcoin",
@@ -642,6 +607,55 @@
       "date": "2026-09-16",
       "title": "Speed is the wrong question, safety is one of the components of performance",
       "source": "r/artificial",
+      "score": 2
+    },
+    {
+      "link": "https://decrypt.co/378337/uk-backs-money-laundering-crackdown-with-676m-and-500-new-officers",
+      "date": "2026-09-17",
+      "title": "UK Backs Money Laundering Crackdown With $676M and 500 New Officers",
+      "source": "Decrypt",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/news/ai-has-been-a-net-negative-for-crypto-phemex-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-17",
+      "title": "AI has been a \u2018net negative\u2019 for crypto: Phemex CEO",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/justin-sun-ai-math-proofs-openai/",
+      "date": "2026-09-17",
+      "title": "OpenAI Rejects Another Math Prize, This Time Justin Sun's $1 Million",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/apollo-hyperscaler-debt-2008-warning/",
+      "date": "2026-09-17",
+      "title": "The Next Short? Economist Compares Hyperscaler AI Debt Stress to 2008 Housing Collapse",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/anthropic-ipo-underwriter-ai-spending/",
+      "date": "2026-09-17",
+      "title": "Anthropic IPO Underwriter Says AI Spending Won't Slow: Can He Be Neutral?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/us-china-ai-risk-talks-bessent/",
+      "date": "2026-09-17",
+      "title": "US Opens Door to AI Risk Talks With China: Will Anything Change?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/singularity/comments/1wi3sfs/finally_understand_why_the_higherups_are_freaking/",
+      "date": "2026-09-17",
+      "title": "Finally understand why the higher-ups are freaking out",
+      "source": "r/singularity",
       "score": 2
     }
   ]
