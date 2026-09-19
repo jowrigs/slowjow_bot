@@ -1,90 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.reddit.com/r/artificial/comments/1w6ua41/what_happens_when_autonomous_agents_start_signing/",
-      "date": "2026-09-04",
-      "title": "What happens when autonomous agents start signing \"treaties\" with nation states (e.g. Iran)...",
-      "source": "r/artificial",
-      "score": 4
-    },
-    {
-      "link": "https://www.reddit.com/r/singularity/comments/1w61u8t/terence_tao_wants_some_mathematical_problems_kept/",
-      "date": "2026-09-04",
-      "title": "Terence Tao wants some mathematical problems kept off limits to AI solvers",
-      "source": "r/singularity",
-      "score": 4
-    },
-    {
-      "link": "https://cointelegraph.com/news/nvidia-buys-hugging-face-12-9-billion-ai-software?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-04",
-      "title": "Nvidia buys Hugging Face for $12.9B in push into AI software",
-      "source": "Cointelegraph",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/ai-regulation-zuckerberg-sanders-showdown/",
-      "date": "2026-09-04",
-      "title": "AI Regulation Showdown: Zuckerberg Wants Speed, Sanders Calls for a Pause",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1w6larg/bitcoin_miner_ditches_site_for_ai_deal_that_could/",
-      "date": "2026-09-04",
-      "title": "Bitcoin Miner Ditches Site for AI Deal That Could Top $1.2 Billion",
-      "source": "r/CryptoCurrency",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1w66hbd/nvidia_buys_hugging_face_for_129b_end_of_neutral/",
-      "date": "2026-09-04",
-      "title": "Nvidia buys Hugging Face for $12.9B - End of neutral AI?",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1w6tf06/do_we_need_to_start_treating_ai_agent_configs/",
-      "date": "2026-09-04",
-      "title": "Do we need to start treating AI agent configs like code?",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://decrypt.co/377363/bitcoin-mine-ai-deal-1-2-billion",
-      "date": "2026-09-04",
-      "title": "Bitcoin Miner Ditches Site for AI Deal That Could Top $1.2 Billion",
-      "source": "Decrypt",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/adobe-anil-chakravarthy-new-ceo/",
-      "date": "2026-09-04",
-      "title": "Adobe Names Anil Chakravarthy CEO But AI Fears Are Impacting the Stock",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/snowflake-ai-outlook-software-stocks-rally/",
-      "date": "2026-09-04",
-      "title": "Snowflake's AI-Fueled Beat Sparks Software Rally: Will Others Follow?",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1w66r3r/sec_regulation_crypto_assets_proposed_rule/",
-      "date": "2026-09-04",
-      "title": "SEC Regulation Crypto Assets: Proposed Rule Explained",
-      "source": "r/CryptoCurrency",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1w6sg44/bitcoin_miner_ditches_site_for_ai_deal_that_could/",
-      "date": "2026-09-04",
-      "title": "Bitcoin Miner Ditches Site for AI Deal That Could Top $1.2 Billion",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
       "link": "https://cointelegraph.com/news/crypto-biz-bitcoin-miners-strategy-strive-bitmine-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "date": "2026-09-05",
       "title": "Crypto Biz: AI took a back seat when Bitcoin started climbing",
@@ -627,6 +543,34 @@
       "link": "https://beincrypto.com/alex-karp-ai-nationalization-liability/",
       "date": "2026-09-18",
       "title": "Palantir CEO Alex Karp Says Anthropic Wants AI Nationalization to Simply Dodge Lawsuits",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/claude-openai-breach-hacktron-exploit/",
+      "date": "2026-09-19",
+      "title": "Researchers Earned $6,500 Breaching OpenAI With Anthropic's Claude",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/musk-ai-double-us-gdp-2027/",
+      "date": "2026-09-19",
+      "title": "Elon Musk Says AI Will Double US Growth to 4%: Can It?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/ai-actress-tilly-norwood-piers-morgan-glitch/",
+      "date": "2026-09-19",
+      "title": "\u2018World's First AI Actress' Glitches Live on Piers Morgan, Switches to Chinese",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/game-changer-5-zagreb-full-agenda-and-speakers/",
+      "date": "2026-09-19",
+      "title": "Game Changer 5.0 Zagreb: Full Agenda And Speakers Revealed For Oct. 14",
       "source": "BeInCrypto",
       "score": 2
     }
