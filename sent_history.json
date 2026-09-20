@@ -1,27 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://cointelegraph.com/news/crypto-biz-bitcoin-miners-strategy-strive-bitmine-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-05",
-      "title": "Crypto Biz: AI took a back seat when Bitcoin started climbing",
-      "source": "Cointelegraph",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/bitcoin-miners-ai-power-war/",
-      "date": "2026-09-05",
-      "title": "Will AI Push Bitcoin Mining Out of the Market?",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/chatgpt-recommends-scam-crypto-site/",
-      "date": "2026-09-05",
-      "title": "ChatGPT Recommended a Fake Crypto Site Linked to $2.2 Million Scam",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
       "link": "https://www.reddit.com/r/CryptoCurrency/comments/1w899v7/for_developers_xelis_offers_a_huge_playground/",
       "date": "2026-09-06",
       "title": "For developers, XELIS offers a huge playground that is still largely unexplored",
@@ -572,6 +551,55 @@
       "date": "2026-09-19",
       "title": "Game Changer 5.0 Zagreb: Full Agenda And Speakers Revealed For Oct. 14",
       "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/charles-hoskinson-predicts-crypto-will-eat-ai/",
+      "date": "2026-09-20",
+      "title": "Charles Hoskinson Predicts Crypto Will Eat AI: What's His Reasoning?",
+      "source": "BeInCrypto",
+      "score": 4
+    },
+    {
+      "link": "https://www.reddit.com/r/singularity/comments/1wkh5ha/the_hugging_face_hack_wasnt_what_it_was_cracked/",
+      "date": "2026-09-20",
+      "title": "The Hugging Face Hack Wasn\u2019t What It Was Cracked Up to Be - WSJ",
+      "source": "r/singularity",
+      "score": 4
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wkgsig/monad_and_an_ai_agentic_economy/",
+      "date": "2026-09-20",
+      "title": "Monad and an AI agentic economy\u2026",
+      "source": "r/CryptoCurrency",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1wki3h0/anyone_combined_gpt6_astra_higgsfield_ai_in/",
+      "date": "2026-09-20",
+      "title": "Anyone combined GPT-6 Astra + Higgsfield AI in Blender via MCP to save tokens for 3D printing?",
+      "source": "r/artificial",
+      "score": 3
+    },
+    {
+      "link": "https://www.coindesk.com/markets/2026/09/17/we-have-lost-control-crypto-pioneer-warns-ai-could-trigger-systemic-banking-and-infrastructure-shocks",
+      "date": "2026-09-20",
+      "title": "'We have lost control': Crypto pioneer warns AI could trigger systemic banking and infrastructure shocks",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/gemini-hacked-three-companies-security-test/",
+      "date": "2026-09-20",
+      "title": "Google Confirms Gemini Hacked 3 Real Companies in May Safety Test",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1wkk3ak/building_a_cool_project_with_ai_takes_more_than/",
+      "date": "2026-09-20",
+      "title": "Building a cool project with AI takes more than one prompt",
+      "source": "r/artificial",
       "score": 2
     }
   ]
