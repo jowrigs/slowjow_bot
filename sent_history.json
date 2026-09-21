@@ -1,69 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1w899v7/for_developers_xelis_offers_a_huge_playground/",
-      "date": "2026-09-06",
-      "title": "For developers, XELIS offers a huge playground that is still largely unexplored",
-      "source": "r/CryptoCurrency",
-      "score": 7
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=18Za5qNnWoc",
-      "date": "2026-09-06",
-      "title": "How Bitcoin Went From Nerd Money To A GLOBAL Movement",
-      "source": "Coin Bureau",
-      "score": 5
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=0-4jN1C2B5M",
-      "date": "2026-09-06",
-      "title": "Is Robinhood BEATING Ethereum?",
-      "source": "Coin Bureau",
-      "score": 5
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=-80vYO9tXlM",
-      "date": "2026-09-06",
-      "title": "Germany Is Coming For YOUR Bitcoin.",
-      "source": "Coin Bureau",
-      "score": 5
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=UwpEnKg1JHc",
-      "date": "2026-09-06",
-      "title": "Tokenized Stocks Are FINALLY Worth It",
-      "source": "Coin Bureau",
-      "score": 4
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1w7s4l8/why_is_it_so_hard_for_some_to_believe_that_ai_is/",
-      "date": "2026-09-06",
-      "title": "Why is it so hard for some to believe that AI is useful?",
-      "source": "r/artificial",
-      "score": 4
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1w7xjis/ai_agents_can_now_pay_for_things_online_by/",
-      "date": "2026-09-06",
-      "title": "AI agents can now pay for things online by themselves. Here is what can go wrong, and what I built to catch it",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1w8m8rw/what_will_llms_never_do/",
-      "date": "2026-09-06",
-      "title": "What will LLMs never do?",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1w88rti/am_i_the_only_one_thinking_ai_workflows_are_more/",
-      "date": "2026-09-06",
-      "title": "Am I the only one thinking AI workflows are more of a burden than relief?",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
       "link": "https://www.youtube.com/watch?v=IoNozEcWRDA",
       "date": "2026-09-07",
       "title": "Zcash Ran 2,000% But THIS Is Next",
@@ -600,6 +537,48 @@
       "date": "2026-09-20",
       "title": "Building a cool project with AI takes more than one prompt",
       "source": "r/artificial",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wlww2j/fetchai_and_nunet_exploited_for_2_million_by_same/",
+      "date": "2026-09-21",
+      "title": "Fetch.ai and NuNet Exploited for $2 Million by Same Attacker",
+      "source": "r/CryptoCurrency",
+      "score": 5
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1wlgc6q/plugin4shell_and_nist_ir_8587_days_apart_what/",
+      "date": "2026-09-21",
+      "title": "Plugin4Shell and NIST IR 8587, days apart: what actually authorizes an AI agent\u2019s action?",
+      "source": "r/artificial",
+      "score": 4
+    },
+    {
+      "link": "https://cointelegraph.com/news/north-korean-fake-recruiters-infect-30k-devices-steal-107m-in-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-21",
+      "title": "North Korean fake recruiters infect 30K devices, steal $10.7M in crypto",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/ai-chatbots-wrong-financial-advice-study/",
+      "date": "2026-09-21",
+      "title": "Should You Trust a Chatbot With Your Money? A 10,000-Answer Test Has a Verdict",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/jensen-huang-trump-ai-ally-nvidia/",
+      "date": "2026-09-21",
+      "title": "Nvidia's Jensen Huang Beats Zuckerberg, Bezos for Trump's AI Favor as Stock Climbs",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/nvidia-ceo-ai-production-ramp/",
+      "date": "2026-09-21",
+      "title": "AI Bubble Fears Grow, But Nvidia CEO Gives Bulls a New Argument Anyway",
+      "source": "BeInCrypto",
       "score": 2
     }
   ]
