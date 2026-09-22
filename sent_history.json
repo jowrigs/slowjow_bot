@@ -1,41 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.youtube.com/watch?v=IoNozEcWRDA",
-      "date": "2026-09-07",
-      "title": "Zcash Ran 2,000% But THIS Is Next",
-      "source": "Coin Bureau",
-      "score": 5
-    },
-    {
-      "link": "https://www.theblock.co/news/web3/2026-09-06-harmony-sunset-network-413635",
-      "date": "2026-09-07",
-      "title": "Harmony to fully sunset Layer 1, proposes token migration to Ethereum for AI video initiative",
-      "source": "The Block",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/apple-foldable-iphone-ternus-keynote/",
-      "date": "2026-09-07",
-      "title": "Apple's First Foldable iPhone Headlines John Ternus's September 9 Keynote",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1w9e6uv/what_is_the_main_underlying_bias_of_ai_skeptics/",
-      "date": "2026-09-07",
-      "title": "What is the main underlying bias of ai skeptics?",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1w90g2g/extracted_a_reasoning_system_from_over_100_books/",
-      "date": "2026-09-07",
-      "title": "Extracted a Reasoning System From Over 100 Books on Modern Political & Economic Theory and Used an Agent to Draft a New Constitution for 21st Century America",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
       "link": "https://www.reddit.com/r/CryptoCurrency/comments/1waxx8i/everyone_asking_how_to_get_rich_off_crypto_needs/",
       "date": "2026-09-09",
       "title": "Everyone asking how to get rich off crypto needs to read this first",
@@ -579,6 +544,90 @@
       "date": "2026-09-21",
       "title": "AI Bubble Fears Grow, But Nvidia CEO Gives Bulls a New Argument Anyway",
       "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/news/australian-40-year-economic-outlook-recognizes-ai-revolution-omits-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-22",
+      "title": "Australian 40-year economic outlook recognizes \u2018AI revolution,\u2019 omits crypto",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/arthur-hayes-insurers-insolvent-ai-debt/",
+      "date": "2026-09-22",
+      "title": "Arthur Hayes Says US Insurers Are Insolvent Over AI Debt: What if He's Right?",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://decrypt.co/378840/what-is-vvv-privacy-ai-token-up-3000-percent-2026",
+      "date": "2026-09-22",
+      "title": "What Is VVV? The Privacy-Obsessed AI Token That\u2019s Up 3,000% in 2026",
+      "source": "Decrypt",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/meta-stock-muse-ai-surge/",
+      "date": "2026-09-22",
+      "title": "Meta Jumps 11% As Muse Shines and Investors Show an Appetite for Advancing AI",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/abbott-texas-data-center-permits-trump/",
+      "date": "2026-09-22",
+      "title": "Governor Abbott Freezes Texas Data Center Permits as Trump Pushes AI Buildout",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/tim-cook-apple-stock-growth-cramer/",
+      "date": "2026-09-22",
+      "title": "How Tim Cook Set Up Apple Stock's Next Growth Era, Explains Jim Cramer",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/grok-4-7-spacexai-benchmark-ranking/",
+      "date": "2026-09-22",
+      "title": "Elon Musk Said Grok 4.7 Would Exceed Every Model. Did It Deliver?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/trump-xi-summit-best-day/",
+      "date": "2026-09-22",
+      "title": "Trump, Xi Meet on S&P 500's Best Day Since Early August: Will Markets Stay Bullish?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/amd-1-trillion-market-cap-nvidia/",
+      "date": "2026-09-22",
+      "title": "AMD Hits $1 Trillion Market Cap: 3 Reasons Nvidia Sat Out the AI Rally",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/openai-anthropic-testing-deal-karp-ipo/",
+      "date": "2026-09-22",
+      "title": "OpenAI and Anthropic Weighed Mutual AI Tests. Palantir CEO Says One May Never List",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wmfspd/asked_ai_to_find_me_a_profitable_trade_it/",
+      "date": "2026-09-22",
+      "title": "Asked AI to find me a profitable trade. It suggested four felonies for a DOGE pump.",
+      "source": "r/CryptoCurrency",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wmfqd0/i_built_trenchersai_because_the_ai_decided_is_not/",
+      "date": "2026-09-22",
+      "title": "I built TrenchersAI because \u201cthe AI decided\u201d is not a good enough explanation when money is involved",
+      "source": "r/CryptoCurrency",
       "score": 2
     }
   ]
