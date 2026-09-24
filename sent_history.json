@@ -1,62 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1waxx8i/everyone_asking_how_to_get_rich_off_crypto_needs/",
-      "date": "2026-09-09",
-      "title": "Everyone asking how to get rich off crypto needs to read this first",
-      "source": "r/CryptoCurrency",
-      "score": 4
-    },
-    {
-      "link": "https://cointelegraph.com/news/new-york-plattsburgh-crypto-mining-ai-ban?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-09",
-      "title": "New York town weighs crypto mining and AI data center ban",
-      "source": "Cointelegraph",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1wb00t8/aipass_update_20_v282_v283_the_checker_that/",
-      "date": "2026-09-09",
-      "title": "AIPass Update #20 - v2.8.2 + v2.8.3: the checker that manufactured tests, and the red cross that returned 0",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://www.coindesk.com/markets/2026/09/08/bitcoin-security-risks-grow-as-ai-uncovers-hidden-vulnerabilities",
-      "date": "2026-09-09",
-      "title": "Bitcoin\u2019s complexity paradox: How layer-2 scalers became AI's main target",
-      "source": "CoinDesk",
-      "score": 2
-    },
-    {
-      "link": "https://cointelegraph.com/news/ledger-trezor-warn-ai-bug-hunters-attention-farming?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-09",
-      "title": "Ledger CTO urges AI bug hunter responsibility, warns against \u2018attention farming\u2019",
-      "source": "Cointelegraph",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/magnificent-seven-ai-lo-toney/",
-      "date": "2026-09-09",
-      "title": "AI Is Splitting the Magnificent Seven Into Winners and Laggards, Says Lo Toney",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/openai-navier-stokes-proof-dispute/",
-      "date": "2026-09-09",
-      "title": "OpenAI Says It Solved Math's Deepest Problem But Mathematicians Say AI Stole Their Work",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wakknh/what_are_some_best_crypto_strategies/",
-      "date": "2026-09-09",
-      "title": "What are some best crypto Strategies?",
-      "source": "r/CryptoCurrency",
-      "score": 2
-    },
-    {
       "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wbvtmo/looking_at_the_shady_background_of_the_vcs_behind/",
       "date": "2026-09-10",
       "title": "Looking at the shady background of the VCs behind Zcash (ZEC)",
@@ -670,6 +614,62 @@
       "date": "2026-09-23",
       "title": "Adding some perspective of why you can be certain the biggest blow off top in the history of crypto is coming in Q4. Let me explain how to read the current macro situation that took us here.",
       "source": "r/CryptoCurrency",
+      "score": 2
+    },
+    {
+      "link": "https://www.coindesk.com/markets/2026/09/23/ai-agents-will-soon-buy-their-own-computing-power-and-data-using-stablecoins-according-to-blackrock",
+      "date": "2026-09-24",
+      "title": "BlackRock says AI agents could drive stablecoin and crypto adoption",
+      "source": "CoinDesk",
+      "score": 4
+    },
+    {
+      "link": "https://decrypt.co/379070/blackrock-ai-agents-crypto-next-demand-wave",
+      "date": "2026-09-24",
+      "title": "BlackRock: AI Agents Could Drive Crypto's Next Demand Wave",
+      "source": "Decrypt",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/openai-agent-hacks-australia-medicare/",
+      "date": "2026-09-24",
+      "title": "OpenAI Agent Hacked a Government Website and Just Reignited AI Safety Fears",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://www.coindesk.com/tech/2026/09/24/a-week-of-ai-coding-cut-a-quantum-safe-bitcoin-transaction-estimate-from-usd320-to-usd66",
+      "date": "2026-09-24",
+      "title": "A week of AI coding cut a quantum-safe bitcoin transaction estimate from $320 to $66",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/news/esma-to-focus-eu-wide-supervision-on-ai-and-tokenization-from-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-24",
+      "title": "ESMA to prioritize EU-wide AI and tokenization supervision in 2027",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/ai-bubble-bursts-mit-explains/",
+      "date": "2026-09-24",
+      "title": "MIT Explains What Happens When the Trillion-Dollar AI Bubble Bursts",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/nvidia-huang-openai-anthropic-shut-labs/",
+      "date": "2026-09-24",
+      "title": "Nvidia CEO Jensen Huang Gives OpenAI and Anthropic an Ultimatum",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1wnzfol/uipaths_daniel_dines_to_harry_stebbings_its_not/",
+      "date": "2026-09-24",
+      "title": "UiPath's Daniel Dines to Harry Stebbings: \"It's not about verifiability \u2014 it's who defines the frame\"",
+      "source": "r/artificial",
       "score": 2
     }
   ]
