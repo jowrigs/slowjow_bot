@@ -1,90 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wbvtmo/looking_at_the_shady_background_of_the_vcs_behind/",
-      "date": "2026-09-10",
-      "title": "Looking at the shady background of the VCs behind Zcash (ZEC)",
-      "source": "r/CryptoCurrency",
-      "score": 5
-    },
-    {
-      "link": "https://decrypt.co/377818/ai-math-best-problems-terence-tao",
-      "date": "2026-09-10",
-      "title": "AI Is Solving Math's Best Problems Faster Than They Can Be Replaced, Terence Tao Warns",
-      "source": "Decrypt",
-      "score": 4
-    },
-    {
-      "link": "https://cointelegraph.com/news/trm-labs-doubles-valuation-to-2b-in-series-c-expansion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-10",
-      "title": "TRM Labs doubles valuation to $2B in Series C expansion",
-      "source": "Cointelegraph",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/barclays-raises-sp-500-target-7950/",
-      "date": "2026-09-10",
-      "title": "Barclays Sees 4% Upside for the S&P 500 on Tech Earnings Strength",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wc5u29/a_word_of_caution_with_zcash/",
-      "date": "2026-09-10",
-      "title": "A word of caution with Zcash",
-      "source": "r/CryptoCurrency",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1wbiei0/i_built_this_while_looking_into_how_much_ai_could/",
-      "date": "2026-09-10",
-      "title": "I built this while looking into how much AI could affect different jobs",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/singularity/comments/1wbma27/we_already_got_agi_a_while_ago_you_didnt_notice/",
-      "date": "2026-09-10",
-      "title": "We already got AGI a while ago, you didn't notice because goal-post shifting has been so subtle.",
-      "source": "r/singularity",
-      "score": 3
-    },
-    {
-      "link": "https://decrypt.co/377761/morning-minute-venices-vvv-token-soars-after-openai-dispute",
-      "date": "2026-09-10",
-      "title": "Morning Minute: Venice\u2019s VVV Token Soars After OpenAI Dispute",
-      "source": "Decrypt",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/cv-summit-2026-blackrock-ripple-binance-zurich/",
-      "date": "2026-09-10",
-      "title": "CV Summit 2026: Global Leaders Convene in Zurich for the Digital Assets, AI conference",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/anthropic-ai-economic-scenarios-2030/",
-      "date": "2026-09-10",
-      "title": "Anthropic Models 3 AI Futures for 2030 After Its Researcher Warns of Extinction",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/anthropic-researcher-jacob-coxon-ai-could-kill-us-all/",
-      "date": "2026-09-10",
-      "title": "Anthropic Researcher Resigned Because AI Could Kill Us All. Can It Really?",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wbsy7w/i_backtested_astrology_as_a_crypto_trading/",
-      "date": "2026-09-10",
-      "title": "I backtested astrology as a crypto trading strategy. Jupiter was my portfolio manager, Mercury my risk assessor. It made +3.4% in 45 days, beating every other bot I built :| But there's a catch.",
-      "source": "r/CryptoCurrency",
-      "score": 2
-    },
-    {
       "link": "https://decrypt.co/377925/ai-agents-slash-cost-quantum-attack-bitcoin",
       "date": "2026-09-11",
       "title": "AI Agents Just Slashed the Cost of a Quantum Attack on Bitcoin",
@@ -670,6 +586,34 @@
       "date": "2026-09-24",
       "title": "UiPath's Daniel Dines to Harry Stebbings: \"It's not about verifiability \u2014 it's who defines the frame\"",
       "source": "r/artificial",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/news/block-brings-bitcoin-lightning-payments-to-x402-for-ai-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-25",
+      "title": "Block brings Bitcoin Lightning payments to x402 for AI agents",
+      "source": "Cointelegraph",
+      "score": 4
+    },
+    {
+      "link": "https://decrypt.co/379113/elliptic-crypto-wallet-ai-pulse",
+      "date": "2026-09-25",
+      "title": "Elliptic Wants Every Cop to Read a Crypto Wallet in Seconds\u2014With AI",
+      "source": "Decrypt",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1wplpto/stefano_ermon_autoregressive_inference_is/",
+      "date": "2026-09-25",
+      "title": "Stefano Ermon: Autoregressive inference is sequential and memory-bound. Diffusion is built to map to GPUs \u2014 that's why it wins.",
+      "source": "r/artificial",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/sp500-flat-close-market-breadth/",
+      "date": "2026-09-25",
+      "title": "S&P 500's Recent Flat Close Hides a Brutal Split Underneath",
+      "source": "BeInCrypto",
       "score": 2
     }
   ]
