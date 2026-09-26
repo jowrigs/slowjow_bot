@@ -1,34 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://decrypt.co/377925/ai-agents-slash-cost-quantum-attack-bitcoin",
-      "date": "2026-09-11",
-      "title": "AI Agents Just Slashed the Cost of a Quantum Attack on Bitcoin",
-      "source": "Decrypt",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/iren-stock-falls-ai-execution-doubts/",
-      "date": "2026-09-11",
-      "title": "IREN Stock Falls as Investors Demand Proof Over AI Promises",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/dan-ives-software-stocks-buy-signal/",
-      "date": "2026-09-11",
-      "title": "Dan Ives Says Software Stocks Just Got Their Clearest Buy Signal Yet",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/anthropic-biological-weapons-report-claude/",
-      "date": "2026-09-11",
-      "title": "Anthropic Says AI Aided Possible Biological Weapons Research",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
       "link": "https://decrypt.co/377948/morning-minute-ai-agents-cut-btc-quantum-attack-benchmark-by-86",
       "date": "2026-09-12",
       "title": "Morning Minute: AI Agents Cut BTC Quantum Attack Benchmark by 86%",
@@ -614,6 +586,41 @@
       "date": "2026-09-25",
       "title": "S&P 500's Recent Flat Close Hides a Brutal Split Underneath",
       "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/trump-ai-meeting-tech-ceos-slowdown/",
+      "date": "2026-09-26",
+      "title": "Trump Might Meet AI CEOs on September 29. Nobody Knows Who's Invited Yet",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1wq2q49/i_gave_my_ai_agent_one_harmless_permission_it/",
+      "date": "2026-09-26",
+      "title": "I gave my AI agent one harmless permission. It became a backdoor for everyone",
+      "source": "r/artificial",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/anthropic-pentagon-blacklist-court-ruling/",
+      "date": "2026-09-26",
+      "title": "Pentagon Wins Major Court Battle Against Anthropic",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/jpmorgan-meta-muse-price-target-920/",
+      "date": "2026-09-26",
+      "title": "Can Meta Stock Keep Climbing After a 30% Month? JPMorgan Raises Its Price Target",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1wpsp64/can_ai_detect_a_data_problem_before_it_causes_a/",
+      "date": "2026-09-26",
+      "title": "Can AI detect a data problem before it causes a production failure?",
+      "source": "r/artificial",
       "score": 2
     }
   ]
