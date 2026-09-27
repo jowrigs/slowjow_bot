@@ -1,34 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://decrypt.co/377948/morning-minute-ai-agents-cut-btc-quantum-attack-benchmark-by-86",
-      "date": "2026-09-12",
-      "title": "Morning Minute: AI Agents Cut BTC Quantum Attack Benchmark by 86%",
-      "source": "Decrypt",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/bridgewater-cio-ai-warning-killing-people/",
-      "date": "2026-09-12",
-      "title": "You Won't See AI Regulated Until It Kills Someone, Warns Bridgewater's CIO",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1wdlf3k/do_output_compression_tools_still_matter_with/",
-      "date": "2026-09-12",
-      "title": "Do output compression tools still matter with newer AI models?",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/former-openai-researcher-leopold-aschenbrenner-ai-bet/",
-      "date": "2026-09-12",
-      "title": "Former OpenAI Researcher Bets on AI Stocks After $35 Billion Wipeout",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
       "link": "https://www.coindesk.com/business/2026/09/12/ditching-bonds-for-bitcoin-how-crypto-can-tackle-the-ai-heavy-portfolio-dilemma",
       "date": "2026-09-13",
       "title": "Ditching bonds for bitcoin: How crypto can tackle the AI-heavy portfolio dilemma",
@@ -621,6 +593,34 @@
       "date": "2026-09-26",
       "title": "Can AI detect a data problem before it causes a production failure?",
       "source": "r/artificial",
+      "score": 2
+    },
+    {
+      "link": "https://decrypt.co/379378/ai-agents-racing-make-quantum-safe-bitcoin-cheap",
+      "date": "2026-09-27",
+      "title": "AI Agents Are Racing to Make Quantum-Safe Bitcoin Cheap\u2014And Winning",
+      "source": "Decrypt",
+      "score": 4
+    },
+    {
+      "link": "https://www.reddit.com/r/singularity/comments/1wqne7g/press_x_to_doubt_eval_i_told_14_ai_models_its/",
+      "date": "2026-09-27",
+      "title": "Press X to Doubt Eval: I told 14 AI models it's September 2026 and showed them 20 things that actually happened this year without websearch. On average they gave reality a 36% chance.",
+      "source": "r/singularity",
+      "score": 4
+    },
+    {
+      "link": "https://beincrypto.com/us-china-cold-war-ai-hotline/",
+      "date": "2026-09-27",
+      "title": "US and China Open Cold War-Style AI Hotline",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wqqqul/coinbase_responded_to_my_complaint_about_ai_slop/",
+      "date": "2026-09-27",
+      "title": "Coinbase responded to my complaint about AI slop with more AI slop",
+      "source": "r/CryptoCurrency",
       "score": 2
     }
   ]
