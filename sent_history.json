@@ -1,27 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.coindesk.com/business/2026/09/12/ditching-bonds-for-bitcoin-how-crypto-can-tackle-the-ai-heavy-portfolio-dilemma",
-      "date": "2026-09-13",
-      "title": "Ditching bonds for bitcoin: How crypto can tackle the AI-heavy portfolio dilemma",
-      "source": "CoinDesk",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/grok-bot-livestream-72-hour-startup/",
-      "date": "2026-09-13",
-      "title": "Can AI Build a Startup in 72 Hours? Elon Musk's Team Will Livestream the Test",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/kimi-k3-moonshot-police-report-distillation/",
-      "date": "2026-09-13",
-      "title": "8 Weeks After Kimi K3 Launch, Moonshot AI is Filing Police Reports",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
       "link": "https://beincrypto.com/ethereum-killer-app-wall-street-ai/",
       "date": "2026-09-14",
       "title": "Tom Lee Explains Ethereum's Killer Application as ETH Bucks Market Downturn",
@@ -621,6 +600,34 @@
       "date": "2026-09-27",
       "title": "Coinbase responded to my complaint about AI slop with more AI slop",
       "source": "r/CryptoCurrency",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/news/australia-summons-openai-anthropic-chiefs-to-senate-inquiry-on-health-data-hack-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-28",
+      "title": "Australia asks OpenAI, Anthropic chiefs to Senate inquiry on rogue hack: Report",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/news/riot-platforms-repays-200m-credit-facility-releases-collateral?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-28",
+      "title": "Riot Platforms repays $200M credit facility, releases collateral",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/boom-bust-signal-ai-funding-gap/",
+      "date": "2026-09-28",
+      "title": "The Boom-Bust Signal From Dot-Com and Housing Is Back, This Time for AI",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/china-industrial-profits-ai-boom-gap/",
+      "date": "2026-09-28",
+      "title": "China's Industrial Profits Slow to 4.2% Showing The AI Boom Left It Behind",
+      "source": "BeInCrypto",
       "score": 2
     }
   ]
