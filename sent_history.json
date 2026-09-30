@@ -1,48 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wfvqjd/do_you_think_the_same_that_happened_to_the_nft/",
-      "date": "2026-09-15",
-      "title": "Do you think the same that happened to the NFT bubble will happen to AI stocks once the bubble pops ?",
-      "source": "r/CryptoCurrency",
-      "score": 4
-    },
-    {
-      "link": "https://www.reddit.com/r/singularity/comments/1wgibs1/ai_2027_author_daniel_kokotajlo_tweets_message/",
-      "date": "2026-09-15",
-      "title": "AI 2027 author Daniel Kokotajlo tweets message from current OpenAI capabilities researcher, Dan Selsam, on AI risk. Gives some insight into why some AI researchers may be freaking out: increasing model situational awareness during alignment evaluations",
-      "source": "r/singularity",
-      "score": 4
-    },
-    {
-      "link": "https://decrypt.co/378157/bitcoin-climbs-ai-slowdown-nvidia-chip-stocks",
-      "date": "2026-09-15",
-      "title": "Bitcoin Climbs as AI Slowdown Calls Sink Nvidia, Intel and Other Chip Stocks",
-      "source": "Decrypt",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/ai-fears-defensive-stocks-rally/",
-      "date": "2026-09-15",
-      "title": "AI Safety Fears Drive Investors to J&J, Costco, and CrowdStrike for Cybersecurity",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/trump-altman-secret-meeting-ai-hoax/",
-      "date": "2026-09-15",
-      "title": "Trump Calls AI Fears a Hoax, So Why Did He Meet Altman in Secret?",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/trump-jensen-huang-call-nvidia-falls/",
-      "date": "2026-09-15",
-      "title": "Trump Phones Jensen Huang Live Against AI Slowdown Fears. NVIDIA Stock Reacts",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
       "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wha8lq/boto_token_day_7/",
       "date": "2026-09-16",
       "title": "boto token day 7",
@@ -599,6 +557,48 @@
       "link": "https://beincrypto.com/goldman-sachs-5-percent-bonds-ai/",
       "date": "2026-09-29",
       "title": "Goldman Sachs Explains Why Not to Buy the 5%+ Bonds and Rather Stick to AI",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.coindesk.com/markets/2026/09/30/robinhood-is-giving-customers-an-ai-agent-that-trades-for-them-plus-10x-crypto-bets",
+      "date": "2026-09-30",
+      "title": "Robinhood announces AI agent for customers that trades around the clock, plus 10x crypto perps",
+      "source": "CoinDesk",
+      "score": 3
+    },
+    {
+      "link": "https://cointelegraph.com/news/cryptocom-ai-agent-stealth-mode-nearly-8-months-after-super-bowl-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-09-30",
+      "title": "Crypto.com AI agent still in \u2018stealth mode\u2019 nearly 8 months after Super Bowl debut",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/chinese-ai-agents-deception-escape-risk/",
+      "date": "2026-09-30",
+      "title": "Would You Trust an AI Agent to Bid for You? Chinese Models Lied in 88% of Tests",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://decrypt.co/379612/bitwise-launches-first-spot-near-etf",
+      "date": "2026-09-30",
+      "title": "Bitwise Launches First US Spot Near ETF After Token Nearly Triples Since August",
+      "source": "Decrypt",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/jim-cramer-ai-trade-narrative-problem/",
+      "date": "2026-09-30",
+      "title": "Jim Cramer Says the AI Trade's Real Threat Is the Story, Not the Spend",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/trump-ai-accord-tech-giants-safety/",
+      "date": "2026-09-30",
+      "title": "Trump Leaves AI Safety to Tech Giants: Inside the New AI Accord",
       "source": "BeInCrypto",
       "score": 2
     }
