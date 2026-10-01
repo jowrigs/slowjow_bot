@@ -1,48 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wha8lq/boto_token_day_7/",
-      "date": "2026-09-16",
-      "title": "boto token day 7",
-      "source": "r/CryptoCurrency",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1whhygo/am_i_the_only_one_who_thinks_recent_ai_doomsday/",
-      "date": "2026-09-16",
-      "title": "Am I the only one who thinks recent AI \"doomsday\" news is just a disguised pitch for more funding?",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://www.theblock.co/news/markets/2026-09-15-bitcoin-price-recovery-unlikely-lure-ai-focused-miners-back-coinshares-says-414844",
-      "date": "2026-09-16",
-      "title": "Bitcoin price recovery unlikely to lure AI-focused miners back, CoinShares says",
-      "source": "The Block",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/zuckerberg-ai-doomsday-talk-response/",
-      "date": "2026-09-16",
-      "title": "Mark Zuckerberg Joins the AI Doomsday Talk. What is He Saying?",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/copper-price-drop-ai-demand-supply/",
-      "date": "2026-09-16",
-      "title": "Leading Economist is Bullish on Copper. So Why is the Price Falling?",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1wgy635/speed_is_the_wrong_question_safety_is_one_of_the/",
-      "date": "2026-09-16",
-      "title": "Speed is the wrong question, safety is one of the components of performance",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
       "link": "https://decrypt.co/378337/uk-backs-money-laundering-crackdown-with-676m-and-500-new-officers",
       "date": "2026-09-17",
       "title": "UK Backs Money Laundering Crackdown With $676M and 500 New Officers",
@@ -600,6 +558,69 @@
       "date": "2026-09-30",
       "title": "Trump Leaves AI Safety to Tech Giants: Inside the New AI Accord",
       "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.coindesk.com/coindesk-indices/2026/09/30/crypto-long-and-short-what-will-the-ai-agents-run-on",
+      "date": "2026-10-01",
+      "title": "Crypto Long & Short: What will the AI agents run on?",
+      "source": "CoinDesk",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/nvidia-ceo-trump-ai-accord-typo-viral/",
+      "date": "2026-10-01",
+      "title": "Trump Makes Hilarious Mistake in White House AI Announcement",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wu5gsp/identity_authority_action_independent_record_ai/",
+      "date": "2026-10-01",
+      "title": "Identity \u2192 Authority \u2192 Action \u2192 Independent Record. AI agents are about to run the economy. Prove they were allowed to. DOVU built on Hedera.",
+      "source": "r/CryptoCurrency",
+      "score": 3
+    },
+    {
+      "link": "https://decrypt.co/379645/morning-minute-robinhood-adds-perps-weekend-stocks-and-ai-traders",
+      "date": "2026-10-01",
+      "title": "Morning Minute: Robinhood Adds Perps, Weekend Stocks, and AI Traders",
+      "source": "Decrypt",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/morgan-stanley-biotech-breakthroughs-investment-opportunities/",
+      "date": "2026-10-01",
+      "title": "Morgan Stanley Names 3 Biotech Breakthroughs That Offer Investment Opportunities",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/ai-oversight-trump-accord-musk-homework/",
+      "date": "2026-10-01",
+      "title": "Musk Says AI Giants Are \u201cGrading Each Other's Homework\u201d: Enough AI Oversight?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wub9br/robinhood_just_rolled_out_trading_agents_to/",
+      "date": "2026-10-01",
+      "title": "Robinhood just rolled out trading agents to millions\u2014and investing may never be the same",
+      "source": "r/CryptoCurrency",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1wu7f9w/we_stresstested_americagov_on_night_one_with_15/",
+      "date": "2026-10-01",
+      "title": "We stress-tested America.gov on night one with 15 questions from our own reporting. 9 correct, 6 incomplete, zero hallucinations.",
+      "source": "r/artificial",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1wuah8c/i_built_a_devicefirst_deterministic_architecture/",
+      "date": "2026-10-01",
+      "title": "I built a device-first deterministic architecture layer for frontier LLMs and published my research. Looking for people to run a narrow test and report back results.",
+      "source": "r/artificial",
       "score": 2
     }
   ]
