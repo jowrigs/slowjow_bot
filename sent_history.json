@@ -1,55 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://decrypt.co/378337/uk-backs-money-laundering-crackdown-with-676m-and-500-new-officers",
-      "date": "2026-09-17",
-      "title": "UK Backs Money Laundering Crackdown With $676M and 500 New Officers",
-      "source": "Decrypt",
-      "score": 2
-    },
-    {
-      "link": "https://cointelegraph.com/news/ai-has-been-a-net-negative-for-crypto-phemex-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-17",
-      "title": "AI has been a \u2018net negative\u2019 for crypto: Phemex CEO",
-      "source": "Cointelegraph",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/justin-sun-ai-math-proofs-openai/",
-      "date": "2026-09-17",
-      "title": "OpenAI Rejects Another Math Prize, This Time Justin Sun's $1 Million",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/apollo-hyperscaler-debt-2008-warning/",
-      "date": "2026-09-17",
-      "title": "The Next Short? Economist Compares Hyperscaler AI Debt Stress to 2008 Housing Collapse",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/anthropic-ipo-underwriter-ai-spending/",
-      "date": "2026-09-17",
-      "title": "Anthropic IPO Underwriter Says AI Spending Won't Slow: Can He Be Neutral?",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/us-china-ai-risk-talks-bessent/",
-      "date": "2026-09-17",
-      "title": "US Opens Door to AI Risk Talks With China: Will Anything Change?",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/singularity/comments/1wi3sfs/finally_understand_why_the_higherups_are_freaking/",
-      "date": "2026-09-17",
-      "title": "Finally understand why the higher-ups are freaking out",
-      "source": "r/singularity",
-      "score": 2
-    },
-    {
       "link": "https://decrypt.co/378544/ethereum-vitalik-buterin-ai-crypto-security",
       "date": "2026-09-18",
       "title": "Ethereum Founder Vitalik Buterin Says AI Won\u2019t Doom Crypto Security",
@@ -620,6 +571,48 @@
       "link": "https://www.reddit.com/r/artificial/comments/1wuah8c/i_built_a_devicefirst_deterministic_architecture/",
       "date": "2026-10-01",
       "title": "I built a device-first deterministic architecture layer for frontier LLMs and published my research. Looking for people to run a narrow test and report back results.",
+      "source": "r/artificial",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wv4pye/most_token_launches_are_built_to_dump_on_retail/",
+      "date": "2026-10-02",
+      "title": "Most token launches are built to dump on retail. Wire Network's LCO puts 100% of its raise into liquidity and 0% into the company, so I'm in on this one",
+      "source": "r/CryptoCurrency",
+      "score": 5
+    },
+    {
+      "link": "https://www.theblock.co/news/defi/2026-10-01-ethereum-foundation-launches-zkapi-417504",
+      "date": "2026-10-02",
+      "title": "Ethereum Foundation launches zkAPI to let users pay for AI models without revealing identity",
+      "source": "The Block",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/ai-agents-web-traffic-infrastructure-stocks/",
+      "date": "2026-10-02",
+      "title": "AI Agents and Bots Now Generate Most Web Traffic as Infrastructure Stocks Rally",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://cointelegraph.com/news/ethereum-zkapi-private-api-payments-mainnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-02",
+      "title": "Ethereum\u2019s zkAPI brings privacy-preserving API payments to mainnet",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1wuunei/the_most_trustworthy_ai_answer_might_be_the_one/",
+      "date": "2026-10-02",
+      "title": "The most trustworthy AI answer might be the one that slows down",
+      "source": "r/artificial",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1wuzu7o/greg_brockman_how_to_build_ai_software_that/",
+      "date": "2026-10-02",
+      "title": "Greg Brockman: How to build AI software that doesn't die when the next model ships",
       "source": "r/artificial",
       "score": 2
     }
