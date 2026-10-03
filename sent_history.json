@@ -1,27 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://decrypt.co/378544/ethereum-vitalik-buterin-ai-crypto-security",
-      "date": "2026-09-18",
-      "title": "Ethereum Founder Vitalik Buterin Says AI Won\u2019t Doom Crypto Security",
-      "source": "Decrypt",
-      "score": 3
-    },
-    {
-      "link": "https://www.theblock.co/news/ecosystems/2026-09-17-not-enough-block-space-avalanche-treasury-ceo-says-ai-agents-crunch-blockchain-capacity-415397",
-      "date": "2026-09-18",
-      "title": "\u2018There\u2019s not enough blockspace\u2019: Avalanche Treasury CEO says AI agents could crunch L1 blockchain capacity",
-      "source": "The Block",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/alex-karp-ai-nationalization-liability/",
-      "date": "2026-09-18",
-      "title": "Palantir CEO Alex Karp Says Anthropic Wants AI Nationalization to Simply Dodge Lawsuits",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
       "link": "https://beincrypto.com/claude-openai-breach-hacktron-exploit/",
       "date": "2026-09-19",
       "title": "Researchers Earned $6,500 Breaching OpenAI With Anthropic's Claude",
@@ -614,6 +593,20 @@
       "date": "2026-10-02",
       "title": "Greg Brockman: How to build AI software that doesn't die when the next model ships",
       "source": "r/artificial",
+      "score": 2
+    },
+    {
+      "link": "https://decrypt.co/379991/ethereum-now-pay-for-ai-without-revealing-identity",
+      "date": "2026-10-03",
+      "title": "Ethereum Now Lets You Pay for AI Without Revealing Who You Are",
+      "source": "Decrypt",
+      "score": 4
+    },
+    {
+      "link": "https://www.coindesk.com/news-analysis/2026/10/02/possible-next-crypto-czar-jay-clayton-began-crypto-s-regulation-by-enforcement-at-sec",
+      "date": "2026-10-03",
+      "title": "Trump\u2019s potential AI czar, Jay Clayton, helped pioneer the SEC\u2019s crypto crackdown",
+      "source": "CoinDesk",
       "score": 2
     }
   ]
