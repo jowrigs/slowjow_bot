@@ -1,34 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://beincrypto.com/claude-openai-breach-hacktron-exploit/",
-      "date": "2026-09-19",
-      "title": "Researchers Earned $6,500 Breaching OpenAI With Anthropic's Claude",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/musk-ai-double-us-gdp-2027/",
-      "date": "2026-09-19",
-      "title": "Elon Musk Says AI Will Double US Growth to 4%: Can It?",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/ai-actress-tilly-norwood-piers-morgan-glitch/",
-      "date": "2026-09-19",
-      "title": "\u2018World's First AI Actress' Glitches Live on Piers Morgan, Switches to Chinese",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/game-changer-5-zagreb-full-agenda-and-speakers/",
-      "date": "2026-09-19",
-      "title": "Game Changer 5.0 Zagreb: Full Agenda And Speakers Revealed For Oct. 14",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
       "link": "https://beincrypto.com/charles-hoskinson-predicts-crypto-will-eat-ai/",
       "date": "2026-09-20",
       "title": "Charles Hoskinson Predicts Crypto Will Eat AI: What's His Reasoning?",
@@ -607,6 +579,41 @@
       "date": "2026-10-03",
       "title": "Trump\u2019s potential AI czar, Jay Clayton, helped pioneer the SEC\u2019s crypto crackdown",
       "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://decrypt.co/380005/chainalysis-ai-87m-bitget-hack-north-korea",
+      "date": "2026-10-04",
+      "title": "Chainalysis Used AI to Trace the $387M Bitget Hack Back to North Korea",
+      "source": "Decrypt",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wwx501/heres_why_the_elites_are_rushing_cbdcs/",
+      "date": "2026-10-04",
+      "title": "Here\u2019s Why the Elites are Rushing CBDCs",
+      "source": "r/CryptoCurrency",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/data-center-backlash-spreads-globally/",
+      "date": "2026-10-04",
+      "title": "America's Data Center Revolt Finds New Recruits in Australia, Europe and Asia",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/jay-clayton-ai-czar-ripple-lawsuit/",
+      "date": "2026-10-04",
+      "title": "Man Behind the XRP Lawsuit Could Get a White House AI Role Soon",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1wwn7vg/where_does_ai_cost_really_come_from/",
+      "date": "2026-10-04",
+      "title": "Where does AI cost really come from?",
+      "source": "r/artificial",
       "score": 2
     }
   ]
