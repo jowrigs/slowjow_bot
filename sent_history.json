@@ -1,55 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://beincrypto.com/charles-hoskinson-predicts-crypto-will-eat-ai/",
-      "date": "2026-09-20",
-      "title": "Charles Hoskinson Predicts Crypto Will Eat AI: What's His Reasoning?",
-      "source": "BeInCrypto",
-      "score": 4
-    },
-    {
-      "link": "https://www.reddit.com/r/singularity/comments/1wkh5ha/the_hugging_face_hack_wasnt_what_it_was_cracked/",
-      "date": "2026-09-20",
-      "title": "The Hugging Face Hack Wasn\u2019t What It Was Cracked Up to Be - WSJ",
-      "source": "r/singularity",
-      "score": 4
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wkgsig/monad_and_an_ai_agentic_economy/",
-      "date": "2026-09-20",
-      "title": "Monad and an AI agentic economy\u2026",
-      "source": "r/CryptoCurrency",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1wki3h0/anyone_combined_gpt6_astra_higgsfield_ai_in/",
-      "date": "2026-09-20",
-      "title": "Anyone combined GPT-6 Astra + Higgsfield AI in Blender via MCP to save tokens for 3D printing?",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://www.coindesk.com/markets/2026/09/17/we-have-lost-control-crypto-pioneer-warns-ai-could-trigger-systemic-banking-and-infrastructure-shocks",
-      "date": "2026-09-20",
-      "title": "'We have lost control': Crypto pioneer warns AI could trigger systemic banking and infrastructure shocks",
-      "source": "CoinDesk",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/gemini-hacked-three-companies-security-test/",
-      "date": "2026-09-20",
-      "title": "Google Confirms Gemini Hacked 3 Real Companies in May Safety Test",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1wkk3ak/building_a_cool_project_with_ai_takes_more_than/",
-      "date": "2026-09-20",
-      "title": "Building a cool project with AI takes more than one prompt",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
       "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wlww2j/fetchai_and_nunet_exploited_for_2_million_by_same/",
       "date": "2026-09-21",
       "title": "Fetch.ai and NuNet Exploited for $2 Million by Same Attacker",
@@ -614,6 +565,76 @@
       "date": "2026-10-04",
       "title": "Where does AI cost really come from?",
       "source": "r/artificial",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/mark-cuban-ai-jobs-warning/",
+      "date": "2026-10-05",
+      "title": "Who Gets the 750,000 New AI Jobs? Mark Cuban Has a Warning",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/gary-marcus-ai-agents-recall/",
+      "date": "2026-10-05",
+      "title": "Gary Marcus Likens AI Agents to Cars With Cardboard Brakes as FTC Probe Opens",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wy07j2/ai_is_coming_for_wall_streets_lazy_money_bitcoin/",
+      "date": "2026-10-05",
+      "title": "AI Is Coming for Wall Street\u2019s Lazy Money. Bitcoin Could Be the Biggest Winner.",
+      "source": "r/CryptoCurrency",
+      "score": 3
+    },
+    {
+      "link": "https://decrypt.co/380019/trump-jay-clayton-sec-ripple-ai-push-super-intelligence",
+      "date": "2026-10-05",
+      "title": "Trump Taps Jay Clayton, the SEC Chair Who Sued Ripple, to Lead AI Push",
+      "source": "Decrypt",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/magazine/former-sec-boss-made-ai-czar-bitcoin-may-hit-600k-this-cycle-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-05",
+      "title": "Former SEC boss made AI Czar, Bitcoin may hit $600K this cycle: Hodler\u2019s Digest",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/ai-capex-miss-stock-market-risk/",
+      "date": "2026-10-05",
+      "title": "Schwab Strategist Warns a Single Mega-Cap Capex Miss Could Disrupt the AI-Driven Market",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/egan-jones-ai-disruption-services-housing/",
+      "date": "2026-10-05",
+      "title": "Egan-Jones Maps Where AI Disruption Hits First: Services, Venture Capital, Housing",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/agent-orchestration-wall-street-ai-jobs/",
+      "date": "2026-10-05",
+      "title": "What Is the Most In-Demand AI Skill on Wall Street?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/spacexai-name-change-90-days-spacexsi/",
+      "date": "2026-10-05",
+      "title": "Musk Wants to Rename SpaceXAI Again. The AI Brand Barely Survived a Quarter",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wxzom6/so_saylors_strc_financial_instrument_is_ai_slop/",
+      "date": "2026-10-05",
+      "title": "So Saylor's STRC Financial Instrument is AI SLOP\ud83d\ude80",
+      "source": "r/CryptoCurrency",
       "score": 2
     }
   ]
