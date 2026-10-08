@@ -1,48 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://cointelegraph.com/news/ai-potential-to-drive-crypto-demand-remains-underappreciated-blackrock?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-23",
-      "title": "AI potential to drive crypto demand remains \u2018underappreciated\u2019: BlackRock",
-      "source": "Cointelegraph",
-      "score": 4
-    },
-    {
-      "link": "https://beincrypto.com/ai-slowdown-openai-anthropic-new-models/",
-      "date": "2026-09-23",
-      "title": "Is the AI Slowdown Over? OpenAI and Anthropic Just Launched New Models",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1wn4spv/cognitions_engineers_dont_write_code_by_hand/",
-      "date": "2026-09-23",
-      "title": "Cognition's Engineers Don't Write Code By Hand Anymore \u2014 And They're the Only Ones Grading Whether That's Working",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1wnr7m1/cheap_per_token_expensive_per_task_ai_model/",
-      "date": "2026-09-23",
-      "title": "Cheap per token, expensive per task: AI model pricing vs. performance [OC]",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/bessent-ai-czar-treasury-chief/",
-      "date": "2026-09-23",
-      "title": "Bessent Could Add AI Czar Title to Treasury Chief: Conflict Ahead?",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wn71mo/adding_some_perspective_of_why_you_can_be_certain/",
-      "date": "2026-09-23",
-      "title": "Adding some perspective of why you can be certain the biggest blow off top in the history of crypto is coming in Q4. Let me explain how to read the current macro situation that took us here.",
-      "source": "r/CryptoCurrency",
-      "score": 2
-    },
-    {
       "link": "https://www.coindesk.com/markets/2026/09/23/ai-agents-will-soon-buy-their-own-computing-power-and-data-using-stablecoins-according-to-blackrock",
       "date": "2026-09-24",
       "title": "BlackRock says AI agents could drive stablecoin and crypto adoption",
@@ -629,6 +587,90 @@
       "title": "Strip Out AI and the S&P 500 Looks Very Different, Goldman Index Shows",
       "source": "BeInCrypto",
       "score": 2
+    },
+    {
+      "link": "https://www.youtube.com/shorts/wKdVaauNBqM",
+      "date": "2026-10-08",
+      "title": "Is Bitcoin\u2019s Rally Already Over?",
+      "source": "Coin Bureau",
+      "score": 6
+    },
+    {
+      "link": "https://www.youtube.com/shorts/duynn3HcZJ0",
+      "date": "2026-10-08",
+      "title": "Why did 80% of 2017 crypto projects go to zero?",
+      "source": "Coin Bureau",
+      "score": 6
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=SfQHC-Jmc68",
+      "date": "2026-10-08",
+      "title": "Cash Will NEVER Be Safe Again",
+      "source": "Coin Bureau",
+      "score": 5
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=Aec35qI8cwg",
+      "date": "2026-10-08",
+      "title": "AI Prices COLLAPSED. Big Tech Isn't Ready",
+      "source": "Coin Bureau",
+      "score": 5
+    },
+    {
+      "link": "https://cointelegraph.com/news/sui-offchain-network-hits-40m-tps-in-live-ai-focused-stress-test?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-08",
+      "title": "Sui tunnels hit 40.6M TPS in live AI agent test",
+      "source": "Cointelegraph",
+      "score": 4
+    },
+    {
+      "link": "https://www.theblock.co/news/defi/2026-10-08-vitalik-buterin-warns-hasty-wallet-migrations-418007",
+      "date": "2026-10-08",
+      "title": "\u2018Don\u2019t rush anything\u2019: Vitalik Buterin warns against hasty wallet migrations amid growing AI threats",
+      "source": "The Block",
+      "score": 4
+    },
+    {
+      "link": "https://decrypt.co/380363/ethereum-researcher-ai-break-encryption-before-quantum",
+      "date": "2026-10-08",
+      "title": "Ethereum Researcher Says AI May Break Encryption Before Quantum Does",
+      "source": "Decrypt",
+      "score": 3
+    },
+    {
+      "link": "https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-08",
+      "title": "Vitalik Buterin backs crypto \u2018bunker mode\u2019 amid rapid AI math advances",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/vitalik-buterin-ai-cryptography-warning/",
+      "date": "2026-10-08",
+      "title": "AI Could Damage Crypto in 2 Years, Warns Ethereum's Vitalik Buterin",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1x0gpxr/fields_medalist_terence_tao_reposts_statement/",
+      "date": "2026-10-08",
+      "title": "Fields Medalist Terence Tao reposts statement from the Association for Human Mathematics urging mathematicians to stop working with OpenAI for continuing to solve open math problems against their recommendations",
+      "source": "r/artificial",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1x099rd/why_artificial_intelligence_is_impossible_ussr/",
+      "date": "2026-10-08",
+      "title": "Why Artificial Intelligence Is Impossible [USSR Perspective on AI from 1984]",
+      "source": "r/artificial",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1x0i6qj/built_a_generative_live_canvas_that_can_livepatch/",
+      "date": "2026-10-08",
+      "title": "Built a generative live canvas that can Livepatch your environment and automatically saves over 5000 states that you can go back to anyone of them at anytime which also does sketches, 3D models, 3D Games, Documents, Adverts, Web/Mobile Applications, Presentations, Websites and more via one canvas",
+      "source": "r/artificial",
+      "score": 3
     }
   ]
 }
