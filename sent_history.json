@@ -1,62 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.coindesk.com/markets/2026/09/23/ai-agents-will-soon-buy-their-own-computing-power-and-data-using-stablecoins-according-to-blackrock",
-      "date": "2026-09-24",
-      "title": "BlackRock says AI agents could drive stablecoin and crypto adoption",
-      "source": "CoinDesk",
-      "score": 4
-    },
-    {
-      "link": "https://decrypt.co/379070/blackrock-ai-agents-crypto-next-demand-wave",
-      "date": "2026-09-24",
-      "title": "BlackRock: AI Agents Could Drive Crypto's Next Demand Wave",
-      "source": "Decrypt",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/openai-agent-hacks-australia-medicare/",
-      "date": "2026-09-24",
-      "title": "OpenAI Agent Hacked a Government Website and Just Reignited AI Safety Fears",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://www.coindesk.com/tech/2026/09/24/a-week-of-ai-coding-cut-a-quantum-safe-bitcoin-transaction-estimate-from-usd320-to-usd66",
-      "date": "2026-09-24",
-      "title": "A week of AI coding cut a quantum-safe bitcoin transaction estimate from $320 to $66",
-      "source": "CoinDesk",
-      "score": 2
-    },
-    {
-      "link": "https://cointelegraph.com/news/esma-to-focus-eu-wide-supervision-on-ai-and-tokenization-from-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-24",
-      "title": "ESMA to prioritize EU-wide AI and tokenization supervision in 2027",
-      "source": "Cointelegraph",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/ai-bubble-bursts-mit-explains/",
-      "date": "2026-09-24",
-      "title": "MIT Explains What Happens When the Trillion-Dollar AI Bubble Bursts",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/nvidia-huang-openai-anthropic-shut-labs/",
-      "date": "2026-09-24",
-      "title": "Nvidia CEO Jensen Huang Gives OpenAI and Anthropic an Ultimatum",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1wnzfol/uipaths_daniel_dines_to_harry_stebbings_its_not/",
-      "date": "2026-09-24",
-      "title": "UiPath's Daniel Dines to Harry Stebbings: \"It's not about verifiability \u2014 it's who defines the frame\"",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
       "link": "https://cointelegraph.com/news/block-brings-bitcoin-lightning-payments-to-x402-for-ai-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "date": "2026-09-25",
       "title": "Block brings Bitcoin Lightning payments to x402 for AI agents",
@@ -671,6 +615,90 @@
       "title": "Built a generative live canvas that can Livepatch your environment and automatically saves over 5000 states that you can go back to anyone of them at anytime which also does sketches, 3D models, 3D Games, Documents, Adverts, Web/Mobile Applications, Presentations, Websites and more via one canvas",
       "source": "r/artificial",
       "score": 3
+    },
+    {
+      "link": "https://www.youtube.com/shorts/5jbpI7okJr8",
+      "date": "2026-10-09",
+      "title": "How to Move Millions Unnoticed",
+      "source": "Coin Bureau",
+      "score": 6
+    },
+    {
+      "link": "https://www.youtube.com/shorts/x7I0FuWhYJo",
+      "date": "2026-10-09",
+      "title": "BITCOIN: Five rejections at $87,000. $83,000 is breaking. Here's what's next. \ud83d\udc40",
+      "source": "Coin Bureau",
+      "score": 6
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=A60P7_AMOkM",
+      "date": "2026-10-09",
+      "title": "The World's Biggest Markets Are BREAKING",
+      "source": "Coin Bureau",
+      "score": 4
+    },
+    {
+      "link": "https://www.reddit.com/r/singularity/comments/1x17p8r/put_yourself_in_the_shoes_of_a_mathematician/",
+      "date": "2026-10-09",
+      "title": "Put yourself in the shoes of a mathematician",
+      "source": "r/singularity",
+      "score": 4
+    },
+    {
+      "link": "https://decrypt.co/380503/ai-break-crypto-encryption-ethereum-vitalik-buterin-bunker-mode",
+      "date": "2026-10-09",
+      "title": "Will AI Break Crypto Encryption? Ethereum\u2019s Vitalik Buterin Weighs In on 'Bunker Mode' Shift",
+      "source": "Decrypt",
+      "score": 3
+    },
+    {
+      "link": "https://decrypt.co/380402/morning-minute-ethereum-researcher-says-ai-may-break-crypto-encryption-before-quantum",
+      "date": "2026-10-09",
+      "title": "Morning Minute: AI Could Break Crypto Encryption Before Quantum, Says Ethereum Researcher",
+      "source": "Decrypt",
+      "score": 3
+    },
+    {
+      "link": "https://cointelegraph.com/news/crypto-projects-apply-for-anthropics-new-frontier-ai-security-scanner?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-09",
+      "title": "Crypto projects apply for Anthropic\u2019s new frontier AI security scanner",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/singularity/comments/1x0pn9j/after_ai_models_started_knocking_down/",
+      "date": "2026-10-09",
+      "title": "After AI models started knocking down longstanding math problems, insider Scott Aaronson says labs are now quietly testing whether their latest internal models can break major cryptographic protocols",
+      "source": "r/singularity",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/singularity/comments/1x0q7vz/fields_medalist_terence_tao_quips_about_llms/",
+      "date": "2026-10-09",
+      "title": "Fields Medalist Terence Tao quips about LLMs: \u201cOpenAI Releases Final Ten Minutes of 500 Previously Unreleased Films, Ushering in New Era of Movie Watching\u201d, plus addt\u2019l notes",
+      "source": "r/singularity",
+      "score": 3
+    },
+    {
+      "link": "https://www.coindesk.com/markets/2026/10/08/over-6-million-bitcoin-sit-behind-exposed-public-keys-as-ai-warnings-mount",
+      "date": "2026-10-09",
+      "title": "Over 6 million bitcoin sit behind exposed public keys as AI warnings mount",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://www.coindesk.com/tech/2026/10/08/bitcoin-and-ether-holders-urged-to-prepare-bunker-mode-against-possible-ai-attacks",
+      "date": "2026-10-09",
+      "title": "Bitcoin and ether holders urged to enter \u2018bunker mode\u2019 against possible AI attacks",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://decrypt.co/380522/solana-defi-firms-orca-and-loopscale-merge-under-new-formation-brand",
+      "date": "2026-10-09",
+      "title": "Solana DeFi Firms Orca and Loopscale Merge Under New Formation Brand",
+      "source": "Decrypt",
+      "score": 2
     }
   ]
 }
