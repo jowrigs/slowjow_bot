@@ -1,34 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://cointelegraph.com/news/block-brings-bitcoin-lightning-payments-to-x402-for-ai-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-25",
-      "title": "Block brings Bitcoin Lightning payments to x402 for AI agents",
-      "source": "Cointelegraph",
-      "score": 4
-    },
-    {
-      "link": "https://decrypt.co/379113/elliptic-crypto-wallet-ai-pulse",
-      "date": "2026-09-25",
-      "title": "Elliptic Wants Every Cop to Read a Crypto Wallet in Seconds\u2014With AI",
-      "source": "Decrypt",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1wplpto/stefano_ermon_autoregressive_inference_is/",
-      "date": "2026-09-25",
-      "title": "Stefano Ermon: Autoregressive inference is sequential and memory-bound. Diffusion is built to map to GPUs \u2014 that's why it wins.",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/sp500-flat-close-market-breadth/",
-      "date": "2026-09-25",
-      "title": "S&P 500's Recent Flat Close Hides a Brutal Split Underneath",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
       "link": "https://beincrypto.com/trump-ai-meeting-tech-ceos-slowdown/",
       "date": "2026-09-26",
       "title": "Trump Might Meet AI CEOs on September 29. Nobody Knows Who's Invited Yet",
@@ -698,6 +670,83 @@
       "date": "2026-10-09",
       "title": "Solana DeFi Firms Orca and Loopscale Merge Under New Formation Brand",
       "source": "Decrypt",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/news/dragonfly-bunker-mode-doomerism-proactive-blockchain-measures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-10",
+      "title": "Dragonfly partner rejects \u2018bunker mode\u2019 doomerism, calls for proactive blockchain measures",
+      "source": "Cointelegraph",
+      "score": 4
+    },
+    {
+      "link": "https://beincrypto.com/justin-sun-ai-agents-crypto-biggest-use-case/",
+      "date": "2026-10-10",
+      "title": "Justin Sun Shares AI and Quantum Vision at TOKEN2049 Singapore and Blockworks DAS Asia",
+      "source": "BeInCrypto",
+      "score": 4
+    },
+    {
+      "link": "https://www.reddit.com/r/singularity/comments/1x22o0b/a_mathematicians_perspective/",
+      "date": "2026-10-10",
+      "title": "A mathematician's perspective",
+      "source": "r/singularity",
+      "score": 4
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1x1swge/should_anyone_be_able_to_see_what_institutions/",
+      "date": "2026-10-10",
+      "title": "Should anyone be able to see what institutions trade onchain?",
+      "source": "r/CryptoCurrency",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1x242id/litcoin_15_years_full_time/",
+      "date": "2026-10-10",
+      "title": "Litcoin 15 Years Full Time",
+      "source": "r/CryptoCurrency",
+      "score": 3
+    },
+    {
+      "link": "https://www.coindesk.com/markets/2026/10/09/mara-transfers-usd81-1-million-in-bitcoin-to-galaxy-digital-as-strategy-pivots-to-ai",
+      "date": "2026-10-10",
+      "title": "MARA transfers $81.1 million in bitcoin to Galaxy Digital as strategy pivots to AI",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/news/trump-administration-quantum-computing-ai-6-billion-science-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-10",
+      "title": "Trump administration outlines quantum, AI initiatives in $6B science push",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://www.theblock.co/news/business/2026-10-08-bitwise-ceo-dogecoin-etf-failure-hunter-horsley-418070",
+      "date": "2026-10-10",
+      "title": "Bitwise CEO says \u2018tragic\u2019 Dogecoin ETF failure shows gap between ETF buyers and crypto-app users",
+      "source": "The Block",
+      "score": 2
+    },
+    {
+      "link": "https://www.theblock.co/news/defi/2026-10-08-crypto-industry-split-over-justin-drakes-ai-warning-418021",
+      "date": "2026-10-10",
+      "title": "Crypto industry split over Justin Drake\u2019s AI warning",
+      "source": "The Block",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/openai-anthropic-rehearse-ai-disaster-scenario/",
+      "date": "2026-10-10",
+      "title": "OpenAI and Anthropic Rehearse an AI Disaster: Will It Hit Your Bank?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/singularity/comments/1x1xhjz/mathematics_is_not_about_proofs_but_about/",
+      "date": "2026-10-10",
+      "title": "\u201cmathematics is not about proofs, but about understanding\u201c",
+      "source": "r/singularity",
       "score": 2
     }
   ]
