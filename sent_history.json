@@ -1,41 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://beincrypto.com/trump-ai-meeting-tech-ceos-slowdown/",
-      "date": "2026-09-26",
-      "title": "Trump Might Meet AI CEOs on September 29. Nobody Knows Who's Invited Yet",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1wq2q49/i_gave_my_ai_agent_one_harmless_permission_it/",
-      "date": "2026-09-26",
-      "title": "I gave my AI agent one harmless permission. It became a backdoor for everyone",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/anthropic-pentagon-blacklist-court-ruling/",
-      "date": "2026-09-26",
-      "title": "Pentagon Wins Major Court Battle Against Anthropic",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/jpmorgan-meta-muse-price-target-920/",
-      "date": "2026-09-26",
-      "title": "Can Meta Stock Keep Climbing After a 30% Month? JPMorgan Raises Its Price Target",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1wpsp64/can_ai_detect_a_data_problem_before_it_causes_a/",
-      "date": "2026-09-26",
-      "title": "Can AI detect a data problem before it causes a production failure?",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
       "link": "https://decrypt.co/379378/ai-agents-racing-make-quantum-safe-bitcoin-cheap",
       "date": "2026-09-27",
       "title": "AI Agents Are Racing to Make Quantum-Safe Bitcoin Cheap\u2014And Winning",
@@ -747,6 +712,34 @@
       "date": "2026-10-10",
       "title": "\u201cmathematics is not about proofs, but about understanding\u201c",
       "source": "r/singularity",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/xrp-ledger-security-flaws-ai-threat/",
+      "date": "2026-10-11",
+      "title": "Is XRP Ledger Vulnerable to AI? Avalanche Founder Warns of Hidden Flaws",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/moderna-stock-best-sp-500-2026/",
+      "date": "2026-10-11",
+      "title": "A COVID Vaccine Stock on the S&P 500 Is Up 600% This Year",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/lone-pine-hedge-fund-ai-stocks-loss/",
+      "date": "2026-10-11",
+      "title": "One of Wall Street's Best Hedge Funds Just Blew a 44% Gain Because of AI Bets",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/claude-ai-fake-murder-tip-police/",
+      "date": "2026-10-11",
+      "title": "Claude AI Sent Police a Fake Murder Tip",
+      "source": "BeInCrypto",
       "score": 2
     }
   ]
