@@ -1,34 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://decrypt.co/379378/ai-agents-racing-make-quantum-safe-bitcoin-cheap",
-      "date": "2026-09-27",
-      "title": "AI Agents Are Racing to Make Quantum-Safe Bitcoin Cheap\u2014And Winning",
-      "source": "Decrypt",
-      "score": 4
-    },
-    {
-      "link": "https://www.reddit.com/r/singularity/comments/1wqne7g/press_x_to_doubt_eval_i_told_14_ai_models_its/",
-      "date": "2026-09-27",
-      "title": "Press X to Doubt Eval: I told 14 AI models it's September 2026 and showed them 20 things that actually happened this year without websearch. On average they gave reality a 36% chance.",
-      "source": "r/singularity",
-      "score": 4
-    },
-    {
-      "link": "https://beincrypto.com/us-china-cold-war-ai-hotline/",
-      "date": "2026-09-27",
-      "title": "US and China Open Cold War-Style AI Hotline",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wqqqul/coinbase_responded_to_my_complaint_about_ai_slop/",
-      "date": "2026-09-27",
-      "title": "Coinbase responded to my complaint about AI slop with more AI slop",
-      "source": "r/CryptoCurrency",
-      "score": 2
-    },
-    {
       "link": "https://cointelegraph.com/news/australia-summons-openai-anthropic-chiefs-to-senate-inquiry-on-health-data-hack-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "date": "2026-09-28",
       "title": "Australia asks OpenAI, Anthropic chiefs to Senate inquiry on rogue hack: Report",
@@ -740,6 +712,62 @@
       "date": "2026-10-11",
       "title": "Claude AI Sent Police a Fake Murder Tip",
       "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=xCAot75ztsg",
+      "date": "2026-10-12",
+      "title": "How Blockchain ACTUALLY Works (Zero Jargon)",
+      "source": "Coin Bureau",
+      "score": 8
+    },
+    {
+      "link": "https://www.youtube.com/shorts/9Ot4XehlDHo",
+      "date": "2026-10-12",
+      "title": "RICHEST PEOPLE SECRETLY MOVING THEIR MONEY?",
+      "source": "Coin Bureau",
+      "score": 6
+    },
+    {
+      "link": "https://www.youtube.com/shorts/aLqEUgStBpE",
+      "date": "2026-10-12",
+      "title": "Why Chinese AI is Hoarding Billions?",
+      "source": "Coin Bureau",
+      "score": 5
+    },
+    {
+      "link": "https://www.youtube.com/shorts/KhCNSdrH3p0",
+      "date": "2026-10-12",
+      "title": "IS CHINA BREAKING THE AI TRADE??",
+      "source": "Coin Bureau",
+      "score": 5
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=aCi0rDFIZsU",
+      "date": "2026-10-12",
+      "title": "Oracle's $500 Billion AI Bet Is BREAKING",
+      "source": "Coin Bureau",
+      "score": 4
+    },
+    {
+      "link": "https://www.reddit.com/r/singularity/comments/1x34apa/terrence_tao_is_actually_calling_for/",
+      "date": "2026-10-12",
+      "title": "Terrence Tao is actually calling for significantly more compute hours of AI mathematics, yet is being mis portrayed in pro AI subs.",
+      "source": "r/singularity",
+      "score": 4
+    },
+    {
+      "link": "https://cointelegraph.com/news/fsb-stablecoin-ai-risks-g20-finance-meeting?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-12",
+      "title": "Global watchdog flags stablecoin risks, AI threats ahead of G20",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=qI70PXRIUI8",
+      "date": "2026-10-12",
+      "title": "Thursday, Plague update",
+      "source": "Andrei Jikh",
       "score": 2
     }
   ]
