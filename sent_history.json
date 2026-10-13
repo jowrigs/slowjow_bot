@@ -1,34 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://cointelegraph.com/news/australia-summons-openai-anthropic-chiefs-to-senate-inquiry-on-health-data-hack-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-28",
-      "title": "Australia asks OpenAI, Anthropic chiefs to Senate inquiry on rogue hack: Report",
-      "source": "Cointelegraph",
-      "score": 2
-    },
-    {
-      "link": "https://cointelegraph.com/news/riot-platforms-repays-200m-credit-facility-releases-collateral?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-28",
-      "title": "Riot Platforms repays $200M credit facility, releases collateral",
-      "source": "Cointelegraph",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/boom-bust-signal-ai-funding-gap/",
-      "date": "2026-09-28",
-      "title": "The Boom-Bust Signal From Dot-Com and Housing Is Back, This Time for AI",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/china-industrial-profits-ai-boom-gap/",
-      "date": "2026-09-28",
-      "title": "China's Industrial Profits Slow to 4.2% Showing The AI Boom Left It Behind",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
       "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wt2pw5/if_an_ai_can_spend_crypto_its_refusal_log_matters/",
       "date": "2026-09-29",
       "title": "if an AI can spend crypto, its refusal log matters more than its win rate",
@@ -768,6 +740,55 @@
       "date": "2026-10-12",
       "title": "Thursday, Plague update",
       "source": "Andrei Jikh",
+      "score": 2
+    },
+    {
+      "link": "https://www.youtube.com/shorts/B1bXnk5-LgU",
+      "date": "2026-10-13",
+      "title": "Can crypto fix AI's power problem?",
+      "source": "Coin Bureau",
+      "score": 3
+    },
+    {
+      "link": "https://www.coindesk.com/business/2026/10/12/swi-raises-usd894-million-to-repurpose-former-ftx-bitcoin-miner-genesis-digital-to-ai",
+      "date": "2026-10-13",
+      "title": "SWI raises $894 million to repurpose former FTX bitcoin miner Genesis Digital to AI",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/news/ftx-crypto-mining-ai-data-center?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-13",
+      "title": "FTX\u2019s crypto mining venture is now used to advance AI",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/news/bitcoin-miners-ai-financing-costs-debt-funding-gap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-13",
+      "title": "Bitcoin miners face widening AI financing costs as lenders scrutinize deals",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/citi-sp-500-8100-target-earnings/",
+      "date": "2026-10-13",
+      "title": "Citi Says S&P 500 Needs AI and Non-AI Stocks to Reach 8,100",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/q3-earnings-growth-ai-stocks-deliver/",
+      "date": "2026-10-13",
+      "title": "Wall Street Expects 29.6% Q3 Earnings Growth: Can AI Stocks Deliver?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/meta-stock-muse-wonder-ai-spending/",
+      "date": "2026-10-13",
+      "title": "Muse Wonder Lifts Meta Stock 3.4%: Can Subscriptions Pay for Its AI Spending?",
+      "source": "BeInCrypto",
       "score": 2
     }
   ]
