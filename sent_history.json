@@ -1,48 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.coindesk.com/markets/2026/09/30/robinhood-is-giving-customers-an-ai-agent-that-trades-for-them-plus-10x-crypto-bets",
-      "date": "2026-09-30",
-      "title": "Robinhood announces AI agent for customers that trades around the clock, plus 10x crypto perps",
-      "source": "CoinDesk",
-      "score": 3
-    },
-    {
-      "link": "https://cointelegraph.com/news/cryptocom-ai-agent-stealth-mode-nearly-8-months-after-super-bowl-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-09-30",
-      "title": "Crypto.com AI agent still in \u2018stealth mode\u2019 nearly 8 months after Super Bowl debut",
-      "source": "Cointelegraph",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/chinese-ai-agents-deception-escape-risk/",
-      "date": "2026-09-30",
-      "title": "Would You Trust an AI Agent to Bid for You? Chinese Models Lied in 88% of Tests",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://decrypt.co/379612/bitwise-launches-first-spot-near-etf",
-      "date": "2026-09-30",
-      "title": "Bitwise Launches First US Spot Near ETF After Token Nearly Triples Since August",
-      "source": "Decrypt",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/jim-cramer-ai-trade-narrative-problem/",
-      "date": "2026-09-30",
-      "title": "Jim Cramer Says the AI Trade's Real Threat Is the Story, Not the Spend",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/trump-ai-accord-tech-giants-safety/",
-      "date": "2026-09-30",
-      "title": "Trump Leaves AI Safety to Tech Giants: Inside the New AI Accord",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
       "link": "https://www.coindesk.com/coindesk-indices/2026/09/30/crypto-long-and-short-what-will-the-ai-agents-run-on",
       "date": "2026-10-01",
       "title": "Crypto Long & Short: What will the AI agents run on?",
@@ -830,6 +788,69 @@
       "link": "https://beincrypto.com/getty-images-bankruptcy-ai-debt-private/",
       "date": "2026-10-14",
       "title": "How AI Killed This $5 Billion Picture Company",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.coindesk.com/business/2026/10/14/ai-agents-make-138-million-crypto-payments-as-u-s-dominates-spending-on-ai-models",
+      "date": "2026-10-15",
+      "title": "AI agents make 138 million crypto payments as U.S. dominates spending on AI models",
+      "source": "CoinDesk",
+      "score": 4
+    },
+    {
+      "link": "https://decrypt.co/380989/ai-agents-138-million-crypto-payments-one-year",
+      "date": "2026-10-15",
+      "title": "AI Agents Made 138 Million Crypto Payments in a Year. Most Were Tiny",
+      "source": "Decrypt",
+      "score": 4
+    },
+    {
+      "link": "https://cointelegraph.com/news/standard-chartered-stablecoin-forecast-2030-market-growth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-15",
+      "title": "Standard Chartered pushes $2T stablecoin forecast to 2030 as transaction volumes grow",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/anthropic-compute-revenue-ratio-ipo/",
+      "date": "2026-10-15",
+      "title": "Anthropic\u2019s $2 Trillion IPO Pitch Meets a Revenue Growth Slowdown",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://cointelegraph.com/markets/bitcoin-miners-plunge-up-to-13-in-wall-streets-worst-selloff-since-july?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-15",
+      "title": "Bitcoin miners plunge up to 13% in Wall Street\u2019s worst selloff since July",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/magazine/bunker-mode-wont-protect-your-crypto-critics-say?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-15",
+      "title": "\u2018Bunker mode\u2019 won\u2019t protect your crypto, critics say",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/peter-schiff-most-stocks-bear-market/",
+      "date": "2026-10-15",
+      "title": "Peter Schiff Says Most Stocks Are in Bear Market as AI Leaders Carry the Index",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/ai-debt-glut-us-borrowing-costs/",
+      "date": "2026-10-15",
+      "title": "AI Debt Glut May Be Pushing Up US Government Borrowing Costs, BondCliQ CEO Says",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/kospi-opens-7-down-hot-cpi/",
+      "date": "2026-10-15",
+      "title": "KOSPI Opens 7% Down After Hot US CPI and AI Doubts Grow",
       "source": "BeInCrypto",
       "score": 2
     }
