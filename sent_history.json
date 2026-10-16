@@ -1,69 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.coindesk.com/coindesk-indices/2026/09/30/crypto-long-and-short-what-will-the-ai-agents-run-on",
-      "date": "2026-10-01",
-      "title": "Crypto Long & Short: What will the AI agents run on?",
-      "source": "CoinDesk",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/nvidia-ceo-trump-ai-accord-typo-viral/",
-      "date": "2026-10-01",
-      "title": "Trump Makes Hilarious Mistake in White House AI Announcement",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wu5gsp/identity_authority_action_independent_record_ai/",
-      "date": "2026-10-01",
-      "title": "Identity \u2192 Authority \u2192 Action \u2192 Independent Record. AI agents are about to run the economy. Prove they were allowed to. DOVU built on Hedera.",
-      "source": "r/CryptoCurrency",
-      "score": 3
-    },
-    {
-      "link": "https://decrypt.co/379645/morning-minute-robinhood-adds-perps-weekend-stocks-and-ai-traders",
-      "date": "2026-10-01",
-      "title": "Morning Minute: Robinhood Adds Perps, Weekend Stocks, and AI Traders",
-      "source": "Decrypt",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/morgan-stanley-biotech-breakthroughs-investment-opportunities/",
-      "date": "2026-10-01",
-      "title": "Morgan Stanley Names 3 Biotech Breakthroughs That Offer Investment Opportunities",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/ai-oversight-trump-accord-musk-homework/",
-      "date": "2026-10-01",
-      "title": "Musk Says AI Giants Are \u201cGrading Each Other's Homework\u201d: Enough AI Oversight?",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wub9br/robinhood_just_rolled_out_trading_agents_to/",
-      "date": "2026-10-01",
-      "title": "Robinhood just rolled out trading agents to millions\u2014and investing may never be the same",
-      "source": "r/CryptoCurrency",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1wu7f9w/we_stresstested_americagov_on_night_one_with_15/",
-      "date": "2026-10-01",
-      "title": "We stress-tested America.gov on night one with 15 questions from our own reporting. 9 correct, 6 incomplete, zero hallucinations.",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1wuah8c/i_built_a_devicefirst_deterministic_architecture/",
-      "date": "2026-10-01",
-      "title": "I built a device-first deterministic architecture layer for frontier LLMs and published my research. Looking for people to run a narrow test and report back results.",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
       "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wv4pye/most_token_launches_are_built_to_dump_on_retail/",
       "date": "2026-10-02",
       "title": "Most token launches are built to dump on retail. Wire Network's LCO puts 100% of its raise into liquidity and 0% into the company, so I'm in on this one",
@@ -851,6 +788,62 @@
       "link": "https://beincrypto.com/kospi-opens-7-down-hot-cpi/",
       "date": "2026-10-15",
       "title": "KOSPI Opens 7% Down After Hot US CPI and AI Doubts Grow",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1x6tstc/ai_agents_are_on_a_shopping_spree_total/",
+      "date": "2026-10-16",
+      "title": "AI agents are on a shopping spree: Total transactions on Base blockchain eclipse 138 million, Chainalysis finds",
+      "source": "r/CryptoCurrency",
+      "score": 7
+    },
+    {
+      "link": "https://www.coindesk.com/tech/2026/10/16/an-openai-agent-ran-out-of-ethereum-funds-and-took-from-a-wallet-it-did-not-own",
+      "date": "2026-10-16",
+      "title": "An OpenAI agent ran out of Ethereum funds, and took from a wallet it did not own",
+      "source": "CoinDesk",
+      "score": 3
+    },
+    {
+      "link": "https://decrypt.co/381077/bitwise-cio-bitcoin-wins-ai-boom-or-bust",
+      "date": "2026-10-16",
+      "title": "Boom or Bust, Bitcoin Wins the AI Trade, Bitwise CIO Says",
+      "source": "Decrypt",
+      "score": 2
+    },
+    {
+      "link": "https://decrypt.co/381015/zcash-tanks-double-digits-after-meteoric-rise-sees-leverage-build-up",
+      "date": "2026-10-16",
+      "title": "Zcash Tanks Double Digits After 'Meteoric Rise' Sees Leverage Build Up",
+      "source": "Decrypt",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/markets/bitcoin-dips-korea-kospi-lowest-close-since-april?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-16",
+      "title": "Bitcoin dips to $80.1K as KOSPI closes at its lowest since April",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://www.theblock.co/news/markets/2026-10-15-bitwise-cio-argues-bitcoin-will-benefit-whether-ai-booms-or-busts-418668",
+      "date": "2026-10-16",
+      "title": "Bitwise CIO argues bitcoin will benefit whether AI booms or busts",
+      "source": "The Block",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/kospi-rebound-fed-hike-fears-recovery/",
+      "date": "2026-10-16",
+      "title": "KOSPI Rebounds 3%, but Fed Rate Hike Fears Could Cap the Recovery",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/fundstrat-newton-says-buy-tech-dip/",
+      "date": "2026-10-16",
+      "title": "Fundstrat's Mark Newton Says Buy the Tech Dip, but Stay Diversified",
       "source": "BeInCrypto",
       "score": 2
     }
