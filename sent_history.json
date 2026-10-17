@@ -1,48 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wv4pye/most_token_launches_are_built_to_dump_on_retail/",
-      "date": "2026-10-02",
-      "title": "Most token launches are built to dump on retail. Wire Network's LCO puts 100% of its raise into liquidity and 0% into the company, so I'm in on this one",
-      "source": "r/CryptoCurrency",
-      "score": 5
-    },
-    {
-      "link": "https://www.theblock.co/news/defi/2026-10-01-ethereum-foundation-launches-zkapi-417504",
-      "date": "2026-10-02",
-      "title": "Ethereum Foundation launches zkAPI to let users pay for AI models without revealing identity",
-      "source": "The Block",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/ai-agents-web-traffic-infrastructure-stocks/",
-      "date": "2026-10-02",
-      "title": "AI Agents and Bots Now Generate Most Web Traffic as Infrastructure Stocks Rally",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://cointelegraph.com/news/ethereum-zkapi-private-api-payments-mainnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-02",
-      "title": "Ethereum\u2019s zkAPI brings privacy-preserving API payments to mainnet",
-      "source": "Cointelegraph",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1wuunei/the_most_trustworthy_ai_answer_might_be_the_one/",
-      "date": "2026-10-02",
-      "title": "The most trustworthy AI answer might be the one that slows down",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1wuzu7o/greg_brockman_how_to_build_ai_software_that/",
-      "date": "2026-10-02",
-      "title": "Greg Brockman: How to build AI software that doesn't die when the next model ships",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
       "link": "https://decrypt.co/379991/ethereum-now-pay-for-ai-without-revealing-identity",
       "date": "2026-10-03",
       "title": "Ethereum Now Lets You Pay for AI Without Revealing Who You Are",
@@ -845,6 +803,55 @@
       "date": "2026-10-16",
       "title": "Fundstrat's Mark Newton Says Buy the Tech Dip, but Stay Diversified",
       "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1x7mjze/a_rogue_openai_agent_robbed_a_crypto_wallet_to/",
+      "date": "2026-10-17",
+      "title": "A rogue OpenAI agent robbed a crypto wallet to obtain funds to carry out a task",
+      "source": "r/CryptoCurrency",
+      "score": 5
+    },
+    {
+      "link": "https://cointelegraph.com/news/tokenized-stocks-after-hours-trading-crypto-biz?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-17",
+      "title": "Crypto Biz: Wall Street closes at 4. Tokenized stocks keep trading",
+      "source": "Cointelegraph",
+      "score": 4
+    },
+    {
+      "link": "https://decrypt.co/381123/openai-model-used-testnet-ethereum-wallet-without-permission-to-finish-coding-task",
+      "date": "2026-10-17",
+      "title": "OpenAI Model Used Testnet Ethereum Wallet Without Permission to Finish Coding Task",
+      "source": "Decrypt",
+      "score": 3
+    },
+    {
+      "link": "https://cointelegraph.com/news/openai-model-spent-testnet-eth-without-authorization?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-17",
+      "title": "OpenAI model helped itself to testnet crypto, then kept quiet about it",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/jpmorgan-blocks-outside-ai-agents-customer-accounts/",
+      "date": "2026-10-17",
+      "title": "JPMorgan Blocks Outside AI Agents From Customer Accounts",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/chip-stocks-fall-8-straight-days/",
+      "date": "2026-10-17",
+      "title": "Is the AI Bubble Cracking? Chip Stocks Fall for 8 Straight Days",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/singularity/comments/1x79lue/openai_reveals_19_ai_misalignment_incidents_one/",
+      "date": "2026-10-17",
+      "title": "OpenAI reveals 19 AI misalignment incidents. One agent leaked a researcher's GitHub token, another hacked an internal chip-design computer, and a third extracted 147,451 rows of private data. The danger is no longer just what AI says, but what it can do autonomously.",
+      "source": "r/singularity",
       "score": 2
     }
   ]
