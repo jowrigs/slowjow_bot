@@ -1,20 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://decrypt.co/379991/ethereum-now-pay-for-ai-without-revealing-identity",
-      "date": "2026-10-03",
-      "title": "Ethereum Now Lets You Pay for AI Without Revealing Who You Are",
-      "source": "Decrypt",
-      "score": 4
-    },
-    {
-      "link": "https://www.coindesk.com/news-analysis/2026/10/02/possible-next-crypto-czar-jay-clayton-began-crypto-s-regulation-by-enforcement-at-sec",
-      "date": "2026-10-03",
-      "title": "Trump\u2019s potential AI czar, Jay Clayton, helped pioneer the SEC\u2019s crypto crackdown",
-      "source": "CoinDesk",
-      "score": 2
-    },
-    {
       "link": "https://decrypt.co/380005/chainalysis-ai-87m-bitget-hack-north-korea",
       "date": "2026-10-04",
       "title": "Chainalysis Used AI to Trace the $387M Bitget Hack Back to North Korea",
@@ -852,6 +838,83 @@
       "date": "2026-10-17",
       "title": "OpenAI reveals 19 AI misalignment incidents. One agent leaked a researcher's GitHub token, another hacked an internal chip-design computer, and a third extracted 147,451 rows of private data. The danger is no longer just what AI says, but what it can do autonomously.",
       "source": "r/singularity",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/singularity/comments/1x8bhno/ai_stole_cryptocurrency_to_fulfil_coding_task_gpt/",
+      "date": "2026-10-18",
+      "title": "AI stole cryptocurrency to fulfil coding task.. (GPT 5.6 Sol)",
+      "source": "r/singularity",
+      "score": 5
+    },
+    {
+      "link": "https://beincrypto.com/claude-ai-nsa-mystery-satoshi-bitcoin-security/",
+      "date": "2026-10-18",
+      "title": "Did Satoshi Get Bitcoin Wrong? Claude's NSA Discovery Sparks Debate",
+      "source": "BeInCrypto",
+      "score": 4
+    },
+    {
+      "link": "https://decrypt.co/381213/tokenmaxxing-how-get-most-out-your-ai-models",
+      "date": "2026-10-18",
+      "title": "TokenMaxxing: How to Get the Most Out of Your AI Models",
+      "source": "Decrypt",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/vitalik-buterin-ai-paranoid-mode-hides-chats/",
+      "date": "2026-10-18",
+      "title": "Ethereum Founder Vitalik Buterin Builds \u2018Paranoid Mode\u2019 to Hide Your AI Secrets",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/bitcoin-mining-cost-vitalik-ai-inference/",
+      "date": "2026-10-18",
+      "title": "Vitalik Buterin Reveals Why AI Could Push Bitcoin Miners Out",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1x83iwh/openai_models_hacked_a_crypto_wallet_and_breached/",
+      "date": "2026-10-18",
+      "title": "OpenAI models hacked a crypto wallet and breached more websites",
+      "source": "r/CryptoCurrency",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1x8k4hj/vitalik_buterin_reveals_why_ai_could_push_bitcoin/",
+      "date": "2026-10-18",
+      "title": "Vitalik Buterin Reveals Why AI Could Push Bitcoin Miners Out",
+      "source": "r/CryptoCurrency",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1x8pv2b/unaminer_a_game_where_humans_solve_the_blockchain/",
+      "date": "2026-10-18",
+      "title": "Unaminer - a game where humans solve the blockchain",
+      "source": "r/CryptoCurrency",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1x83qnc/openai_models_hacked_a_crypto_wallet_and_breached/",
+      "date": "2026-10-18",
+      "title": "OpenAI models hacked a crypto wallet and breached more websites",
+      "source": "r/artificial",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/singularity/comments/1x8oxmp/terrence_tao_remarks/",
+      "date": "2026-10-18",
+      "title": "Terrence Tao remarks",
+      "source": "r/singularity",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1x847zy/developer_goes_into_debt_spending_1000_a_day_to/",
+      "date": "2026-10-18",
+      "title": "Developer Goes Into Debt Spending $1,000 A Day To Keep Steam Demo For AI-Fueled Driving Sim Going",
+      "source": "r/artificial",
       "score": 2
     }
   ]
