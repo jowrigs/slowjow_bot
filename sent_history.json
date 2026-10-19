@@ -1,41 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://decrypt.co/380005/chainalysis-ai-87m-bitget-hack-north-korea",
-      "date": "2026-10-04",
-      "title": "Chainalysis Used AI to Trace the $387M Bitget Hack Back to North Korea",
-      "source": "Decrypt",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1wwx501/heres_why_the_elites_are_rushing_cbdcs/",
-      "date": "2026-10-04",
-      "title": "Here\u2019s Why the Elites are Rushing CBDCs",
-      "source": "r/CryptoCurrency",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/data-center-backlash-spreads-globally/",
-      "date": "2026-10-04",
-      "title": "America's Data Center Revolt Finds New Recruits in Australia, Europe and Asia",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/jay-clayton-ai-czar-ripple-lawsuit/",
-      "date": "2026-10-04",
-      "title": "Man Behind the XRP Lawsuit Could Get a White House AI Role Soon",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1wwn7vg/where_does_ai_cost_really_come_from/",
-      "date": "2026-10-04",
-      "title": "Where does AI cost really come from?",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
       "link": "https://beincrypto.com/mark-cuban-ai-jobs-warning/",
       "date": "2026-10-05",
       "title": "Who Gets the 750,000 New AI Jobs? Mark Cuban Has a Warning",
@@ -915,6 +880,34 @@
       "date": "2026-10-18",
       "title": "Developer Goes Into Debt Spending $1,000 A Day To Keep Steam Demo For AI-Fueled Driving Sim Going",
       "source": "r/artificial",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/bernstein-ai-stock-selloff-small-caps/",
+      "date": "2026-10-19",
+      "title": "Why Bernstein Thinks the AI Stock Sell-Off Could Help Small Caps",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/tesla-meta-spacex-netflix-earnings-ai/",
+      "date": "2026-10-19",
+      "title": "Top 4 Earnings Reports This Week: What Tesla, Meta, SpaceX, Netflix Must Show",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/black-monday-traders-lose-ai-stock-bets/",
+      "date": "2026-10-19",
+      "title": "Black Monday Fears Grip Wall Street as Traders Lose $52 Million on AI Stock Bets",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1x91n9l/veworldai_on_ios_mobile/",
+      "date": "2026-10-19",
+      "title": "Veworld.ai on IOS mobile",
+      "source": "r/CryptoCurrency",
       "score": 2
     }
   ]
