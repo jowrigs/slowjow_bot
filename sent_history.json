@@ -1,90 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.youtube.com/watch?v=ymC44d3Godo",
-      "date": "2026-10-06",
-      "title": "Crypto Has CHANGED (You Need To Know How)",
-      "source": "Coin Bureau",
-      "score": 8
-    },
-    {
-      "link": "https://www.youtube.com/shorts/RQ28o2YVG8w",
-      "date": "2026-10-06",
-      "title": "IS WALL STREET ACTUALLY STEALING PRIVACY FROM",
-      "source": "Coin Bureau",
-      "score": 7
-    },
-    {
-      "link": "https://www.youtube.com/shorts/5o82Vh0eU64",
-      "date": "2026-10-06",
-      "title": "CAN ANYONE SEE YOUR CRYPTO??",
-      "source": "Coin Bureau",
-      "score": 7
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=nBzF7Ac4QUE",
-      "date": "2026-10-06",
-      "title": "Where Global Money Is SECRETLY Moving",
-      "source": "Coin Bureau",
-      "score": 6
-    },
-    {
-      "link": "https://www.youtube.com/shorts/AoBNYhOpe3g",
-      "date": "2026-10-06",
-      "title": "WHAT HAPPENS IF BITCOIN BREAKS 80K",
-      "source": "Coin Bureau",
-      "score": 6
-    },
-    {
-      "link": "https://www.youtube.com/shorts/9KVqwd9yMWc",
-      "date": "2026-10-06",
-      "title": "CRYPTO IS PUTTING YOUR FAMILY IN DANGER",
-      "source": "Coin Bureau",
-      "score": 6
-    },
-    {
-      "link": "https://www.youtube.com/shorts/7MjdZbbX9Nk",
-      "date": "2026-10-06",
-      "title": "IS THE US DOLLAR ACTUALLY DYING",
-      "source": "Coin Bureau",
-      "score": 5
-    },
-    {
-      "link": "https://www.youtube.com/shorts/p1-9endwM2Y",
-      "date": "2026-10-06",
-      "title": "Did Revolut actually get hacked?",
-      "source": "Coin Bureau",
-      "score": 5
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=BzV2O1vqLss",
-      "date": "2026-10-06",
-      "title": "What Happens If Bitcoin BREAKS $80K",
-      "source": "Coin Bureau",
-      "score": 5
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=cxt8Nu-ePJM",
-      "date": "2026-10-06",
-      "title": "The Crypto Privacy WAR Is Here.",
-      "source": "Coin Bureau",
-      "score": 4
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1wy6iw4/building_an_ai_website_builder_with_a_different/",
-      "date": "2026-10-06",
-      "title": "Building an AI website builder with a different approach \u2014 would love feedback before the beta launch",
-      "source": "r/artificial",
-      "score": 4
-    },
-    {
-      "link": "https://beincrypto.com/worldcoin-korea-ai-token-trading-rally/",
-      "date": "2026-10-06",
-      "title": "South Korea's AI Mania Spills Into Crypto, With Worldcoin as Top Pick",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
       "link": "https://cointelegraph.com/magazine/weaker-dollar-crypto-green-light-raoul-pal-trade-secrets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "date": "2026-10-07",
       "title": "Capital starting to rotate back to crypto from AI: Raoul Pal",
@@ -922,6 +838,55 @@
       "date": "2026-10-20",
       "title": "Your AI Memory Keeps You Tied to One Chatbot",
       "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.coindesk.com/markets/2026/10/21/bitcoin-hovers-around-usd83-000-as-ai-earnings-revive-tech-zec-jumps-11",
+      "date": "2026-10-21",
+      "title": "Bitcoin hovers around $83,000 as AI earnings revive tech, ZEC jumps 11%",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/ken-griffin-ai-chip-glut-pricing/",
+      "date": "2026-10-21",
+      "title": "Ken Griffin Compares AI Chips to Airline Seats, Says Glut Could Send Pricing Into Freefall",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/ai-splits-software-winners-losers-citi/",
+      "date": "2026-10-21",
+      "title": "AI Is Splitting Software Into Winners and Losers, Citi\u2019s Tyler Radke Says",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/spacex-ai-spending-shock-3-stocks-upside/",
+      "date": "2026-10-21",
+      "title": "3 Stocks That Can Benefit From SpaceX\u2019s Surprise Q3 Earnings",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/spacex-q3-2026-results-ai-starlink-beat/",
+      "date": "2026-10-21",
+      "title": "SpaceX Beats Q3 2026 Estimates as Revenue Surges 161% YoY",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xavbr0/ai_vs_1076_human_traders_battle_results_if_the_69/",
+      "date": "2026-10-21",
+      "title": "AI vs 1,076 human traders, battle results: if the 69% who lose let AI trade, would the top 1% make less?",
+      "source": "r/CryptoCurrency",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1xavo5m/llm_memory_5_approaches_to_handling_new/",
+      "date": "2026-10-21",
+      "title": "LLM Memory: 5 Approaches to Handling New Information",
+      "source": "r/artificial",
       "score": 2
     }
   ]
