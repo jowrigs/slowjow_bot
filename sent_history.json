@@ -1,90 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.youtube.com/shorts/wKdVaauNBqM",
-      "date": "2026-10-08",
-      "title": "Is Bitcoin\u2019s Rally Already Over?",
-      "source": "Coin Bureau",
-      "score": 6
-    },
-    {
-      "link": "https://www.youtube.com/shorts/duynn3HcZJ0",
-      "date": "2026-10-08",
-      "title": "Why did 80% of 2017 crypto projects go to zero?",
-      "source": "Coin Bureau",
-      "score": 6
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=SfQHC-Jmc68",
-      "date": "2026-10-08",
-      "title": "Cash Will NEVER Be Safe Again",
-      "source": "Coin Bureau",
-      "score": 5
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=Aec35qI8cwg",
-      "date": "2026-10-08",
-      "title": "AI Prices COLLAPSED. Big Tech Isn't Ready",
-      "source": "Coin Bureau",
-      "score": 5
-    },
-    {
-      "link": "https://cointelegraph.com/news/sui-offchain-network-hits-40m-tps-in-live-ai-focused-stress-test?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-08",
-      "title": "Sui tunnels hit 40.6M TPS in live AI agent test",
-      "source": "Cointelegraph",
-      "score": 4
-    },
-    {
-      "link": "https://www.theblock.co/news/defi/2026-10-08-vitalik-buterin-warns-hasty-wallet-migrations-418007",
-      "date": "2026-10-08",
-      "title": "\u2018Don\u2019t rush anything\u2019: Vitalik Buterin warns against hasty wallet migrations amid growing AI threats",
-      "source": "The Block",
-      "score": 4
-    },
-    {
-      "link": "https://decrypt.co/380363/ethereum-researcher-ai-break-encryption-before-quantum",
-      "date": "2026-10-08",
-      "title": "Ethereum Researcher Says AI May Break Encryption Before Quantum Does",
-      "source": "Decrypt",
-      "score": 3
-    },
-    {
-      "link": "https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-08",
-      "title": "Vitalik Buterin backs crypto \u2018bunker mode\u2019 amid rapid AI math advances",
-      "source": "Cointelegraph",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/vitalik-buterin-ai-cryptography-warning/",
-      "date": "2026-10-08",
-      "title": "AI Could Damage Crypto in 2 Years, Warns Ethereum's Vitalik Buterin",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1x0gpxr/fields_medalist_terence_tao_reposts_statement/",
-      "date": "2026-10-08",
-      "title": "Fields Medalist Terence Tao reposts statement from the Association for Human Mathematics urging mathematicians to stop working with OpenAI for continuing to solve open math problems against their recommendations",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1x099rd/why_artificial_intelligence_is_impossible_ussr/",
-      "date": "2026-10-08",
-      "title": "Why Artificial Intelligence Is Impossible [USSR Perspective on AI from 1984]",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1x0i6qj/built_a_generative_live_canvas_that_can_livepatch/",
-      "date": "2026-10-08",
-      "title": "Built a generative live canvas that can Livepatch your environment and automatically saves over 5000 states that you can go back to anyone of them at anytime which also does sketches, 3D models, 3D Games, Documents, Adverts, Web/Mobile Applications, Presentations, Websites and more via one canvas",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
       "link": "https://www.youtube.com/shorts/5jbpI7okJr8",
       "date": "2026-10-09",
       "title": "How to Move Millions Unnoticed",
@@ -937,6 +853,83 @@
       "title": "Circle CEO Shrugs Off Bitcoin's Slump and Pitches Digital Dollars for the AI Era",
       "source": "BeInCrypto",
       "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1xcqlr5/the_proximity_paradox_why_ai_is_making_us_softand/",
+      "date": "2026-10-23",
+      "title": "The Proximity Paradox: Why AI Is Making Us Soft\u2014and How to Fight Back",
+      "source": "r/artificial",
+      "score": 5
+    },
+    {
+      "link": "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines",
+      "date": "2026-10-23",
+      "title": "Bitcoin slides below $82,000 as AI doubts return, with DeFi tokens leading declines",
+      "source": "CoinDesk",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/ai-cracks-satoshi-bitcoin-17-year-mystery/",
+      "date": "2026-10-23",
+      "title": "Claude AI Cracks Satoshi\u2019s 17-Year Bitcoin Mystery",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xcrx2o/crypto_card_spending_hit_15b_a_month_in_late_2025/",
+      "date": "2026-10-23",
+      "title": "Crypto card spending hit $1.5B a month in late 2025, but most of it settled on fiat rails",
+      "source": "r/CryptoCurrency",
+      "score": 3
+    },
+    {
+      "link": "https://www.coindesk.com/business/2026/10/22/a16z-is-the-latest-vc-giant-to-widen-bets-beyond-crypto-and-into-ai-and-emerging-tech",
+      "date": "2026-10-23",
+      "title": "A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://decrypt.co/381642/a16z-drops-crypto-widens-bets-ai-frontier-tech",
+      "date": "2026-10-23",
+      "title": "a16z Drops Crypto From Its Name, Widens Bets to AI and Frontier Tech",
+      "source": "Decrypt",
+      "score": 2
+    },
+    {
+      "link": "https://decrypt.co/resources/what-is-a-neocloud-the-gpu-clouds-powering-the-ai-boom",
+      "date": "2026-10-23",
+      "title": "What Is a Neocloud? The GPU Clouds Powering the AI Boom",
+      "source": "Decrypt",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/news/bitcoin-core-changes-security-policy-as-ai-makes-bugs-easier-to-find?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-23",
+      "title": "Bitcoin Core changes security policy as AI makes bugs easier to find",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/news/bitcoin-mining-difficulty-hashrate-recovery-ai-shift?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-23",
+      "title": "Bitcoin hashrate hits seven-month high as AI shift fails to ease mining competition",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/nick-colas-sp-500-tech-concentration/",
+      "date": "2026-10-23",
+      "title": "Is the S&P 500 No Longer the Economy? DataTrek's Nick Colas Weighs In",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/tom-lee-ai-selloff-near-end/",
+      "date": "2026-10-23",
+      "title": "Tom Lee Says Yields Below 5% Mean the AI Selloff Is Nearly Over",
+      "source": "BeInCrypto",
+      "score": 2
     }
   ]
 }
