@@ -1,83 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://cointelegraph.com/news/dragonfly-bunker-mode-doomerism-proactive-blockchain-measures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-10",
-      "title": "Dragonfly partner rejects \u2018bunker mode\u2019 doomerism, calls for proactive blockchain measures",
-      "source": "Cointelegraph",
-      "score": 4
-    },
-    {
-      "link": "https://beincrypto.com/justin-sun-ai-agents-crypto-biggest-use-case/",
-      "date": "2026-10-10",
-      "title": "Justin Sun Shares AI and Quantum Vision at TOKEN2049 Singapore and Blockworks DAS Asia",
-      "source": "BeInCrypto",
-      "score": 4
-    },
-    {
-      "link": "https://www.reddit.com/r/singularity/comments/1x22o0b/a_mathematicians_perspective/",
-      "date": "2026-10-10",
-      "title": "A mathematician's perspective",
-      "source": "r/singularity",
-      "score": 4
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1x1swge/should_anyone_be_able_to_see_what_institutions/",
-      "date": "2026-10-10",
-      "title": "Should anyone be able to see what institutions trade onchain?",
-      "source": "r/CryptoCurrency",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1x242id/litcoin_15_years_full_time/",
-      "date": "2026-10-10",
-      "title": "Litcoin 15 Years Full Time",
-      "source": "r/CryptoCurrency",
-      "score": 3
-    },
-    {
-      "link": "https://www.coindesk.com/markets/2026/10/09/mara-transfers-usd81-1-million-in-bitcoin-to-galaxy-digital-as-strategy-pivots-to-ai",
-      "date": "2026-10-10",
-      "title": "MARA transfers $81.1 million in bitcoin to Galaxy Digital as strategy pivots to AI",
-      "source": "CoinDesk",
-      "score": 2
-    },
-    {
-      "link": "https://cointelegraph.com/news/trump-administration-quantum-computing-ai-6-billion-science-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-10",
-      "title": "Trump administration outlines quantum, AI initiatives in $6B science push",
-      "source": "Cointelegraph",
-      "score": 2
-    },
-    {
-      "link": "https://www.theblock.co/news/business/2026-10-08-bitwise-ceo-dogecoin-etf-failure-hunter-horsley-418070",
-      "date": "2026-10-10",
-      "title": "Bitwise CEO says \u2018tragic\u2019 Dogecoin ETF failure shows gap between ETF buyers and crypto-app users",
-      "source": "The Block",
-      "score": 2
-    },
-    {
-      "link": "https://www.theblock.co/news/defi/2026-10-08-crypto-industry-split-over-justin-drakes-ai-warning-418021",
-      "date": "2026-10-10",
-      "title": "Crypto industry split over Justin Drake\u2019s AI warning",
-      "source": "The Block",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/openai-anthropic-rehearse-ai-disaster-scenario/",
-      "date": "2026-10-10",
-      "title": "OpenAI and Anthropic Rehearse an AI Disaster: Will It Hit Your Bank?",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/singularity/comments/1x1xhjz/mathematics_is_not_about_proofs_but_about/",
-      "date": "2026-10-10",
-      "title": "\u201cmathematics is not about proofs, but about understanding\u201c",
-      "source": "r/singularity",
-      "score": 2
-    },
-    {
       "link": "https://beincrypto.com/xrp-ledger-security-flaws-ai-threat/",
       "date": "2026-10-11",
       "title": "Is XRP Ledger Vulnerable to AI? Avalanche Founder Warns of Hidden Flaws",
@@ -894,6 +817,55 @@
       "date": "2026-10-24",
       "title": "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness",
       "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xemhiw/is_crypto_the_logical_next_step_for_aitoai_and/",
+      "date": "2026-10-25",
+      "title": "Is crypto the logical next step for AI-to-AI and AI-to-Business payments?",
+      "source": "r/CryptoCurrency",
+      "score": 4
+    },
+    {
+      "link": "https://www.reddit.com/r/singularity/comments/1xe9mx1/terence_tao_ai_turns_beautiful_mathematics_into/",
+      "date": "2026-10-25",
+      "title": "Terence Tao: AI turns beautiful mathematics into \u2018toxic waste\u2019",
+      "source": "r/singularity",
+      "score": 4
+    },
+    {
+      "link": "https://beincrypto.com/grayscale-3-crypto-benefit-ai-boom/",
+      "date": "2026-10-25",
+      "title": "Grayscale Names 3 Cryptocurrencies That Could Benefit From AI Growth",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/american-express-stock-ai-job-cuts/",
+      "date": "2026-10-25",
+      "title": "American Express Stock Shocks Despite Positive Revenue and Earnings",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/ai-stock-selloff-investors-shift-swiss-stocks/",
+      "date": "2026-10-25",
+      "title": "AI Bubble Fears Trigger a Surprising Shift to Swiss Stocks",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1xefah4/ai_is_humanities_collective_inheritance_and/",
+      "date": "2026-10-25",
+      "title": "AI is humanities collective inheritance and should be legally treated as such",
+      "source": "r/artificial",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1xedvbq/quiz_characters_words_and_tokens_are_different/",
+      "date": "2026-10-25",
+      "title": "Quiz: characters, words and tokens are different measures of text length, and LLM limits use tokens",
+      "source": "r/artificial",
       "score": 2
     }
   ]
