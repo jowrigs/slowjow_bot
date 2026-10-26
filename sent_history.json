@@ -1,34 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://beincrypto.com/xrp-ledger-security-flaws-ai-threat/",
-      "date": "2026-10-11",
-      "title": "Is XRP Ledger Vulnerable to AI? Avalanche Founder Warns of Hidden Flaws",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/moderna-stock-best-sp-500-2026/",
-      "date": "2026-10-11",
-      "title": "A COVID Vaccine Stock on the S&P 500 Is Up 600% This Year",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/lone-pine-hedge-fund-ai-stocks-loss/",
-      "date": "2026-10-11",
-      "title": "One of Wall Street's Best Hedge Funds Just Blew a 44% Gain Because of AI Bets",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/claude-ai-fake-murder-tip-police/",
-      "date": "2026-10-11",
-      "title": "Claude AI Sent Police a Fake Murder Tip",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
       "link": "https://www.youtube.com/watch?v=xCAot75ztsg",
       "date": "2026-10-12",
       "title": "How Blockchain ACTUALLY Works (Zero Jargon)",
@@ -866,6 +838,69 @@
       "date": "2026-10-25",
       "title": "Quiz: characters, words and tokens are different measures of text length, and LLM limits use tokens",
       "source": "r/artificial",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xfn1oh/ai_quantum_computing_are_not_wizards_that_can/",
+      "date": "2026-10-26",
+      "title": "AI & Quantum Computing are not wizards that can willy-nilly cast a spell and destroy bitcoin. Devs are working to create solutions.",
+      "source": "r/CryptoCurrency",
+      "score": 5
+    },
+    {
+      "link": "https://cointelegraph.com/magazine/ai-agents-help-rescue-eths-glamsterdam-fork-steal-my-bitcoin-site-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-26",
+      "title": "AI agents help rescue ETH\u2019s Glamsterdam fork, \u2018Steal My Bitcoin\u2019 site: Hodler\u2019s Digest",
+      "source": "Cointelegraph",
+      "score": 4
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xeyooh/the_quantum_clock_just_jumped_forward_why/",
+      "date": "2026-10-26",
+      "title": "The Quantum Clock Just Jumped Forward: Why Bitcoin\u2019s Math Is Shrinking Faster Than Anyone Expected (And Why Hardware Is Still Holding the Line).",
+      "source": "r/CryptoCurrency",
+      "score": 4
+    },
+    {
+      "link": "https://beincrypto.com/goldman-yen-hedge-ai-market-shock/",
+      "date": "2026-10-26",
+      "title": "Goldman Sachs Names One Trade to Hedge an AI Market Shock",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/coreweave-ai-selloff-crypto-origins-debt/",
+      "date": "2026-10-26",
+      "title": "From Crypto Roots to AI Selloff: Why CoreWeave Is Under Pressure",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/big-tech-earnings-no-win-test/",
+      "date": "2026-10-26",
+      "title": "Big Tech Earnings Are a No-Win Test as Investors Punish Both Capex Cuts and Hikes",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/top-3-big-tech-earnings-reports-october-final-week/",
+      "date": "2026-10-26",
+      "title": "3 Big Tech Earnings Reports to Watch as AI Bills Keep Growing",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/musk-ai-cloud-firms-coreweave-debt/",
+      "date": "2026-10-26",
+      "title": "Elon Musk Says 200+ AI Cloud Firms Face Wipeout: Will CoreWeave Survive?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/ai-data-center-delay-penalties/",
+      "date": "2026-10-26",
+      "title": "AI Just Put a $5 Million-a-Day Price Tag on Its Biggest Bottleneck",
+      "source": "BeInCrypto",
       "score": 2
     }
   ]
