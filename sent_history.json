@@ -1,62 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.youtube.com/watch?v=xCAot75ztsg",
-      "date": "2026-10-12",
-      "title": "How Blockchain ACTUALLY Works (Zero Jargon)",
-      "source": "Coin Bureau",
-      "score": 8
-    },
-    {
-      "link": "https://www.youtube.com/shorts/9Ot4XehlDHo",
-      "date": "2026-10-12",
-      "title": "RICHEST PEOPLE SECRETLY MOVING THEIR MONEY?",
-      "source": "Coin Bureau",
-      "score": 6
-    },
-    {
-      "link": "https://www.youtube.com/shorts/aLqEUgStBpE",
-      "date": "2026-10-12",
-      "title": "Why Chinese AI is Hoarding Billions?",
-      "source": "Coin Bureau",
-      "score": 5
-    },
-    {
-      "link": "https://www.youtube.com/shorts/KhCNSdrH3p0",
-      "date": "2026-10-12",
-      "title": "IS CHINA BREAKING THE AI TRADE??",
-      "source": "Coin Bureau",
-      "score": 5
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=aCi0rDFIZsU",
-      "date": "2026-10-12",
-      "title": "Oracle's $500 Billion AI Bet Is BREAKING",
-      "source": "Coin Bureau",
-      "score": 4
-    },
-    {
-      "link": "https://www.reddit.com/r/singularity/comments/1x34apa/terrence_tao_is_actually_calling_for/",
-      "date": "2026-10-12",
-      "title": "Terrence Tao is actually calling for significantly more compute hours of AI mathematics, yet is being mis portrayed in pro AI subs.",
-      "source": "r/singularity",
-      "score": 4
-    },
-    {
-      "link": "https://cointelegraph.com/news/fsb-stablecoin-ai-risks-g20-finance-meeting?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-12",
-      "title": "Global watchdog flags stablecoin risks, AI threats ahead of G20",
-      "source": "Cointelegraph",
-      "score": 2
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=qI70PXRIUI8",
-      "date": "2026-10-12",
-      "title": "Thursday, Plague update",
-      "source": "Andrei Jikh",
-      "score": 2
-    },
-    {
       "link": "https://www.youtube.com/shorts/B1bXnk5-LgU",
       "date": "2026-10-13",
       "title": "Can crypto fix AI's power problem?",
@@ -900,6 +844,83 @@
       "link": "https://beincrypto.com/ai-data-center-delay-penalties/",
       "date": "2026-10-26",
       "title": "AI Just Put a $5 Million-a-Day Price Tag on Its Biggest Bottleneck",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xftnjt/bitcoin_will_never_exceed_its_ath_by_more_than_10/",
+      "date": "2026-10-27",
+      "title": "Bitcoin Will Never Exceed its ATH by More than 10%, Bitcoin's Bottom Will Be Below 40K, and Ethereum's Price will be greater than 16K USD within 10 Years.",
+      "source": "r/CryptoCurrency",
+      "score": 5
+    },
+    {
+      "link": "https://beincrypto.com/sony-blockchain-new-token-ai-royalties/",
+      "date": "2026-10-27",
+      "title": "Sony's Blockchain Plans New Token and AI Royalties. Will It Recover?",
+      "source": "BeInCrypto",
+      "score": 4
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1xg2hi2/the_intelligence_divide_how_the_world_is/",
+      "date": "2026-10-27",
+      "title": "The Intelligence Divide: How the World Is Splitting Over What AI Is Actually For",
+      "source": "r/artificial",
+      "score": 4
+    },
+    {
+      "link": "https://beincrypto.com/arthur-hayes-ai-compute-futures-flop/",
+      "date": "2026-10-27",
+      "title": "Arthur Hayes Wants a Third Win With a Futures Market for AI Compute",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xg6uel/robinhood_bets_10_million_on_ai_coding_tool_maker/",
+      "date": "2026-10-27",
+      "title": "Robinhood bets $10 million on AI coding tool maker Cognition\u2014after previously backing a rival",
+      "source": "r/CryptoCurrency",
+      "score": 3
+    },
+    {
+      "link": "https://decrypt.co/381802/bitcoin-dips-below-80000-ahead-of-fed-decision-midterms",
+      "date": "2026-10-27",
+      "title": "Bitcoin Dips Below $80,000 Ahead of Fed Decision, Midterms",
+      "source": "Decrypt",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/news/injective-launches-onchain-futures-market-tracking-nvidia-gpu-rental-costs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-27",
+      "title": "Injective launches onchain futures market tracking Nvidia GPU rental costs",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/news/php-flaw-ai-vulnerability-apocalypse-immunefi-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-27",
+      "title": "PHP flaw shows AI \u2018vulnerability apocalypse\u2019 is on schedule: Immunefi CEO",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://www.theblock.co/news/ecosystems/2026-10-26-cz-pitches-bnb-chains-role-ai-bnb-standard-rings-nasdaq-bell-431790",
+      "date": "2026-10-27",
+      "title": "CZ pitches BNB Chain\u2019s role in AI as BNB Standard rings Nasdaq bell",
+      "source": "The Block",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/cramer-buy-goldman-sachs-anthropic-ipo/",
+      "date": "2026-10-27",
+      "title": "Cramer Says Anthropic's IPO Makes This Wall Street Bank a Buy",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/crypto-crash-moodys-risk-matrix-fomc/",
+      "date": "2026-10-27",
+      "title": "Moody\u2019s Warns Crypto Crash Is Among the Most Likely Economic Risks",
       "source": "BeInCrypto",
       "score": 2
     }
