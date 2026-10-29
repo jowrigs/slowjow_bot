@@ -1,76 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://beincrypto.com/ripple-privy-ai-agent-payments-xrp-ledger/",
-      "date": "2026-10-14",
-      "title": "Ripple Brings Wallet-Based AI Agent Payments to XRP Ledger",
-      "source": "BeInCrypto",
-      "score": 4
-    },
-    {
-      "link": "https://www.coindesk.com/business/2026/10/13/new-crypto-exchange-takes-on-okx-bitget-with-unique-way-to-trade-ai-giants",
-      "date": "2026-10-14",
-      "title": "Crypto exchange MNX takes on OKX, Bitget offering pre-IPO futures for AI giants",
-      "source": "CoinDesk",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/paul-tudor-jones-2027-stocks-warning-bitcoin/",
-      "date": "2026-10-14",
-      "title": "Billionaire Investor Warns of a Brutal 2027 for Stocks: Will Bitcoin Hold Up?",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://www.coindesk.com/markets/2026/10/13/bitcoin-ether-slip-and-rebound-as-south-korean-stocks-slide-on-ai-related-concerns",
-      "date": "2026-10-14",
-      "title": "Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns",
-      "source": "CoinDesk",
-      "score": 2
-    },
-    {
-      "link": "https://www.coindesk.com/markets/2026/10/13/bitcoin-diverges-from-south-korean-stocks-as-ai-concerns-deepen-the-kospi-selloff",
-      "date": "2026-10-14",
-      "title": "Bitcoin diverges from South Korean stocks as AI concerns deepen the Kospi selloff",
-      "source": "CoinDesk",
-      "score": 2
-    },
-    {
-      "link": "https://cointelegraph.com/markets/feds-williams-sees-ai-supply-squeeze-lasting-beyond-2-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-14",
-      "title": "Fed\u2019s Williams sees AI supply squeeze lasting beyond 2 years",
-      "source": "Cointelegraph",
-      "score": 2
-    },
-    {
-      "link": "https://cointelegraph.com/news/anthropic-ai-worms-autonomously-spread-devices-virus?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-14",
-      "title": "Anthropic warns \u2018AI worms\u2019 may autonomously spread across devices like a virus",
-      "source": "Cointelegraph",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/goldman-jpmorgan-becoming-ai-stocks/",
-      "date": "2026-10-14",
-      "title": "Venture Head Says Goldman and JPMorgan Are Becoming AI Stocks",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/tom-lee-ai-bubble-1997-2033/",
-      "date": "2026-10-14",
-      "title": "Tom Lee Says AI Is in 1997, Not 1999: Peak Bubble Could Be 2033",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/getty-images-bankruptcy-ai-debt-private/",
-      "date": "2026-10-14",
-      "title": "How AI Killed This $5 Billion Picture Company",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
       "link": "https://www.coindesk.com/business/2026/10/14/ai-agents-make-138-million-crypto-payments-as-u-s-dominates-spending-on-ai-models",
       "date": "2026-10-15",
       "title": "AI agents make 138 million crypto payments as U.S. dominates spending on AI models",
@@ -957,6 +887,69 @@
       "date": "2026-10-28",
       "title": "Datavault AI stock plummets 50% after firm says it cannot withdraw bitcoin tied to $150 million deal",
       "source": "The Block",
+      "score": 2
+    },
+    {
+      "link": "https://www.coindesk.com/coindesk-indices/2026/10/28/crypto-long-and-short-what-happens-when-an-ai-agent-pays-for-the-wrong-thing",
+      "date": "2026-10-29",
+      "title": "Crypto Long & Short: What happens when an AI agent pays for the wrong thing",
+      "source": "CoinDesk",
+      "score": 3
+    },
+    {
+      "link": "https://cointelegraph.com/news/a-fridge-that-launches-memecoins-cftc-floats-ai-crypto-future?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-10-29",
+      "title": "Your fridge could one day stake Ether, launch memecoins: CFTC chair",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xhhihf/will_you_trade_ai_compute_as_a_commodity_onchain/",
+      "date": "2026-10-29",
+      "title": "Will you trade AI compute as a commodity onchain?",
+      "source": "r/CryptoCurrency",
+      "score": 3
+    },
+    {
+      "link": "https://www.coindesk.com/tech/2026/10/29/ai-found-a-way-to-crash-bitcoin-nodes-on-windows-and-macs-it-s-now-public",
+      "date": "2026-10-29",
+      "title": "AI found a way to crash bitcoin nodes on Windows and Macs. It's now public",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://www.coindesk.com/tech/2026/10/28/google-to-preview-crypto-custody-security-system-as-ai-threats-grow",
+      "date": "2026-10-29",
+      "title": "Google to preview crypto custody security system as AI threats grow",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://decrypt.co/382116/bitcoin-treasury-datavault-ai-stock-crashes-cant-access-btc",
+      "date": "2026-10-29",
+      "title": "Bitcoin Treasury Datavault AI Says It Can\u2019t Access Its BTC, Stock Tanks",
+      "source": "Decrypt",
+      "score": 2
+    },
+    {
+      "link": "https://www.theblock.co/news/deals/2026-10-27-bitcoin-mining-ai-luxor-technology-funding-431858",
+      "date": "2026-10-29",
+      "title": "Bitcoin mining infrastructure firm Luxor raises $16 million to expand AI business",
+      "source": "The Block",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/raoul-pal-ai-capex-debt-stock-market-fears/",
+      "date": "2026-10-29",
+      "title": "Raoul Pal Says AI Spending Has No Ceiling. Are Tech Stocks in Danger?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xhnn92/ai_vs_1076_human_traders_the_results/",
+      "date": "2026-10-29",
+      "title": "AI vs 1,076 human traders: the results",
+      "source": "r/CryptoCurrency",
       "score": 2
     }
   ]
