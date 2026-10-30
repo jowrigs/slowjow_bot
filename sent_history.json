@@ -1,69 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.coindesk.com/business/2026/10/14/ai-agents-make-138-million-crypto-payments-as-u-s-dominates-spending-on-ai-models",
-      "date": "2026-10-15",
-      "title": "AI agents make 138 million crypto payments as U.S. dominates spending on AI models",
-      "source": "CoinDesk",
-      "score": 4
-    },
-    {
-      "link": "https://decrypt.co/380989/ai-agents-138-million-crypto-payments-one-year",
-      "date": "2026-10-15",
-      "title": "AI Agents Made 138 Million Crypto Payments in a Year. Most Were Tiny",
-      "source": "Decrypt",
-      "score": 4
-    },
-    {
-      "link": "https://cointelegraph.com/news/standard-chartered-stablecoin-forecast-2030-market-growth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-15",
-      "title": "Standard Chartered pushes $2T stablecoin forecast to 2030 as transaction volumes grow",
-      "source": "Cointelegraph",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/anthropic-compute-revenue-ratio-ipo/",
-      "date": "2026-10-15",
-      "title": "Anthropic\u2019s $2 Trillion IPO Pitch Meets a Revenue Growth Slowdown",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://cointelegraph.com/markets/bitcoin-miners-plunge-up-to-13-in-wall-streets-worst-selloff-since-july?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-15",
-      "title": "Bitcoin miners plunge up to 13% in Wall Street\u2019s worst selloff since July",
-      "source": "Cointelegraph",
-      "score": 2
-    },
-    {
-      "link": "https://cointelegraph.com/magazine/bunker-mode-wont-protect-your-crypto-critics-say?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-15",
-      "title": "\u2018Bunker mode\u2019 won\u2019t protect your crypto, critics say",
-      "source": "Cointelegraph",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/peter-schiff-most-stocks-bear-market/",
-      "date": "2026-10-15",
-      "title": "Peter Schiff Says Most Stocks Are in Bear Market as AI Leaders Carry the Index",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/ai-debt-glut-us-borrowing-costs/",
-      "date": "2026-10-15",
-      "title": "AI Debt Glut May Be Pushing Up US Government Borrowing Costs, BondCliQ CEO Says",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/kospi-opens-7-down-hot-cpi/",
-      "date": "2026-10-15",
-      "title": "KOSPI Opens 7% Down After Hot US CPI and AI Doubts Grow",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
       "link": "https://www.reddit.com/r/CryptoCurrency/comments/1x6tstc/ai_agents_are_on_a_shopping_spree_total/",
       "date": "2026-10-16",
       "title": "AI agents are on a shopping spree: Total transactions on Base blockchain eclipse 138 million, Chainalysis finds",
@@ -949,6 +886,34 @@
       "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xhnn92/ai_vs_1076_human_traders_the_results/",
       "date": "2026-10-29",
       "title": "AI vs 1,076 human traders: the results",
+      "source": "r/CryptoCurrency",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/kospi-falls-harder-than-nikkei/",
+      "date": "2026-10-30",
+      "title": "KOSPI Falls Far Harder Than Nikkei as AI Earnings Scare Hits Chipmakers",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/schwab-ai-adoption-dot-com-boom/",
+      "date": "2026-10-30",
+      "title": "Schwab Says AI Is Past Experiments: Will It Echo the Dot-Com Boom?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xizbd2/binance_hit_by_largest_suspected_aiassisted/",
+      "date": "2026-10-30",
+      "title": "Binance Hit by Largest Suspected AI-Assisted Crypto Exploit on Record With $5.8B in Outflows and Exchange-Wide Withdrawal Freeze",
+      "source": "r/CryptoCurrency",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xih0q4/sovereign_cloud_is_the_next_big_tech_battleground/",
+      "date": "2026-10-30",
+      "title": "Sovereign Cloud Is the Next Big Tech Battleground. Here's the Open Alternative to Hyperscalers",
       "source": "r/CryptoCurrency",
       "score": 2
     }
