@@ -1,62 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1x6tstc/ai_agents_are_on_a_shopping_spree_total/",
-      "date": "2026-10-16",
-      "title": "AI agents are on a shopping spree: Total transactions on Base blockchain eclipse 138 million, Chainalysis finds",
-      "source": "r/CryptoCurrency",
-      "score": 7
-    },
-    {
-      "link": "https://www.coindesk.com/tech/2026/10/16/an-openai-agent-ran-out-of-ethereum-funds-and-took-from-a-wallet-it-did-not-own",
-      "date": "2026-10-16",
-      "title": "An OpenAI agent ran out of Ethereum funds, and took from a wallet it did not own",
-      "source": "CoinDesk",
-      "score": 3
-    },
-    {
-      "link": "https://decrypt.co/381077/bitwise-cio-bitcoin-wins-ai-boom-or-bust",
-      "date": "2026-10-16",
-      "title": "Boom or Bust, Bitcoin Wins the AI Trade, Bitwise CIO Says",
-      "source": "Decrypt",
-      "score": 2
-    },
-    {
-      "link": "https://decrypt.co/381015/zcash-tanks-double-digits-after-meteoric-rise-sees-leverage-build-up",
-      "date": "2026-10-16",
-      "title": "Zcash Tanks Double Digits After 'Meteoric Rise' Sees Leverage Build Up",
-      "source": "Decrypt",
-      "score": 2
-    },
-    {
-      "link": "https://cointelegraph.com/markets/bitcoin-dips-korea-kospi-lowest-close-since-april?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-16",
-      "title": "Bitcoin dips to $80.1K as KOSPI closes at its lowest since April",
-      "source": "Cointelegraph",
-      "score": 2
-    },
-    {
-      "link": "https://www.theblock.co/news/markets/2026-10-15-bitwise-cio-argues-bitcoin-will-benefit-whether-ai-booms-or-busts-418668",
-      "date": "2026-10-16",
-      "title": "Bitwise CIO argues bitcoin will benefit whether AI booms or busts",
-      "source": "The Block",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/kospi-rebound-fed-hike-fears-recovery/",
-      "date": "2026-10-16",
-      "title": "KOSPI Rebounds 3%, but Fed Rate Hike Fears Could Cap the Recovery",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/fundstrat-newton-says-buy-tech-dip/",
-      "date": "2026-10-16",
-      "title": "Fundstrat's Mark Newton Says Buy the Tech Dip, but Stay Diversified",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
       "link": "https://www.reddit.com/r/CryptoCurrency/comments/1x7mjze/a_rogue_openai_agent_robbed_a_crypto_wallet_to/",
       "date": "2026-10-17",
       "title": "A rogue OpenAI agent robbed a crypto wallet to obtain funds to carry out a task",
@@ -915,6 +859,41 @@
       "date": "2026-10-30",
       "title": "Sovereign Cloud Is the Next Big Tech Battleground. Here's the Open Alternative to Hyperscalers",
       "source": "r/CryptoCurrency",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/ai-agent-payments-who-pays-for-mistakes/",
+      "date": "2026-10-31",
+      "title": "What If AI Agents Book You The Wrong Flight?",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/us-stock-market-crash-ai-bubble-bursting/",
+      "date": "2026-10-31",
+      "title": "Why Did the US Stock Market Crash? $2 Trillion Wiped Out",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/deutsche-bank-ai-dollar-warning-bitcoin-gold/",
+      "date": "2026-10-31",
+      "title": "Deutsche Bank's AI Dollar Warning Could Hit Bitcoin, Gold, and Stocks",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/astrazeneca-q3-earnings-stock-price-impact/",
+      "date": "2026-10-31",
+      "title": "COVID Vaccine Giant AstraZeneca Stock Jumps 7%. What's Behind It?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/blackstone-anthropic-junk-rating-ipo-doubt/",
+      "date": "2026-10-31",
+      "title": "Wall Street Just Cast a Big Doubt on Anthropic\u2019s $800 Billion AI Bet",
+      "source": "BeInCrypto",
       "score": 2
     }
   ]
