@@ -1,83 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.reddit.com/r/singularity/comments/1x8bhno/ai_stole_cryptocurrency_to_fulfil_coding_task_gpt/",
-      "date": "2026-10-18",
-      "title": "AI stole cryptocurrency to fulfil coding task.. (GPT 5.6 Sol)",
-      "source": "r/singularity",
-      "score": 5
-    },
-    {
-      "link": "https://beincrypto.com/claude-ai-nsa-mystery-satoshi-bitcoin-security/",
-      "date": "2026-10-18",
-      "title": "Did Satoshi Get Bitcoin Wrong? Claude's NSA Discovery Sparks Debate",
-      "source": "BeInCrypto",
-      "score": 4
-    },
-    {
-      "link": "https://decrypt.co/381213/tokenmaxxing-how-get-most-out-your-ai-models",
-      "date": "2026-10-18",
-      "title": "TokenMaxxing: How to Get the Most Out of Your AI Models",
-      "source": "Decrypt",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/vitalik-buterin-ai-paranoid-mode-hides-chats/",
-      "date": "2026-10-18",
-      "title": "Ethereum Founder Vitalik Buterin Builds \u2018Paranoid Mode\u2019 to Hide Your AI Secrets",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/bitcoin-mining-cost-vitalik-ai-inference/",
-      "date": "2026-10-18",
-      "title": "Vitalik Buterin Reveals Why AI Could Push Bitcoin Miners Out",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1x83iwh/openai_models_hacked_a_crypto_wallet_and_breached/",
-      "date": "2026-10-18",
-      "title": "OpenAI models hacked a crypto wallet and breached more websites",
-      "source": "r/CryptoCurrency",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1x8k4hj/vitalik_buterin_reveals_why_ai_could_push_bitcoin/",
-      "date": "2026-10-18",
-      "title": "Vitalik Buterin Reveals Why AI Could Push Bitcoin Miners Out",
-      "source": "r/CryptoCurrency",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1x8pv2b/unaminer_a_game_where_humans_solve_the_blockchain/",
-      "date": "2026-10-18",
-      "title": "Unaminer - a game where humans solve the blockchain",
-      "source": "r/CryptoCurrency",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1x83qnc/openai_models_hacked_a_crypto_wallet_and_breached/",
-      "date": "2026-10-18",
-      "title": "OpenAI models hacked a crypto wallet and breached more websites",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/singularity/comments/1x8oxmp/terrence_tao_remarks/",
-      "date": "2026-10-18",
-      "title": "Terrence Tao remarks",
-      "source": "r/singularity",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1x847zy/developer_goes_into_debt_spending_1000_a_day_to/",
-      "date": "2026-10-18",
-      "title": "Developer Goes Into Debt Spending $1,000 A Day To Keep Steam Demo For AI-Fueled Driving Sim Going",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
       "link": "https://beincrypto.com/bernstein-ai-stock-selloff-small-caps/",
       "date": "2026-10-19",
       "title": "Why Bernstein Thinks the AI Stock Sell-Off Could Help Small Caps",
@@ -930,6 +853,62 @@
       "title": "Bitcoin turns 18: Has the original rebel grown up?",
       "source": "Cointelegraph",
       "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xl61w0/bitcoin_has_no_blacklist_the_fbi_wants_one_around/",
+      "date": "2026-11-02",
+      "title": "Bitcoin Has No Blacklist. The FBI Wants One Around It.",
+      "source": "r/CryptoCurrency",
+      "score": 5
+    },
+    {
+      "link": "https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test",
+      "date": "2026-11-02",
+      "title": "AI agents bypassed crypto spending limits without human approval, researchers find in a new test",
+      "source": "CoinDesk",
+      "score": 3
+    },
+    {
+      "link": "https://cointelegraph.com/news/blockchain-investigator-chainalysis-hit-by-cybersecurity-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-02",
+      "title": "Blockchain investigator Chainalysis hit by cybersecurity incident",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://www.coindesk.com/tech/2026/10/31/as-big-bitcoin-miners-chase-ai-profits-individuals-get-another-shot-at-the-rewards",
+      "date": "2026-11-02",
+      "title": "As big bitcoin miners chase AI profits, individuals get another shot at the rewards",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/stock-pocalypse-us-stock-market-crash-this-week/",
+      "date": "2026-11-02",
+      "title": "Is a Stock-Pocalypse Coming This Week? Analysts Share Their Boldest Calls",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/wall-street-market-forces-nyse-veteran/",
+      "date": "2026-11-02",
+      "title": "Wall Street Has Never Faced This Many Market Forces at Once, NYSE Veteran Says",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1xl815r/xtwitter_makes_ai_dev_look_effortless_but_i_keep/",
+      "date": "2026-11-02",
+      "title": "X/Twitter makes AI dev look effortless, but I keep burning tokens on unfinished projects. How are you actually shipping full apps?",
+      "source": "r/artificial",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1xl59a7/working_on_a_research_framework_for_intelligence/",
+      "date": "2026-11-02",
+      "title": "Working on a research framework for intelligence beyond infrastructure and looking for honest feedback",
+      "source": "r/artificial",
+      "score": 2
     }
   ]
 }
