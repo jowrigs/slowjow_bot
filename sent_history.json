@@ -1,34 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://beincrypto.com/bernstein-ai-stock-selloff-small-caps/",
-      "date": "2026-10-19",
-      "title": "Why Bernstein Thinks the AI Stock Sell-Off Could Help Small Caps",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/tesla-meta-spacex-netflix-earnings-ai/",
-      "date": "2026-10-19",
-      "title": "Top 4 Earnings Reports This Week: What Tesla, Meta, SpaceX, Netflix Must Show",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/black-monday-traders-lose-ai-stock-bets/",
-      "date": "2026-10-19",
-      "title": "Black Monday Fears Grip Wall Street as Traders Lose $52 Million on AI Stock Bets",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1x91n9l/veworldai_on_ios_mobile/",
-      "date": "2026-10-19",
-      "title": "Veworld.ai on IOS mobile",
-      "source": "r/CryptoCurrency",
-      "score": 2
-    },
-    {
       "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xahhjm/i_miss_the_old_crypto_days/",
       "date": "2026-10-20",
       "title": "I miss the old crypto days",
@@ -907,6 +879,62 @@
       "link": "https://www.reddit.com/r/artificial/comments/1xl59a7/working_on_a_research_framework_for_intelligence/",
       "date": "2026-11-02",
       "title": "Working on a research framework for intelligence beyond infrastructure and looking for honest feedback",
+      "source": "r/artificial",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/news/ai-hackers-threat-bitcoin-quantum-computing-swan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-03",
+      "title": "AI poses greater threat to Bitcoin than quantum computing, Swan founder says",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xlsh3o/the_80000_mirage_why_the_most_brutal/",
+      "date": "2026-11-03",
+      "title": "The $80,000 Mirage: Why the Most Brutal Psychological Trap in Bitcoin\u2019s History Is Happening Right Now.",
+      "source": "r/CryptoCurrency",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/singularity/comments/1xme4ih/if_asi_is_coming_soon_a_superhuman_alignment/",
+      "date": "2026-11-03",
+      "title": "If ASI Is Coming Soon, A Superhuman Alignment Researcher Is Coming Sooner",
+      "source": "r/singularity",
+      "score": 3
+    },
+    {
+      "link": "https://decrypt.co/382357/tom-lee-calls-bottom-ai-stock-selloff-crypto",
+      "date": "2026-11-03",
+      "title": "Tom Lee Calls Bottom on AI Stock Selloff, Citing Tight Supply and Crypto Resilience",
+      "source": "Decrypt",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/markets/australia-lifts-rates-as-ai-boom-energy-costs-fuel-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-03",
+      "title": "Australia lifts rates to 18-year high as AI boom, energy costs fuel inflation",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/news/animoca-brands-expands-asset-management-business-with-abu-dhabi-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-03",
+      "title": "Animoca Brands clears final hurdle for Abu Dhabi fund management",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/ai-jitters-private-markets-openai-raise/",
+      "date": "2026-11-03",
+      "title": "AI Jitters Hit Private Markets: Will OpenAI's Smaller Raise Spook Investors?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1xmhgs4/are_we_measuring_ai_intelligence_or_just_the/",
+      "date": "2026-11-03",
+      "title": "Are We Measuring AI Intelligence, or Just the Infrastructure Behind It?",
       "source": "r/artificial",
       "score": 2
     }
