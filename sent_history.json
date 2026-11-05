@@ -1,55 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.coindesk.com/markets/2026/10/21/bitcoin-hovers-around-usd83-000-as-ai-earnings-revive-tech-zec-jumps-11",
-      "date": "2026-10-21",
-      "title": "Bitcoin hovers around $83,000 as AI earnings revive tech, ZEC jumps 11%",
-      "source": "CoinDesk",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/ken-griffin-ai-chip-glut-pricing/",
-      "date": "2026-10-21",
-      "title": "Ken Griffin Compares AI Chips to Airline Seats, Says Glut Could Send Pricing Into Freefall",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/ai-splits-software-winners-losers-citi/",
-      "date": "2026-10-21",
-      "title": "AI Is Splitting Software Into Winners and Losers, Citi\u2019s Tyler Radke Says",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/spacex-ai-spending-shock-3-stocks-upside/",
-      "date": "2026-10-21",
-      "title": "3 Stocks That Can Benefit From SpaceX\u2019s Surprise Q3 Earnings",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/spacex-q3-2026-results-ai-starlink-beat/",
-      "date": "2026-10-21",
-      "title": "SpaceX Beats Q3 2026 Estimates as Revenue Surges 161% YoY",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xavbr0/ai_vs_1076_human_traders_battle_results_if_the_69/",
-      "date": "2026-10-21",
-      "title": "AI vs 1,076 human traders, battle results: if the 69% who lose let AI trade, would the top 1% make less?",
-      "source": "r/CryptoCurrency",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1xavo5m/llm_memory_5_approaches_to_handling_new/",
-      "date": "2026-10-21",
-      "title": "LLM Memory: 5 Approaches to Handling New Information",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
       "link": "https://www.youtube.com/watch?v=95gQnz1eQAo",
       "date": "2026-10-22",
       "title": "AI Is Trying To KILL Crypto",
@@ -935,6 +886,62 @@
       "link": "https://beincrypto.com/china-halts-ipos-large-share-sales/",
       "date": "2026-11-04",
       "title": "China Reportedly Halts IPOs and Share Sales: Is the AI Trade Cracking?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://decrypt.co/resources/what-is-x402-how-ai-agents-pay-with-crypto",
+      "date": "2026-11-05",
+      "title": "What Is x402? How AI Agents Pay With Crypto",
+      "source": "Decrypt",
+      "score": 4
+    },
+    {
+      "link": "https://beincrypto.com/cert-in-crafty-falcon-crypto-exchanges/",
+      "date": "2026-11-05",
+      "title": "CERT-In Warns AI-Powered Hacker Group Is Hitting India's Crypto and Fintech Firms",
+      "source": "BeInCrypto",
+      "score": 4
+    },
+    {
+      "link": "https://cointelegraph.com/news/india-warns-ai-powered-hackers-targeting-crypto-exchanges-at-machine-speed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-05",
+      "title": "India warns AI-powered hackers targeting crypto exchanges at \u2018machine speed\u2019",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/arthur-hayes-ai-ipo-dilution-liquidity/",
+      "date": "2026-11-05",
+      "title": "Arthur Hayes: Can AI IPO Dilution Choke Bank Liquidity and Hit Bitcoin?",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xnqls7/i_have_never_been_this_bullish_on_crypto/",
+      "date": "2026-11-05",
+      "title": "I have never been this bullish on crypto",
+      "source": "r/CryptoCurrency",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1xnrvak/anthropics_flashprove_could_prove_an_ai_provider/",
+      "date": "2026-11-05",
+      "title": "Anthropic\u2019s FlashProve could prove an AI provider used the model you paid for without exposing its weights",
+      "source": "r/artificial",
+      "score": 3
+    },
+    {
+      "link": "https://cointelegraph.com/news/riots-28b-ai-deal-lifts-shares-as-hut-8-faces-transition-costs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-05",
+      "title": "Riot shares surge on $28B AI lease as Hut 8 sinks on revenue miss",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/sk-hynix-drops-dow-jumps-seoul/",
+      "date": "2026-11-05",
+      "title": "SK Hynix Sheds Nearly 8% While Dow Jumps: What Is Seoul Pricing In?",
       "source": "BeInCrypto",
       "score": 2
     }
