@@ -1,90 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.youtube.com/watch?v=95gQnz1eQAo",
-      "date": "2026-10-22",
-      "title": "AI Is Trying To KILL Crypto",
-      "source": "Coin Bureau",
-      "score": 8
-    },
-    {
-      "link": "https://www.youtube.com/shorts/jYz3N-wnKG8",
-      "date": "2026-10-22",
-      "title": "WHY CAN'T YOU JUST COPY AND PASTE DIGITAL MONEY?",
-      "source": "Coin Bureau",
-      "score": 7
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=OfdPQ_hdEPA",
-      "date": "2026-10-22",
-      "title": "How Crypto Wallets ACTUALLY Work",
-      "source": "Coin Bureau",
-      "score": 7
-    },
-    {
-      "link": "https://www.youtube.com/shorts/TFivNc4DznU",
-      "date": "2026-10-22",
-      "title": "Bitget got hacked for $388M. Here's what happened!!",
-      "source": "Coin Bureau",
-      "score": 6
-    },
-    {
-      "link": "https://www.youtube.com/shorts/Wh0wJ-cKOhk",
-      "date": "2026-10-22",
-      "title": "HOW DOES BLOCKCHAIN ACTUALLY WORK?",
-      "source": "Coin Bureau",
-      "score": 6
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=2byWq42WIJc",
-      "date": "2026-10-22",
-      "title": "The $18 BILLION Threat to Strategy's Stock",
-      "source": "Coin Bureau",
-      "score": 5
-    },
-    {
-      "link": "https://www.youtube.com/shorts/It4uQ-UuohU",
-      "date": "2026-10-22",
-      "title": "WOULD YOU TRUST THIS XRP UPDATE??",
-      "source": "Coin Bureau",
-      "score": 5
-    },
-    {
-      "link": "https://www.youtube.com/shorts/kSsh3JhSkVM",
-      "date": "2026-10-22",
-      "title": "Why Is the Same House Suddenly Unaffordable?",
-      "source": "Coin Bureau",
-      "score": 5
-    },
-    {
-      "link": "https://www.youtube.com/shorts/MxhQ2RnE2KA",
-      "date": "2026-10-22",
-      "title": "HOW DID A 17 MILEPIPE WRECK AI?",
-      "source": "Coin Bureau",
-      "score": 5
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=L2w72EoTLqs",
-      "date": "2026-10-22",
-      "title": "The US Housing Market is BREAKING (few are ready)",
-      "source": "Coin Bureau",
-      "score": 4
-    },
-    {
-      "link": "https://www.theblock.co/news/deals/2026-10-21-dataline-decentralized-data-network-ai-agents-funding-ico-421596",
-      "date": "2026-10-22",
-      "title": "Dataline raises $10.6 million for decentralized data network for AI agents, plans ICO",
-      "source": "The Block",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/circle-ceo-bitcoin-slump-digital-dollars/",
-      "date": "2026-10-22",
-      "title": "Circle CEO Shrugs Off Bitcoin's Slump and Pitches Digital Dollars for the AI Era",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
       "link": "https://www.reddit.com/r/artificial/comments/1xcqlr5/the_proximity_paradox_why_ai_is_making_us_softand/",
       "date": "2026-10-23",
       "title": "The Proximity Paradox: Why AI Is Making Us Soft\u2014and How to Fight Back",
@@ -943,6 +859,90 @@
       "date": "2026-11-05",
       "title": "SK Hynix Sheds Nearly 8% While Dow Jumps: What Is Seoul Pricing In?",
       "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/magazine/asian-crypto-exchanges-bunker-down-as-hacks-surge-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-06",
+      "title": "Asian crypto exchanges batten down the hatches as hacks surge: Asia Express",
+      "source": "Cointelegraph",
+      "score": 4
+    },
+    {
+      "link": "https://cointelegraph.com/news/blockchain-is-perfect-solution-for-ai-agent-trust-vechain-ceo-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-06",
+      "title": "Blockchain is \u2018perfect solution\u2019 for AI agent trust, VeChain CEO says",
+      "source": "Cointelegraph",
+      "score": 4
+    },
+    {
+      "link": "https://decrypt.co/382612/bitcoin-erases-election-rally-ai-stocks-plunge-428-million-crypto-longs",
+      "date": "2026-11-06",
+      "title": "Bitcoin Erases Election Rally as AI Stocks Plunge, $428 Million in Crypto Longs Get Wiped Out",
+      "source": "Decrypt",
+      "score": 3
+    },
+    {
+      "link": "https://www.coindesk.com/markets/2026/11/05/bitcoin-crypto-stocks-caught-in-ai-trade-meltdown-but-wintermute-trader-sees-glass-half-full",
+      "date": "2026-11-06",
+      "title": "Bitcoin tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://www.coindesk.com/tech/2026/11/05/google-could-take-ownership-stake-in-bitcoin-miner-terawulf-s-ai-project-if-anthropic-defaults",
+      "date": "2026-11-06",
+      "title": "Google could take stake in bitcoin miner TeraWulf\u2019s $19 billion AI project if Anthropic defaults",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://www.coindesk.com/tech/2026/11/05/bitcoin-miner-riot-could-pay-anthropic-12-interest-under-usd28-billion-ai-deal",
+      "date": "2026-11-06",
+      "title": "Bitcoin miner Riot could pay Anthropic 12% interest under $28 billion AI deal",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/news/core-scientific-to-quit-bitcoin-mining-by-year-end-as-ai-business-surges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-06",
+      "title": "Core Scientific to quit Bitcoin mining by year-end as AI business surges",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/news/american-bitcoins-126m-profit-masks-mining-pressure-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-06",
+      "title": "American Bitcoin\u2019s $126M profit masks mining pressure as rivals turn to AI",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://www.theblock.co/news/business/2026-11-05-irens-mining-revenue-drops-435783",
+      "date": "2026-11-06",
+      "title": "IREN\u2019s bitcoin mining revenue drops 58% as firm plans full exit by year-end",
+      "source": "The Block",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/kospi-circuit-breaker-index-below-5000/",
+      "date": "2026-11-06",
+      "title": "Wall Street\u2019s AI Sell-Off Spills Into Seoul, Sinking KOSPI Below 5,000",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/bitrue-ai-first-crypto-exchange-xrp-trading-tools/",
+      "date": "2026-11-06",
+      "title": "Bitrue Pivots To AI With Bitrue AI, Building On Its XRP Roots",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xok8wu/the_confessions_of_an_ai_fraud_kingpin/",
+      "date": "2026-11-06",
+      "title": "The Confessions of an AI Fraud Kingpin",
+      "source": "r/CryptoCurrency",
       "score": 2
     }
   ]
