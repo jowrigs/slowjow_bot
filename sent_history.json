@@ -1,55 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xdj442/venture_giant_andreessen_horowitz_drops_crypto/",
-      "date": "2026-10-24",
-      "title": "Venture giant Andreessen Horowitz drops \u2018crypto\u2019 from name of blockchain fund, rebrands as \u2018a16z Frontier\u2019",
-      "source": "r/CryptoCurrency",
-      "score": 4
-    },
-    {
-      "link": "https://beincrypto.com/cz-ai-bitcoin-cryptography-phishing-warning/",
-      "date": "2026-10-24",
-      "title": "Can AI Hack Bitcoin? CZ Says the Real Danger Lies in Phishing and Data Leak",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xdf84o/the_us_ai_endgame_leads_to_hard_assets/",
-      "date": "2026-10-24",
-      "title": "The US AI endgame leads to hard assets.",
-      "source": "r/CryptoCurrency",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1xdayfr/what_should_i_use/",
-      "date": "2026-10-24",
-      "title": "What should I use ?",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://www.coindesk.com/tech/2026/10/23/bitcoin-will-now-stop-hiding-bugs-an-ai-can-find-in-one-prompt",
-      "date": "2026-10-24",
-      "title": "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy",
-      "source": "CoinDesk",
-      "score": 2
-    },
-    {
-      "link": "https://decrypt.co/381715/bitcoin-core-security-policy-ai-threats",
-      "date": "2026-10-24",
-      "title": "Bitcoin Core Rewrites Its Security Policy for a World Where AI Finds Bugs in One Prompt",
-      "source": "Decrypt",
-      "score": 2
-    },
-    {
-      "link": "https://cointelegraph.com/markets/bitcoin-consolidates-after-3-loss-as-ai-fears-stoke-fresh-stock-market-weakness?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-24",
-      "title": "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness",
-      "source": "Cointelegraph",
-      "score": 2
-    },
-    {
       "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xemhiw/is_crypto_the_logical_next_step_for_aitoai_and/",
       "date": "2026-10-25",
       "title": "Is crypto the logical next step for AI-to-AI and AI-to-Business payments?",
@@ -951,6 +902,27 @@
       "title": "Bitrue Turns 8 With Bitrue AI And 100,000 USDT Rewards For New Traders",
       "source": "BeInCrypto",
       "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/elon-musk-satoshi-nakamoto-stylometry-analysis/",
+      "date": "2026-11-08",
+      "title": "Who is Satoshi Nakamoto? New Grok AI Study Tests Multiple Theories",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/pi-ecosystem-summit-agenda-hackathon/",
+      "date": "2026-11-08",
+      "title": "Pi Network is Going Big on AI as Token Price Remains Near Record Lows",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xq1xsx/zcash_meta_real_or_bs/",
+      "date": "2026-11-08",
+      "title": "Zcash meta: real or BS?",
+      "source": "r/CryptoCurrency",
+      "score": 3
     }
   ]
 }
