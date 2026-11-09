@@ -1,55 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xemhiw/is_crypto_the_logical_next_step_for_aitoai_and/",
-      "date": "2026-10-25",
-      "title": "Is crypto the logical next step for AI-to-AI and AI-to-Business payments?",
-      "source": "r/CryptoCurrency",
-      "score": 4
-    },
-    {
-      "link": "https://www.reddit.com/r/singularity/comments/1xe9mx1/terence_tao_ai_turns_beautiful_mathematics_into/",
-      "date": "2026-10-25",
-      "title": "Terence Tao: AI turns beautiful mathematics into \u2018toxic waste\u2019",
-      "source": "r/singularity",
-      "score": 4
-    },
-    {
-      "link": "https://beincrypto.com/grayscale-3-crypto-benefit-ai-boom/",
-      "date": "2026-10-25",
-      "title": "Grayscale Names 3 Cryptocurrencies That Could Benefit From AI Growth",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/american-express-stock-ai-job-cuts/",
-      "date": "2026-10-25",
-      "title": "American Express Stock Shocks Despite Positive Revenue and Earnings",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/ai-stock-selloff-investors-shift-swiss-stocks/",
-      "date": "2026-10-25",
-      "title": "AI Bubble Fears Trigger a Surprising Shift to Swiss Stocks",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1xefah4/ai_is_humanities_collective_inheritance_and/",
-      "date": "2026-10-25",
-      "title": "AI is humanities collective inheritance and should be legally treated as such",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1xedvbq/quiz_characters_words_and_tokens_are_different/",
-      "date": "2026-10-25",
-      "title": "Quiz: characters, words and tokens are different measures of text length, and LLM limits use tokens",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
       "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xfn1oh/ai_quantum_computing_are_not_wizards_that_can/",
       "date": "2026-10-26",
       "title": "AI & Quantum Computing are not wizards that can willy-nilly cast a spell and destroy bitcoin. Devs are working to create solutions.",
@@ -923,6 +874,34 @@
       "title": "Zcash meta: real or BS?",
       "source": "r/CryptoCurrency",
       "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/ai-agent-payments-banking-adoption-risks/",
+      "date": "2026-11-09",
+      "title": "AI Agents Made 6.4 Million Payments. Why Won\u2019t Institutions Trust Them?",
+      "source": "BeInCrypto",
+      "score": 4
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xr8ze8/the_mother_of_all_black_swans_hinton_warns_of_ai/",
+      "date": "2026-11-09",
+      "title": "The Mother Of All Black Swans. Hinton Warns of AI 'Chernobyl' Blackout This Year or Next",
+      "source": "r/CryptoCurrency",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/vitalik-buterin-anti-data-center-movement/",
+      "date": "2026-11-09",
+      "title": "Vitalik Buterin Wants AI to Slow Down, Backs Anti-Data Center Movement",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/us-data-center-construction-record-ubs-warning/",
+      "date": "2026-11-09",
+      "title": "UBS CEO Warns of an AI Buildout Slowdown as Data Center Construction Hits a Record",
+      "source": "BeInCrypto",
+      "score": 2
     }
   ]
 }
