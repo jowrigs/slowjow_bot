@@ -1,69 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xfn1oh/ai_quantum_computing_are_not_wizards_that_can/",
-      "date": "2026-10-26",
-      "title": "AI & Quantum Computing are not wizards that can willy-nilly cast a spell and destroy bitcoin. Devs are working to create solutions.",
-      "source": "r/CryptoCurrency",
-      "score": 5
-    },
-    {
-      "link": "https://cointelegraph.com/magazine/ai-agents-help-rescue-eths-glamsterdam-fork-steal-my-bitcoin-site-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-10-26",
-      "title": "AI agents help rescue ETH\u2019s Glamsterdam fork, \u2018Steal My Bitcoin\u2019 site: Hodler\u2019s Digest",
-      "source": "Cointelegraph",
-      "score": 4
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xeyooh/the_quantum_clock_just_jumped_forward_why/",
-      "date": "2026-10-26",
-      "title": "The Quantum Clock Just Jumped Forward: Why Bitcoin\u2019s Math Is Shrinking Faster Than Anyone Expected (And Why Hardware Is Still Holding the Line).",
-      "source": "r/CryptoCurrency",
-      "score": 4
-    },
-    {
-      "link": "https://beincrypto.com/goldman-yen-hedge-ai-market-shock/",
-      "date": "2026-10-26",
-      "title": "Goldman Sachs Names One Trade to Hedge an AI Market Shock",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/coreweave-ai-selloff-crypto-origins-debt/",
-      "date": "2026-10-26",
-      "title": "From Crypto Roots to AI Selloff: Why CoreWeave Is Under Pressure",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/big-tech-earnings-no-win-test/",
-      "date": "2026-10-26",
-      "title": "Big Tech Earnings Are a No-Win Test as Investors Punish Both Capex Cuts and Hikes",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/top-3-big-tech-earnings-reports-october-final-week/",
-      "date": "2026-10-26",
-      "title": "3 Big Tech Earnings Reports to Watch as AI Bills Keep Growing",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/musk-ai-cloud-firms-coreweave-debt/",
-      "date": "2026-10-26",
-      "title": "Elon Musk Says 200+ AI Cloud Firms Face Wipeout: Will CoreWeave Survive?",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/ai-data-center-delay-penalties/",
-      "date": "2026-10-26",
-      "title": "AI Just Put a $5 Million-a-Day Price Tag on Its Biggest Bottleneck",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
       "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xftnjt/bitcoin_will_never_exceed_its_ath_by_more_than_10/",
       "date": "2026-10-27",
       "title": "Bitcoin Will Never Exceed its ATH by More than 10%, Bitcoin's Bottom Will Be Below 40K, and Ethereum's Price will be greater than 16K USD within 10 Years.",
@@ -902,6 +839,90 @@
       "title": "UBS CEO Warns of an AI Buildout Slowdown as Data Center Construction Hits a Record",
       "source": "BeInCrypto",
       "score": 2
+    },
+    {
+      "link": "https://www.youtube.com/shorts/OVaYZ1eXHTA",
+      "date": "2026-11-10",
+      "title": "How 1 Signature Can Drain Your Entire Wallet",
+      "source": "Coin Bureau",
+      "score": 8
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=OhRh81S7B2g",
+      "date": "2026-11-10",
+      "title": "Where Should You REALLY Keep Your Bitcoin.",
+      "source": "Coin Bureau",
+      "score": 6
+    },
+    {
+      "link": "https://www.youtube.com/shorts/riMsr-lLpHo",
+      "date": "2026-11-10",
+      "title": "Could Your Crypto Exchange Be Hacked Like Binance?",
+      "source": "Coin Bureau",
+      "score": 5
+    },
+    {
+      "link": "https://www.youtube.com/shorts/lYyctPToG8Y",
+      "date": "2026-11-10",
+      "title": "Did OpenAI really lose $20 billion in revenue?",
+      "source": "Coin Bureau",
+      "score": 5
+    },
+    {
+      "link": "https://www.youtube.com/shorts/ywCWZ88oZmY",
+      "date": "2026-11-10",
+      "title": "Why are Democrats targeting Trump and Big Tech?",
+      "source": "Coin Bureau",
+      "score": 5
+    },
+    {
+      "link": "https://www.youtube.com/shorts/2nKetj9Yt9Y",
+      "date": "2026-11-10",
+      "title": "What if a robot steals your money and puts you on trial?",
+      "source": "Coin Bureau",
+      "score": 5
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=n17v727G7FI",
+      "date": "2026-11-10",
+      "title": "The Midterms Couldn't Stop Bitcoin!",
+      "source": "Coin Bureau",
+      "score": 5
+    },
+    {
+      "link": "https://www.youtube.com/shorts/5ECkfcnaGKU",
+      "date": "2026-11-10",
+      "title": "How The Midterm Elections Could Reshape Crypto",
+      "source": "Coin Bureau",
+      "score": 5
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=4ZnGrmhWEgM",
+      "date": "2026-11-10",
+      "title": "AI Millionaires Are Moving Into Crypto",
+      "source": "Coin Bureau",
+      "score": 4
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=1odbNZwiuso",
+      "date": "2026-11-10",
+      "title": "Elon Musk Is Trying To Burst The AI Bubble",
+      "source": "Coin Bureau",
+      "score": 4
+    },
+    {
+      "link": "https://cointelegraph.com/markets/hives-bitcoin-output-jumps-49-but-mining-revenue-falls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-10",
+      "title": "HIVE, MARA mine more Bitcoin but earn less as crypto prices fall",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/jim-cramer-ai-stocks-anthropic-ipo/",
+      "date": "2026-11-10",
+      "title": "Jim Cramer Names the One Deal AI Stocks Can\u2019t Recover Without",
+      "source": "BeInCrypto",
+      "score": 3
     }
   ]
 }
