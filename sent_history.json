@@ -1,34 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://beincrypto.com/kospi-falls-harder-than-nikkei/",
-      "date": "2026-10-30",
-      "title": "KOSPI Falls Far Harder Than Nikkei as AI Earnings Scare Hits Chipmakers",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/schwab-ai-adoption-dot-com-boom/",
-      "date": "2026-10-30",
-      "title": "Schwab Says AI Is Past Experiments: Will It Echo the Dot-Com Boom?",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xizbd2/binance_hit_by_largest_suspected_aiassisted/",
-      "date": "2026-10-30",
-      "title": "Binance Hit by Largest Suspected AI-Assisted Crypto Exploit on Record With $5.8B in Outflows and Exchange-Wide Withdrawal Freeze",
-      "source": "r/CryptoCurrency",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xih0q4/sovereign_cloud_is_the_next_big_tech_battleground/",
-      "date": "2026-10-30",
-      "title": "Sovereign Cloud Is the Next Big Tech Battleground. Here's the Open Alternative to Hyperscalers",
-      "source": "r/CryptoCurrency",
-      "score": 2
-    },
-    {
       "link": "https://beincrypto.com/ai-agent-payments-who-pays-for-mistakes/",
       "date": "2026-10-31",
       "title": "What If AI Agents Book You The Wrong Flight?",
@@ -901,6 +873,69 @@
       "date": "2026-11-13",
       "title": "Manus scrapped traditional coding interviews and cut engineer hiring to half its peak; PMs now write code",
       "source": "r/artificial",
+      "score": 2
+    },
+    {
+      "link": "https://www.youtube.com/shorts/QeVFc6hDnYY",
+      "date": "2026-11-14",
+      "title": "Initia Was Hacked Twice in 18 Days. Nearly $6 Million Gone!",
+      "source": "Coin Bureau",
+      "score": 6
+    },
+    {
+      "link": "https://www.youtube.com/shorts/3bawU3m65Ek",
+      "date": "2026-11-14",
+      "title": "Why did Binance warn iPhone users?",
+      "source": "Coin Bureau",
+      "score": 6
+    },
+    {
+      "link": "https://www.youtube.com/shorts/JnQC0PxLEtU",
+      "date": "2026-11-14",
+      "title": "Microsoft just had a global outage (Here's what caused it)",
+      "source": "Coin Bureau",
+      "score": 5
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=RTck1cfw3GY",
+      "date": "2026-11-14",
+      "title": "Strategy Got BOOTED From MSCI. Can Bitcoin Survive?",
+      "source": "Coin Bureau",
+      "score": 5
+    },
+    {
+      "link": "https://decrypt.co/383259/fed-chair-warsh-wants-answers-ai-inflation-bitcoin",
+      "date": "2026-11-14",
+      "title": "Fed Chair Warsh Wants Answers on AI Inflation\u2014and Bitcoin May Feel the Impact",
+      "source": "Decrypt",
+      "score": 3
+    },
+    {
+      "link": "https://cointelegraph.com/news/openai-ai-payments-chatgpt-wallet-visa-mastercard-amex?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-14",
+      "title": "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xv3emf/the_emperor_has_no_successor_why_nvidias_500/",
+      "date": "2026-11-14",
+      "title": "The Emperor Has No Successor: Why Nvidia\u2019s $500 Billion Meltdown and Trump\u2019s Meddling Prove Bitcoin\u2019s Leaderless Design Is Bulletproof.",
+      "source": "r/CryptoCurrency",
+      "score": 3
+    },
+    {
+      "link": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out",
+      "date": "2026-11-14",
+      "title": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xv3hy8/elfa_ais_expose_feature_will_help_you_to_decipher/",
+      "date": "2026-11-14",
+      "title": "Elfa AI's Expose feature will help you to decipher influencer interconnections.",
+      "source": "r/CryptoCurrency",
       "score": 2
     }
   ]
