@@ -1,41 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://beincrypto.com/ai-agent-payments-who-pays-for-mistakes/",
-      "date": "2026-10-31",
-      "title": "What If AI Agents Book You The Wrong Flight?",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/us-stock-market-crash-ai-bubble-bursting/",
-      "date": "2026-10-31",
-      "title": "Why Did the US Stock Market Crash? $2 Trillion Wiped Out",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/deutsche-bank-ai-dollar-warning-bitcoin-gold/",
-      "date": "2026-10-31",
-      "title": "Deutsche Bank's AI Dollar Warning Could Hit Bitcoin, Gold, and Stocks",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/astrazeneca-q3-earnings-stock-price-impact/",
-      "date": "2026-10-31",
-      "title": "COVID Vaccine Giant AstraZeneca Stock Jumps 7%. What's Behind It?",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/blackstone-anthropic-junk-rating-ipo-doubt/",
-      "date": "2026-10-31",
-      "title": "Wall Street Just Cast a Big Doubt on Anthropic\u2019s $800 Billion AI Bet",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
       "link": "https://www.youtube.com/watch?v=5u2IlJytBT8",
       "date": "2026-11-01",
       "title": "How Binance Was HACKED For $6 Billion",
@@ -935,6 +900,69 @@
       "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xv3hy8/elfa_ais_expose_feature_will_help_you_to_decipher/",
       "date": "2026-11-14",
       "title": "Elfa AI's Expose feature will help you to decipher influencer interconnections.",
+      "source": "r/CryptoCurrency",
+      "score": 2
+    },
+    {
+      "link": "https://decrypt.co/383278/openai-chatgpt-wallet-ai-agents-shop-without-crypto",
+      "date": "2026-11-15",
+      "title": "OpenAI Launches ChatGPT Wallet to Let AI Agents Shop\u2014Without Crypto",
+      "source": "Decrypt",
+      "score": 4
+    },
+    {
+      "link": "https://cointelegraph.com/news/megaeth-parent-cuts-20-percent-staff-ai-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-15",
+      "title": "MegaETH parent cuts 20% of staff amid restructuring, AI push",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/ai-agents-pay-for-news-media-content/",
+      "date": "2026-11-15",
+      "title": "Will AI Agents Pay for News and Media Content Soon?",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xw6ij6/congratz_you_guys_are_roughly_halfway_the_lost/",
+      "date": "2026-11-15",
+      "title": "Congratz, you guys are roughly halfway the lost decade with bitcoin",
+      "source": "r/CryptoCurrency",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/artificial/comments/1xw7ytx/ai_incest_what_happens_when_ai_trains_on/",
+      "date": "2026-11-15",
+      "title": "AI Incest: What happens when AI trains on AI-generated content, generation after generation?",
+      "source": "r/artificial",
+      "score": 3
+    },
+    {
+      "link": "https://www.reddit.com/r/singularity/comments/1xwczk8/chatgpts_new_wallet_lets_ai_agents_shop_and_check/",
+      "date": "2026-11-15",
+      "title": "ChatGPT's new Wallet lets AI agents shop and check out for you",
+      "source": "r/singularity",
+      "score": 3
+    },
+    {
+      "link": "https://www.coindesk.com/business/2026/11/14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business",
+      "date": "2026-11-15",
+      "title": "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/fed-banks-1-trillion-ai-exposure/",
+      "date": "2026-11-15",
+      "title": "Big Banks Have Nearly $1 Trillion Tied to AI. What If the Boom Cracks?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xwd4gt/64k_ath_saw_a_75_drop_to_16k_will_124k_ath_see_a/",
+      "date": "2026-11-15",
+      "title": "64k ATH saw a 75% drop to 16k.. Will 124k ATH see a 75% drop to 31k?",
       "source": "r/CryptoCurrency",
       "score": 2
     }
