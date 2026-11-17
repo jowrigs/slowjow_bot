@@ -1,62 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xl61w0/bitcoin_has_no_blacklist_the_fbi_wants_one_around/",
-      "date": "2026-11-02",
-      "title": "Bitcoin Has No Blacklist. The FBI Wants One Around It.",
-      "source": "r/CryptoCurrency",
-      "score": 5
-    },
-    {
-      "link": "https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test",
-      "date": "2026-11-02",
-      "title": "AI agents bypassed crypto spending limits without human approval, researchers find in a new test",
-      "source": "CoinDesk",
-      "score": 3
-    },
-    {
-      "link": "https://cointelegraph.com/news/blockchain-investigator-chainalysis-hit-by-cybersecurity-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-02",
-      "title": "Blockchain investigator Chainalysis hit by cybersecurity incident",
-      "source": "Cointelegraph",
-      "score": 3
-    },
-    {
-      "link": "https://www.coindesk.com/tech/2026/10/31/as-big-bitcoin-miners-chase-ai-profits-individuals-get-another-shot-at-the-rewards",
-      "date": "2026-11-02",
-      "title": "As big bitcoin miners chase AI profits, individuals get another shot at the rewards",
-      "source": "CoinDesk",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/stock-pocalypse-us-stock-market-crash-this-week/",
-      "date": "2026-11-02",
-      "title": "Is a Stock-Pocalypse Coming This Week? Analysts Share Their Boldest Calls",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/wall-street-market-forces-nyse-veteran/",
-      "date": "2026-11-02",
-      "title": "Wall Street Has Never Faced This Many Market Forces at Once, NYSE Veteran Says",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1xl815r/xtwitter_makes_ai_dev_look_effortless_but_i_keep/",
-      "date": "2026-11-02",
-      "title": "X/Twitter makes AI dev look effortless, but I keep burning tokens on unfinished projects. How are you actually shipping full apps?",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1xl59a7/working_on_a_research_framework_for_intelligence/",
-      "date": "2026-11-02",
-      "title": "Working on a research framework for intelligence beyond infrastructure and looking for honest feedback",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
       "link": "https://cointelegraph.com/news/ai-hackers-threat-bitcoin-quantum-computing-swan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "date": "2026-11-03",
       "title": "AI poses greater threat to Bitcoin than quantum computing, Swan founder says",
@@ -901,6 +845,90 @@
       "date": "2026-11-16",
       "title": "A Key Power Supplier to AI Data Centres Has Record Orders. Its Stock Is Down 44%",
       "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=jeKD85EPlAc",
+      "date": "2026-11-17",
+      "title": "Where Did Binance's Stolen $6 Billion Go?",
+      "source": "Coin Bureau",
+      "score": 7
+    },
+    {
+      "link": "https://www.youtube.com/shorts/2KMWoCwAnxM",
+      "date": "2026-11-17",
+      "title": "64,000 Bitcoin Miners Hijacked by Uncensored AI Hackers",
+      "source": "Coin Bureau",
+      "score": 6
+    },
+    {
+      "link": "https://www.youtube.com/shorts/yawHhhUA0Hk",
+      "date": "2026-11-17",
+      "title": "Why didn't Bitcoin hit a crazy all-time high this year?",
+      "source": "Coin Bureau",
+      "score": 6
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=Uns8CWWtxBI",
+      "date": "2026-11-17",
+      "title": "Coinbase Just Changed the Rules for Crypto",
+      "source": "Coin Bureau",
+      "score": 6
+    },
+    {
+      "link": "https://www.youtube.com/shorts/fcNom_MzQDE",
+      "date": "2026-11-17",
+      "title": "Who is actually buying your crypto right now?",
+      "source": "Coin Bureau",
+      "score": 6
+    },
+    {
+      "link": "https://beincrypto.com/optimizely-attack-ledger-hsbc-crypto-malware/",
+      "date": "2026-11-17",
+      "title": "Ledger, HSBC, Zoom Among 178 Sites Hit by Crypto Address-Swapping Malware",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/gary-gensler-ai-bubble-burst-bitcoin-halving/",
+      "date": "2026-11-17",
+      "title": "Gary Gensler\u2019s AI Bubble Timeline Puts Bitcoin\u2019s 2028 Halving in the Blast Zone",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://www.coindesk.com/daybook-us/2026/11/16/bitcoin-was-supposed-to-gain-as-ai-faltered-but-it-crashed-here-s-why",
+      "date": "2026-11-17",
+      "title": "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why.",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://decrypt.co/383392/hackers-redirected-bitcoin-miner-rewards-ai-attack-luxor",
+      "date": "2026-11-17",
+      "title": "Hackers Redirected Bitcoin Miner Rewards via AI Attack, Luxor CEO Says",
+      "source": "Decrypt",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/news/nvidia-turmoil-tests-bitcoin-miners-ai-funding-plans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-17",
+      "title": "Nvidia turmoil tests Bitcoin miners\u2019 AI funding plans",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/markets/bitcoin-price-fails-to-hold-65k-us-stocks-drop-on-ai-nerves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-17",
+      "title": "Bitcoin price fails to hold $65K as US stocks drop further on AI nerves",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://www.theblock.co/news/defi/2026-11-16-solflare-ceo-ai-security-reviews-bunker-mode-moneygram-441396",
+      "date": "2026-11-17",
+      "title": "Solflare CEO says AI security reviews are essential, touts \u2018bunker mode\u2019 and MoneyGram deal",
+      "source": "The Block",
       "score": 2
     }
   ]
