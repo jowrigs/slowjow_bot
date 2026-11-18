@@ -1,62 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://cointelegraph.com/news/ai-hackers-threat-bitcoin-quantum-computing-swan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-03",
-      "title": "AI poses greater threat to Bitcoin than quantum computing, Swan founder says",
-      "source": "Cointelegraph",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xlsh3o/the_80000_mirage_why_the_most_brutal/",
-      "date": "2026-11-03",
-      "title": "The $80,000 Mirage: Why the Most Brutal Psychological Trap in Bitcoin\u2019s History Is Happening Right Now.",
-      "source": "r/CryptoCurrency",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/singularity/comments/1xme4ih/if_asi_is_coming_soon_a_superhuman_alignment/",
-      "date": "2026-11-03",
-      "title": "If ASI Is Coming Soon, A Superhuman Alignment Researcher Is Coming Sooner",
-      "source": "r/singularity",
-      "score": 3
-    },
-    {
-      "link": "https://decrypt.co/382357/tom-lee-calls-bottom-ai-stock-selloff-crypto",
-      "date": "2026-11-03",
-      "title": "Tom Lee Calls Bottom on AI Stock Selloff, Citing Tight Supply and Crypto Resilience",
-      "source": "Decrypt",
-      "score": 2
-    },
-    {
-      "link": "https://cointelegraph.com/markets/australia-lifts-rates-as-ai-boom-energy-costs-fuel-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-03",
-      "title": "Australia lifts rates to 18-year high as AI boom, energy costs fuel inflation",
-      "source": "Cointelegraph",
-      "score": 2
-    },
-    {
-      "link": "https://cointelegraph.com/news/animoca-brands-expands-asset-management-business-with-abu-dhabi-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-03",
-      "title": "Animoca Brands clears final hurdle for Abu Dhabi fund management",
-      "source": "Cointelegraph",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/ai-jitters-private-markets-openai-raise/",
-      "date": "2026-11-03",
-      "title": "AI Jitters Hit Private Markets: Will OpenAI's Smaller Raise Spook Investors?",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1xmhgs4/are_we_measuring_ai_intelligence_or_just_the/",
-      "date": "2026-11-03",
-      "title": "Are We Measuring AI Intelligence, or Just the Infrastructure Behind It?",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
       "link": "https://decrypt.co/382465/crypto-docs-gitbook-ai-agent-security-breach",
       "date": "2026-11-04",
       "title": "Crypto Docs Host GitBook Hit by AI Agent Security Breach, Urges Users to Rotate Keys",
@@ -929,6 +873,69 @@
       "date": "2026-11-17",
       "title": "Solflare CEO says AI security reviews are essential, touts \u2018bunker mode\u2019 and MoneyGram deal",
       "source": "The Block",
+      "score": 2
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=9k47sQ0CT18",
+      "date": "2026-11-18",
+      "title": "How Wall Street Is Choosing Crypto's WINNERS",
+      "source": "Coin Bureau",
+      "score": 7
+    },
+    {
+      "link": "https://decrypt.co/383417/the-biggest-opportunity-in-crypto-is-already-underway-solana-bets-big-on-ai-agents",
+      "date": "2026-11-18",
+      "title": "'The Biggest Opportunity in Crypto Is Already Underway': Solana Bets Big on AI Agents",
+      "source": "Decrypt",
+      "score": 5
+    },
+    {
+      "link": "https://beincrypto.com/ai-agent-drain-crypto-wallet-rules/",
+      "date": "2026-11-18",
+      "title": "Can an AI Agent Drain Your Crypto Wallet? 5 Rules to Keep Your Funds Safe",
+      "source": "BeInCrypto",
+      "score": 4
+    },
+    {
+      "link": "https://cointelegraph.com/magazine/bitcoin-to-1m-by-2030-almost-certainly-not-says-dragonflys-qureshi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-18",
+      "title": "Bitcoin to $1M by 2030? \u2018Almost certainly not,\u2019 says Dragonfly\u2019s Qureshi",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://cointelegraph.com/news/google-ai-agents-automated-cyberattacks-software-flaws?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-18",
+      "title": "Google says hackers use AI agents to find and exploit software flaws",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/peter-schiff-ai-subprime-financial-crisis/",
+      "date": "2026-11-18",
+      "title": "Peter Schiff Has a New Candidate for the Next Financial Crisis. It\u2019s Not Bitcoin",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://www.theblock.co/news/markets/2026-11-17-bitwise-zday-ai-cyber-defense-etf-442062",
+      "date": "2026-11-18",
+      "title": "Bitwise launches ZDAY, its first non-crypto ETF, to bet on AI cyber defense",
+      "source": "The Block",
+      "score": 2
+    },
+    {
+      "link": "https://www.theblock.co/news/markets/2026-11-17-bernstein-sees-upside-for-bitcoin-miners-riot-and-terawulf-citing-discounts-to-implied-ai-data-center-values-442125",
+      "date": "2026-11-18",
+      "title": "Bernstein sees upside for bitcoin miners Riot and TeraWulf, citing discounts to implied AI data center values",
+      "source": "The Block",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/spacex-stock-adds-54-billion-ai-space/",
+      "date": "2026-11-18",
+      "title": "SpaceX Stock Adds $54 Billion Amid Viral AI in Space Discussions",
+      "source": "BeInCrypto",
       "score": 2
     }
   ]
