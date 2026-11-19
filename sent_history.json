@@ -1,90 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://decrypt.co/382465/crypto-docs-gitbook-ai-agent-security-breach",
-      "date": "2026-11-04",
-      "title": "Crypto Docs Host GitBook Hit by AI Agent Security Breach, Urges Users to Rotate Keys",
-      "source": "Decrypt",
-      "score": 4
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1xmtn3k/ok_ai_assistants_are_getting_kinda_out_of_hand/",
-      "date": "2026-11-04",
-      "title": "ok AI assistants are getting kinda out of hand",
-      "source": "r/artificial",
-      "score": 4
-    },
-    {
-      "link": "https://cointelegraph.com/news/binance-fake-job-interviews-compromised-ai-tool-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-04",
-      "title": "Binance traces $6.3B hack to fake job interviews, compromised AI tool",
-      "source": "Cointelegraph",
-      "score": 3
-    },
-    {
-      "link": "https://decrypt.co/382420/five-ways-north-korea-breaks-into-crypto-firms-and-how-binance-was-hacked",
-      "date": "2026-11-04",
-      "title": "Five Ways North Korea Breaks Into Crypto Firms\u2014and How Binance Was Hacked",
-      "source": "Decrypt",
-      "score": 2
-    },
-    {
-      "link": "https://decrypt.co/382387/ethereum-privacy-network-aztec-security-speed-upgrade",
-      "date": "2026-11-04",
-      "title": "Ethereum Privacy Network Aztec Rolls Out Major Security and Speed Upgrade",
-      "source": "Decrypt",
-      "score": 2
-    },
-    {
-      "link": "https://decrypt.co/382397/liquid-network-restores-full-bitcoin-backing-two-months-after-320m-exploit",
-      "date": "2026-11-04",
-      "title": "Liquid Network Restores Full Bitcoin Backing Two Months After $320M Exploit",
-      "source": "Decrypt",
-      "score": 2
-    },
-    {
-      "link": "https://cointelegraph.com/news/ethereum-post-quantum-transition-2028-target?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-04",
-      "title": "Ethereum dev targets 2028 for quantum resistance, a year early",
-      "source": "Cointelegraph",
-      "score": 2
-    },
-    {
-      "link": "https://www.theblock.co/news/regulation/2026-11-03-cz-calls-for-crypto-security-alliance-ai-driven-attacks-accelerate-binance-hack-432458",
-      "date": "2026-11-04",
-      "title": "CZ calls for crypto security alliance as AI-driven attacks accelerate after Binance hack",
-      "source": "The Block",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/nifty-50-holds-steady-asian-selloff/",
-      "date": "2026-11-04",
-      "title": "Why India\u2019s Nifty 50 Is Holding Steady Despite Asian Market Selloff",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/jim-cramer-tech-stocks-ai-funding/",
-      "date": "2026-11-04",
-      "title": "Jim Cramer Waits for Capitulation as AI Funding Worries Hit Tech Stocks",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/anthropic-ipo-lift-tech-stocks-peck/",
-      "date": "2026-11-04",
-      "title": "New York Angels' Peck Says Anthropic IPO Could Lift Tech After AI Selloffs",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/china-halts-ipos-large-share-sales/",
-      "date": "2026-11-04",
-      "title": "China Reportedly Halts IPOs and Share Sales: Is the AI Trade Cracking?",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
       "link": "https://decrypt.co/resources/what-is-x402-how-ai-agents-pay-with-crypto",
       "date": "2026-11-05",
       "title": "What Is x402? How AI Agents Pay With Crypto",
@@ -936,6 +852,90 @@
       "date": "2026-11-18",
       "title": "SpaceX Stock Adds $54 Billion Amid Viral AI in Space Discussions",
       "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.youtube.com/shorts/L_AUxnMLvrQ",
+      "date": "2026-11-19",
+      "title": "Jensen Huang Wants Back In. Why Is NVIDIA Saying No?",
+      "source": "Coin Bureau",
+      "score": 5
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=zlfcCJ1GIzU",
+      "date": "2026-11-19",
+      "title": "Did Anthropic Cause Bitcoin's CRASH?",
+      "source": "Coin Bureau",
+      "score": 5
+    },
+    {
+      "link": "https://www.coindesk.com/business/2026/11/18/hyundai-tests-ai-agent-commerce-on-jpmorgan-s-kinexys-blockchain",
+      "date": "2026-11-19",
+      "title": "Hyundai tests AI agent commerce on JPMorgan\u2019s Kinexys blockchain",
+      "source": "CoinDesk",
+      "score": 3
+    },
+    {
+      "link": "https://decrypt.co/383551/bitcoin-tanks-ahead-anthropics-ipo-should-we-really-blame-ai",
+      "date": "2026-11-19",
+      "title": "Bitcoin Tanks Ahead of Anthropic\u2019s IPO. Should We Really Blame AI?",
+      "source": "Decrypt",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/coinshares-ceo-ai-bitcoin-slide/",
+      "date": "2026-11-19",
+      "title": "CoinShares CEO Blames AI for Bitcoin\u2019s Slide, but AI Stocks Are Falling Too",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://www.coindesk.com/markets/2026/11/19/bitcoin-miner-that-sold-its-last-btc-warns-it-may-run-short-of-cash-for-usd1-2-billion-ai-deal",
+      "date": "2026-11-19",
+      "title": "Bitcoin miner that sold its last BTC warns it may run short of cash for $1.2 billion AI deal",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://www.coindesk.com/business/2026/11/18/hong-kong-wants-banks-to-use-ai-to-catch-crypto-crime-before-money-disappears",
+      "date": "2026-11-19",
+      "title": "Hong Kong wants banks to use AI to catch crypto crime before money disappears",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://decrypt.co/383568/bitcoin-miners-selling-fund-ai-boom",
+      "date": "2026-11-19",
+      "title": "Bitcoin Miners Are Selling Their Stacks to Fund the AI Boom",
+      "source": "Decrypt",
+      "score": 2
+    },
+    {
+      "link": "https://decrypt.co/383526/ai-will-make-the-next-12-months-a-slaughterhouse-for-crypto-security-anchorage-exec",
+      "date": "2026-11-19",
+      "title": "AI Will Make the Next 12 Months 'a Slaughterhouse' for Crypto Security: Anchorage Exec",
+      "source": "Decrypt",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/markets/bitcoin-retests-62k-nasdaq-futures-anthropic-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-19",
+      "title": "Bitcoin retests $62K as Nasdaq futures rise ahead of Anthropic debut",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://cointelegraph.com/markets/mara-long-ridge-debt-offering-bitcoin-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-19",
+      "title": "MARA prices $185M debt offering after $1.1B Bitcoin sale",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://www.theblock.co/news/regulation/2026-11-18-hong-kong-agentic-ai-crypto-crime-442959",
+      "date": "2026-11-19",
+      "title": "Hong Kong central bank explores agentic AI to detect crypto-related financial crime",
+      "source": "The Block",
       "score": 2
     }
   ]
