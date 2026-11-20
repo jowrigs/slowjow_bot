@@ -1,62 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://decrypt.co/resources/what-is-x402-how-ai-agents-pay-with-crypto",
-      "date": "2026-11-05",
-      "title": "What Is x402? How AI Agents Pay With Crypto",
-      "source": "Decrypt",
-      "score": 4
-    },
-    {
-      "link": "https://beincrypto.com/cert-in-crafty-falcon-crypto-exchanges/",
-      "date": "2026-11-05",
-      "title": "CERT-In Warns AI-Powered Hacker Group Is Hitting India's Crypto and Fintech Firms",
-      "source": "BeInCrypto",
-      "score": 4
-    },
-    {
-      "link": "https://cointelegraph.com/news/india-warns-ai-powered-hackers-targeting-crypto-exchanges-at-machine-speed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-05",
-      "title": "India warns AI-powered hackers targeting crypto exchanges at \u2018machine speed\u2019",
-      "source": "Cointelegraph",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/arthur-hayes-ai-ipo-dilution-liquidity/",
-      "date": "2026-11-05",
-      "title": "Arthur Hayes: Can AI IPO Dilution Choke Bank Liquidity and Hit Bitcoin?",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xnqls7/i_have_never_been_this_bullish_on_crypto/",
-      "date": "2026-11-05",
-      "title": "I have never been this bullish on crypto",
-      "source": "r/CryptoCurrency",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1xnrvak/anthropics_flashprove_could_prove_an_ai_provider/",
-      "date": "2026-11-05",
-      "title": "Anthropic\u2019s FlashProve could prove an AI provider used the model you paid for without exposing its weights",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://cointelegraph.com/news/riots-28b-ai-deal-lifts-shares-as-hut-8-faces-transition-costs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-05",
-      "title": "Riot shares surge on $28B AI lease as Hut 8 sinks on revenue miss",
-      "source": "Cointelegraph",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/sk-hynix-drops-dow-jumps-seoul/",
-      "date": "2026-11-05",
-      "title": "SK Hynix Sheds Nearly 8% While Dow Jumps: What Is Seoul Pricing In?",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
       "link": "https://cointelegraph.com/magazine/asian-crypto-exchanges-bunker-down-as-hacks-surge-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "date": "2026-11-06",
       "title": "Asian crypto exchanges batten down the hatches as hacks surge: Asia Express",
@@ -936,6 +880,62 @@
       "date": "2026-11-19",
       "title": "Hong Kong central bank explores agentic AI to detect crypto-related financial crime",
       "source": "The Block",
+      "score": 2
+    },
+    {
+      "link": "https://www.youtube.com/shorts/Dwi_gVb94K8",
+      "date": "2026-11-20",
+      "title": "How Hackers Stole $6.3 BILLION Across 192 Cryptocurrencies!",
+      "source": "Coin Bureau",
+      "score": 7
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=38Cxn9WpttM",
+      "date": "2026-11-20",
+      "title": "How a 19 Year Old Built Ethereum",
+      "source": "Coin Bureau",
+      "score": 7
+    },
+    {
+      "link": "https://beincrypto.com/solana-2027-roadmap-sol-price-impact/",
+      "date": "2026-11-20",
+      "title": "Solana Announces 2027 Roadmap With On-Chain AI and Faster Blocks",
+      "source": "BeInCrypto",
+      "score": 3
+    },
+    {
+      "link": "https://cointelegraph.com/markets/bitcoin-price-ignores-anthropic-debut-ant-share-price-dips-below-100?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-20",
+      "title": "Bitcoin price ignores Anthropic debut as ANT share price dips below $100",
+      "source": "Cointelegraph",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/dan-ives-anthropic-ipo-tech-selloff/",
+      "date": "2026-11-20",
+      "title": "Dan Ives Calls Tech Selloff a Panic Moment but Anthropic IPO Shows Proof of Demand",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/michael-burry-warned-nvidia-coreweave-nebius/",
+      "date": "2026-11-20",
+      "title": "Michael Burry Says He Warned on AI With NVIDIA and CoreWeave: Big Short D\u00e9j\u00e0 Vu?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/nikkei-225-falls-anthropic-ipo-softbank/",
+      "date": "2026-11-20",
+      "title": "Nikkei Slides 4% as Anthropic's Debut Triggers AI Sell-Off in Tokyo",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/wall-street-fear-ai-global-inflation-imf/",
+      "date": "2026-11-20",
+      "title": "AI is Worsening Inflation and Making Things More Expensive, IMF Warns",
+      "source": "BeInCrypto",
       "score": 2
     }
   ]
