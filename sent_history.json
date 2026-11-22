@@ -1,90 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xpk2bw/its_2029_newsomcoin_is_the_future/",
-      "date": "2026-11-07",
-      "title": "It's 2029, NewsomCoin is the future!",
-      "source": "r/CryptoCurrency",
-      "score": 4
-    },
-    {
-      "link": "https://decrypt.co/382717/bitcoin-price-11-week-low-crypto-liquidations-ai-stock",
-      "date": "2026-11-07",
-      "title": "Crypto Liquidations Top $1 Billion as Bitcoin Tests 11-Week Low",
-      "source": "Decrypt",
-      "score": 3
-    },
-    {
-      "link": "https://decrypt.co/382700/morning-minute-bitcoin-erases-election-rally-as-ai-stocks-crater",
-      "date": "2026-11-07",
-      "title": "Morning Minute: Bitcoin Erases Election Rally as AI Stocks Crater",
-      "source": "Decrypt",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xp7vrk/infinite_minds_finite_coins_ai_abundance_vs/",
-      "date": "2026-11-07",
-      "title": "Infinite Minds, Finite Coins. AI Abundance vs. Digital Scarcity: Why Machine Intelligence Drives Capital Toward a $1 Million Bitcoin Horizon.",
-      "source": "r/CryptoCurrency",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1xpdjc7/accidentally_stumbled_upon_unifield_the_intent/",
-      "date": "2026-11-07",
-      "title": "accidentally stumbled upon UNIFIELD / the Intent Protocol... has anyone heard of this?",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1xptprt/if_agi_or_asi_becomes_conscious_how_do_we_balance/",
-      "date": "2026-11-07",
-      "title": "If AGI or ASI Becomes Conscious, How Do We Balance Its Rights With Ours ? How Do We Prevent It From Taking Ours?",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://www.coindesk.com/markets/2026/11/06/bitcoin-steadies-near-usd76-000-after-ai-led-selloff",
-      "date": "2026-11-07",
-      "title": "Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures",
-      "source": "CoinDesk",
-      "score": 2
-    },
-    {
-      "link": "https://cointelegraph.com/markets/bitcoin-holds-ai-regulation-fears-kospi-halted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-07",
-      "title": "Bitcoin holds $75K as AI regulation fears see KOSPI halted after 8% crash",
-      "source": "Cointelegraph",
-      "score": 2
-    },
-    {
-      "link": "https://www.theblock.co/news/business/2026-11-06-terawulfs-bitcoin-mining-revenue-falls-69-as-hpc-leasing-surges-amid-anthropic-buildout-435885",
-      "date": "2026-11-07",
-      "title": "TeraWulf\u2019s bitcoin mining revenue falls 69% as HPC leasing surges amid Anthropic buildout",
-      "source": "The Block",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/tom-lee-buy-ai-dip-nasdaq-rally/",
-      "date": "2026-11-07",
-      "title": "Tom Lee and a JPMorgan Manager Call the AI Rout Normal: Will Nasdaq Rally 15%?",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/6-us-stocks-to-watch-after-wall-street-market-crash/",
-      "date": "2026-11-07",
-      "title": "6 US Stocks to Watch After Wall Street's $2.5 Trillion Crash",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/bitrue-turns-8-with-bitrue-ai-and-100000-usdt-rewards-for-new-traders/",
-      "date": "2026-11-07",
-      "title": "Bitrue Turns 8 With Bitrue AI And 100,000 USDT Rewards For New Traders",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
       "link": "https://beincrypto.com/elon-musk-satoshi-nakamoto-stylometry-analysis/",
       "date": "2026-11-08",
       "title": "Who is Satoshi Nakamoto? New Grok AI Study Tests Multiple Theories",
@@ -900,6 +816,27 @@
       "link": "https://beincrypto.com/cyber-attacks-go-vertical-ai-hackers/",
       "date": "2026-11-21",
       "title": "Why Are Cyber Attacks Increasing So Fast in 2026?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/top-3-altcoins-defy-crypto-market-crash/",
+      "date": "2026-11-22",
+      "title": "3 Altcoins Defy the Market Crash as Bitcoin Hits a Two-Year Low",
+      "source": "BeInCrypto",
+      "score": 5
+    },
+    {
+      "link": "https://decrypt.co/383754/ai-bubble-finally-popping-nvidia-crashes-48-wall-street-alarm",
+      "date": "2026-11-22",
+      "title": "Is the AI Bubble Finally Popping? Nvidia Crashes 48% as Wall Street Experts Sound the Alarm",
+      "source": "Decrypt",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/copper-price-worst-week-hedge-funds/",
+      "date": "2026-11-22",
+      "title": "Copper Just Had Its Worst Week of 2026",
       "source": "BeInCrypto",
       "score": 2
     }
