@@ -1,27 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://beincrypto.com/elon-musk-satoshi-nakamoto-stylometry-analysis/",
-      "date": "2026-11-08",
-      "title": "Who is Satoshi Nakamoto? New Grok AI Study Tests Multiple Theories",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/pi-ecosystem-summit-agenda-hackathon/",
-      "date": "2026-11-08",
-      "title": "Pi Network is Going Big on AI as Token Price Remains Near Record Lows",
-      "source": "BeInCrypto",
-      "score": 3
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xq1xsx/zcash_meta_real_or_bs/",
-      "date": "2026-11-08",
-      "title": "Zcash meta: real or BS?",
-      "source": "r/CryptoCurrency",
-      "score": 3
-    },
-    {
       "link": "https://beincrypto.com/ai-agent-payments-banking-adoption-risks/",
       "date": "2026-11-09",
       "title": "AI Agents Made 6.4 Million Payments. Why Won\u2019t Institutions Trust Them?",
@@ -837,6 +816,34 @@
       "link": "https://beincrypto.com/copper-price-worst-week-hedge-funds/",
       "date": "2026-11-22",
       "title": "Copper Just Had Its Worst Week of 2026",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=eNZIXXz7xy8",
+      "date": "2026-11-23",
+      "title": "Pump.fun KILLED Crypto",
+      "source": "Coin Bureau",
+      "score": 5
+    },
+    {
+      "link": "https://beincrypto.com/superintelligence-inevitable-meta-ai-chief/",
+      "date": "2026-11-23",
+      "title": "A 167-Year-Old Math Problem Just Became Meta's Case That Superintelligence Is Near",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/nvidia-futures-rip-as-markets-rebound/",
+      "date": "2026-11-23",
+      "title": "Green Week Ahead? Nvidia Futures Rip 6%, Nasdaq and S&P 500 Futures Snap Back 2%",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/cramer-says-ai-selloff-not-2000/",
+      "date": "2026-11-23",
+      "title": "Jim Cramer Says AI Selloff Is Not 2000 as S&P 500 Enters Correction, Not Crash",
       "source": "BeInCrypto",
       "score": 2
     }
