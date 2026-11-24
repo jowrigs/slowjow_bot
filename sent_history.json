@@ -1,34 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://beincrypto.com/ai-agent-payments-banking-adoption-risks/",
-      "date": "2026-11-09",
-      "title": "AI Agents Made 6.4 Million Payments. Why Won\u2019t Institutions Trust Them?",
-      "source": "BeInCrypto",
-      "score": 4
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xr8ze8/the_mother_of_all_black_swans_hinton_warns_of_ai/",
-      "date": "2026-11-09",
-      "title": "The Mother Of All Black Swans. Hinton Warns of AI 'Chernobyl' Blackout This Year or Next",
-      "source": "r/CryptoCurrency",
-      "score": 3
-    },
-    {
-      "link": "https://beincrypto.com/vitalik-buterin-anti-data-center-movement/",
-      "date": "2026-11-09",
-      "title": "Vitalik Buterin Wants AI to Slow Down, Backs Anti-Data Center Movement",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
-      "link": "https://beincrypto.com/us-data-center-construction-record-ubs-warning/",
-      "date": "2026-11-09",
-      "title": "UBS CEO Warns of an AI Buildout Slowdown as Data Center Construction Hits a Record",
-      "source": "BeInCrypto",
-      "score": 2
-    },
-    {
       "link": "https://www.youtube.com/shorts/OVaYZ1eXHTA",
       "date": "2026-11-10",
       "title": "How 1 Signature Can Drain Your Entire Wallet",
@@ -844,6 +816,83 @@
       "link": "https://beincrypto.com/cramer-says-ai-selloff-not-2000/",
       "date": "2026-11-23",
       "title": "Jim Cramer Says AI Selloff Is Not 2000 as S&P 500 Enters Correction, Not Crash",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.youtube.com/shorts/ZC6oMrR7zJE",
+      "date": "2026-11-24",
+      "title": "Who Caused Bitcoin's $17,000 Flash Crash?",
+      "source": "Coin Bureau",
+      "score": 5
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=RUn3GEd3Oro",
+      "date": "2026-11-24",
+      "title": "Is Bitcoin DEAD?",
+      "source": "Coin Bureau",
+      "score": 5
+    },
+    {
+      "link": "https://beincrypto.com/ethereum-foundation-ai-quantum-security-threat/",
+      "date": "2026-11-24",
+      "title": "Ethereum Foundation Puts AI Ahead of Quantum. Here's What Holders Give Up",
+      "source": "BeInCrypto",
+      "score": 4
+    },
+    {
+      "link": "https://beincrypto.com/grayscale-bitcoin-oversold-ai-risks/",
+      "date": "2026-11-24",
+      "title": "Grayscale Calls Bitcoin Oversold, but One Outside Risk Could Decide Its Path",
+      "source": "BeInCrypto",
+      "score": 4
+    },
+    {
+      "link": "https://cointelegraph.com/magazine/ai-agents-are-using-credit-cards-where-does-that-leave-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-24",
+      "title": "AI agents are using credit cards. Where does that leave crypto?",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://www.theblock.co/news/business/2026-11-23-visa-launches-experimental-ai-agent-wallet-for-eligible-us-users-to-earn-ousd-from-paid-tasks-444903",
+      "date": "2026-11-24",
+      "title": "Visa launches experimental AI agent wallet for eligible US users to earn OUSD from paid tasks",
+      "source": "The Block",
+      "score": 3
+    },
+    {
+      "link": "https://www.coindesk.com/markets/2026/11/23/bitcoin-rebound-already-losing-steam-as-ai-trade-returns-with-a-bank",
+      "date": "2026-11-24",
+      "title": "Bitcoin rebound already losing steam as AI trade returns with a bang",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://www.coindesk.com/markets/2026/11/23/live-updates-bitcoin-climbs-back-above-usd61-000-as-stocks-rebound-from-ai-rout",
+      "date": "2026-11-24",
+      "title": "Live updates: Bitcoin climbs back above $61,000 as stocks rebound from AI rout",
+      "source": "CoinDesk",
+      "score": 2
+    },
+    {
+      "link": "https://www.theblock.co/news/markets/2026-11-23-grayscale-bitcoin-altcoins-oversold-ai-risks-crypto-outlook-445418",
+      "date": "2026-11-24",
+      "title": "Grayscale says bitcoin and major altcoins look \u2018oversold\u2019 as AI risks cloud near-term outlook",
+      "source": "The Block",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/what-is-kymera-eczema-pill-stock/",
+      "date": "2026-11-24",
+      "title": "What Is Kymera and Why Did an Eczema Pill Outperform All AI Stocks on Monday?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/ai-stocks-dead-cat-bounce-iren/",
+      "date": "2026-11-24",
+      "title": "Dead Cat Bounce? AI Stocks Climb 20%+, but IREN, Applied Digital Stay Down 50%+",
       "source": "BeInCrypto",
       "score": 2
     }
