@@ -1,76 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://www.youtube.com/shorts/HTygH5CEvKM",
-      "date": "2026-11-12",
-      "title": "Why are AI millionaires dumping their cash into crypto?",
-      "source": "Coin Bureau",
-      "score": 6
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xtizax/tencent_partnership_boosts_bittensors/",
-      "date": "2026-11-12",
-      "title": "Tencent partnership boosts BitTensor's decentralized AI exposure to 1.5B users, driving TAO token demand",
-      "source": "r/CryptoCurrency",
-      "score": 6
-    },
-    {
-      "link": "https://www.youtube.com/shorts/mXmuJz7efsA",
-      "date": "2026-11-12",
-      "title": "Is leaving Australia really worth avoiding a 47% crypto tax?",
-      "source": "Coin Bureau",
-      "score": 5
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=SIbzTHUCJWY",
-      "date": "2026-11-12",
-      "title": "How to SURVIVE This Bear Market.",
-      "source": "Coin Bureau",
-      "score": 5
-    },
-    {
-      "link": "https://www.youtube.com/watch?v=UJFQBaMh3yg",
-      "date": "2026-11-12",
-      "title": "Why Bitcoin Just Dumped.",
-      "source": "Coin Bureau",
-      "score": 5
-    },
-    {
-      "link": "https://www.theblock.co/news/defi/2026-11-12-ethlabs-proposes-ethereum-post-quantum-2027-438494",
-      "date": "2026-11-12",
-      "title": "Ethlabs proposes advancing Ethereum\u2019s post-quantum to 2027, citing AI acceleration",
-      "source": "The Block",
-      "score": 3
-    },
-    {
-      "link": "https://www.coindesk.com/tech/2026/11/11/live-news-coreweave-jumps-14-as-earnings-fuel-rebound-across-battered-ai-stocks",
-      "date": "2026-11-12",
-      "title": "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
-      "source": "CoinDesk",
-      "score": 2
-    },
-    {
-      "link": "https://www.coindesk.com/markets/2026/11/11/coreweave-earnings-revive-ai-outlook-as-anthropic-weighs-higher-ipo-valuation",
-      "date": "2026-11-12",
-      "title": "Bitcoin stuck under $74,000 as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation",
-      "source": "CoinDesk",
-      "score": 2
-    },
-    {
-      "link": "https://cointelegraph.com/news/us-data-center-restrictions-bitcoin-miners-edge-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-12",
-      "title": "US data center restrictions could give Bitcoin miners an edge in AI, though challenges remain",
-      "source": "Cointelegraph",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/singularity/comments/1xtilad/what_does_the_new_ai_2027_update_mean/",
-      "date": "2026-11-12",
-      "title": "What does the new ai 2027 update mean?",
-      "source": "r/singularity",
-      "score": 2
-    },
-    {
       "link": "https://beincrypto.com/wirex-navoka-ai-agent-bank-account-card-payments/",
       "date": "2026-11-13",
       "title": "Wirex Launches Navoka, an AI Agent That Pays From Its Own Bank Account and Card",
@@ -893,6 +823,48 @@
       "link": "https://beincrypto.com/tech-stocks-stall-thanksgiving-nvidia-rebound/",
       "date": "2026-11-26",
       "title": "Tech Stocks Stall Into Thanksgiving: Will the AI Rebound Return?",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=fA_Hoz40Kmo",
+      "date": "2026-11-27",
+      "title": "Ethereum\u2019s First Big CRISIS and the ICO Explosion",
+      "source": "Coin Bureau",
+      "score": 8
+    },
+    {
+      "link": "https://www.youtube.com/shorts/P4r6TT2dAuE",
+      "date": "2026-11-27",
+      "title": "SpaceX Wants AI Data Centers In Space!",
+      "source": "Coin Bureau",
+      "score": 4
+    },
+    {
+      "link": "https://cointelegraph.com/news/ai-driving-flood-of-crypto-bug-reports-now-helping-sort-them?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-27",
+      "title": "AI is driving a flood of crypto bug reports. Now it\u2019s helping sort them",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://cointelegraph.com/news/bnb-chain-details-new-layer-1-trading-private-finance-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-27",
+      "title": "BNB Chain details new layer-1 for trading, private finance and AI",
+      "source": "Cointelegraph",
+      "score": 3
+    },
+    {
+      "link": "https://www.theblock.co/news/ecosystems/2026-11-26-the-time-to-prepare-for-a-cryptographic-breakthrough-is-before-it-happens-zcash-team-urges-faster-deprecation-of-legacy-shielded-pool-447000",
+      "date": "2026-11-27",
+      "title": "\u2018The time to prepare for a cryptographic breakthrough is before it happens\u2019: Zcash team urges faster deprecation of legacy shielded pool",
+      "source": "The Block",
+      "score": 2
+    },
+    {
+      "link": "https://beincrypto.com/michael-burry-ai-debt-mispriced-report/",
+      "date": "2026-11-27",
+      "title": "Michael Burry Flags Report Warning AI Debt Is Mispriced Like 2007 Subprime",
       "source": "BeInCrypto",
       "score": 2
     }
