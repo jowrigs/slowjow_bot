@@ -1,62 +1,6 @@
 {
   "sent": [
     {
-      "link": "https://beincrypto.com/wirex-navoka-ai-agent-bank-account-card-payments/",
-      "date": "2026-11-13",
-      "title": "Wirex Launches Navoka, an AI Agent That Pays From Its Own Bank Account and Card",
-      "source": "BeInCrypto",
-      "score": 4
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xuyiuv/crypto_is_so_dead_that_the_price_is_crashing/",
-      "date": "2026-11-13",
-      "title": "Crypto is so dead that the price is crashing without anybody making posts about it here. Btc at 66k and dropping.",
-      "source": "r/CryptoCurrency",
-      "score": 4
-    },
-    {
-      "link": "https://www.reddit.com/r/CryptoCurrency/comments/1xui95t/quick_hits_of_quantum_related_events_as_multiple/",
-      "date": "2026-11-13",
-      "title": "Quick hits of Quantum related events as Multiple projects push for 2027 upgrades.",
-      "source": "r/CryptoCurrency",
-      "score": 4
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1xufdsi/googles_gemini_decision_1_returns_zero_text_it/",
-      "date": "2026-11-13",
-      "title": "Google's Gemini Decision 1 returns zero text: it scores up to 1,000 yes/no or choice questions per call at $0.10/M input",
-      "source": "r/artificial",
-      "score": 3
-    },
-    {
-      "link": "https://decrypt.co/383208/north-korea-stole-400-million-crypto-deepfake-video-calls",
-      "date": "2026-11-13",
-      "title": "North Korea Stole $400 Million in Crypto Using Deepfake Video Calls, DOJ Says",
-      "source": "Decrypt",
-      "score": 2
-    },
-    {
-      "link": "https://decrypt.co/383141/massive-mistake-tech-ai-crypto-founders-react-jensen-huang-nvidia-exit",
-      "date": "2026-11-13",
-      "title": "'A Massive Mistake': Tech, AI and Crypto Founders React to Jensen Huang\u2019s Nvidia Exit",
-      "source": "Decrypt",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1xuo0rf/anthropic_says_it_has_met_its_own_threshold_for/",
-      "date": "2026-11-13",
-      "title": "Anthropic says it has met its own threshold for AI-accelerated AI research \u2014 days before its IPO",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
-      "link": "https://www.reddit.com/r/artificial/comments/1xu7wfm/manus_scrapped_traditional_coding_interviews_and/",
-      "date": "2026-11-13",
-      "title": "Manus scrapped traditional coding interviews and cut engineer hiring to half its peak; PMs now write code",
-      "source": "r/artificial",
-      "score": 2
-    },
-    {
       "link": "https://www.youtube.com/shorts/QeVFc6hDnYY",
       "date": "2026-11-14",
       "title": "Initia Was Hacked Twice in 18 Days. Nearly $6 Million Gone!",
@@ -865,6 +809,41 @@
       "link": "https://beincrypto.com/michael-burry-ai-debt-mispriced-report/",
       "date": "2026-11-27",
       "title": "Michael Burry Flags Report Warning AI Debt Is Mispriced Like 2007 Subprime",
+      "source": "BeInCrypto",
+      "score": 2
+    },
+    {
+      "link": "https://www.youtube.com/shorts/x9RFSmI74mU",
+      "date": "2026-11-28",
+      "title": "Is AI Making Crypto Less Safe?",
+      "source": "Coin Bureau",
+      "score": 4
+    },
+    {
+      "link": "https://decrypt.co/384218/could-ai-break-bitcoin-not-yet-research-firm-k33-says",
+      "date": "2026-11-28",
+      "title": "Could AI Break Bitcoin? Not Yet, Research Firm K33 Says",
+      "source": "Decrypt",
+      "score": 3
+    },
+    {
+      "link": "https://www.theblock.co/newsletters/the-daily/2026-11-27-bitcoin-recovery-usdt-supply-ai-threat-bitcoin-more-crypto-news-447571",
+      "date": "2026-11-28",
+      "title": "Bitcoin recovery needs USDT supply growth: CryptoQuant, K33 weighs AI threat to Bitcoin, and more",
+      "source": "The Block",
+      "score": 3
+    },
+    {
+      "link": "https://www.theblock.co/news/ecosystems/2026-11-27-ai-math-breakthroughs-revive-bitcoin-security-fears-but-practical-threat-remains-unproven-k33-447549",
+      "date": "2026-11-28",
+      "title": "AI math breakthroughs revive Bitcoin security fears, but practical threat remains unproven: K33",
+      "source": "The Block",
+      "score": 3
+    },
+    {
+      "link": "https://beincrypto.com/poland-palantir-300-million-ai-defense-deal/",
+      "date": "2026-11-28",
+      "title": "Palantir Stock Surges After Poland Signs a $300M AI Defense Deal",
       "source": "BeInCrypto",
       "score": 2
     }
